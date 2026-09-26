@@ -35,7 +35,7 @@ If **pupil profiles** or **pupil progress** is denied, check the live rules and 
 
 The Astro configuration targets `https://jeminpro.github.io/quiz/`. If you rename the repository or use a custom domain, update `site` and `base` in `astro.config.mjs`.
 
-In the GitHub repository, choose **Settings → Pages → Build and deployment → GitHub Actions**. Add these **Actions variables** under **Settings → Secrets and variables → Actions → Variables**:
+In the GitHub repository, choose **Settings → Pages → Build and deployment → GitHub Actions**. Add these **repository secrets** under **Settings → Secrets and variables → Actions → Secrets**:
 
 - `PUBLIC_FIREBASE_API_KEY`
 - `PUBLIC_FIREBASE_AUTH_DOMAIN`

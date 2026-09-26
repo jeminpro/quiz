@@ -6,6 +6,6 @@ const names = [
 ];
 const missing = names.filter((name) => !process.env[name]);
 if (missing.length) {
-  console.error(`Missing GitHub Actions variables: ${missing.join(', ')}`);
+  console.error(`Missing Firebase build settings: ${missing.join(', ')}. Check repository Actions secrets.`);
   process.exitCode = 1;
 }
