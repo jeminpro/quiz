@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240" role="img" aria-labelledby="title">
+  <title id="title">Rectangle, six centimetres long and four centimetres wide</title>
+  <rect width="420" height="240" rx="18" fill="#f2f7ee"/>
+  <rect x="90" y="65" width="240" height="125" fill="#d6eecf" stroke="#23674d" stroke-width="4"/>
+  <text x="210" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#214836">6 cm</text>
+  <text x="52" y="133" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#214836">4 cm</text>
+</svg>
