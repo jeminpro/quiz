@@ -7,14 +7,13 @@ import {
   toggleBookmark,
 } from './firebase';
 import { eligibleQuestions, formatDuration, gradeItems, selectQuestions } from './quiz';
+import { contentSources, groupSubjectsBySource } from './contentSources';
 import type { Attempt, PendingAttempt, Profile, Progress, Question } from './types';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const app = document.querySelector<HTMLElement>('#app')!;
-const nav = document.querySelector<HTMLElement>('#nav')!;
-const mobileNav = document.querySelector<HTMLElement>('#mobile-nav')!;
 const headerProfile = document.querySelector<HTMLElement>('#header-profile')!;
-const headerSignOut = document.querySelector<HTMLElement>('#header-sign-out')!;
+const headerMenu = document.querySelector<HTMLElement>('#header-menu')!;
 const status = document.querySelector<HTMLElement>('#status')!;
 let user: User | null = null;
 let profiles: Profile[] = [];
@@ -24,6 +23,7 @@ let progress: Progress[] = [];
 let active: {
   questions: Question[];
   subject: string;
+  sourceId: string;
   topics: string[];
   source: Attempt['source'];
   startedAt: number;
@@ -46,6 +46,11 @@ function escapeHtml(value: unknown): string {
   return String(value ?? '').replace(/[&<>"']/g, (char) => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
   })[char]!);
+}
+
+function attemptSourceName(attempt: Attempt): string | undefined {
+  if (attempt.sourceId) return contentSources[attempt.sourceId] ?? attempt.sourceId;
+  return attempt.subject === 'Physical Education' ? contentSources.chatgpt : undefined;
 }
 
 function markdown(value: string): string {
@@ -87,10 +92,8 @@ function renderFirestoreAccessError(step: string, error: unknown): void {
     return;
   }
   clearMessage();
-  nav.innerHTML = '';
-  mobileNav.innerHTML = '';
   headerProfile.innerHTML = '';
-  headerSignOut.innerHTML = '';
+  headerMenu.innerHTML = '';
   app.innerHTML = `<div class="card empty access-error"><div class="eyebrow">FIRESTORE ACCESS</div>
     <h1>Sign-in worked, but the database denied access.</h1>
     <p>The <strong>${escapeHtml(step)}</strong> read was denied in Firebase project
@@ -116,28 +119,56 @@ function setProfile(next: Profile): void {
   window.location.href = path('/');
 }
 
-function renderNav(): void {
-  nav.innerHTML = '';
-  mobileNav.innerHTML = '';
+function closeHeaderMenu(restoreFocus = false): void {
+  const trigger = headerMenu.querySelector<HTMLButtonElement>('.menu-trigger');
+  const panel = headerMenu.querySelector<HTMLElement>('.menu-panel');
+  if (!trigger || !panel || panel.hidden) return;
+  panel.hidden = true;
+  trigger.setAttribute('aria-expanded', 'false');
+  if (restoreFocus) trigger.focus();
+}
+
+document.addEventListener('click', (event) => {
+  if (!headerMenu.contains(event.target as Node)) closeHeaderMenu();
+});
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && headerMenu.querySelector('.menu-trigger[aria-expanded="true"]')) {
+    event.preventDefault();
+    closeHeaderMenu(true);
+  }
+});
+headerMenu.addEventListener('focusout', () => {
+  requestAnimationFrame(() => {
+    if (!headerMenu.contains(document.activeElement)) closeHeaderMenu();
+  });
+});
+
+function renderHeader(): void {
   headerProfile.innerHTML = '';
-  headerSignOut.innerHTML = '';
+  headerMenu.innerHTML = '';
   if (!user) return;
-  headerSignOut.innerHTML = '<button type="button" class="text-button sign-out" aria-label="Sign out of Brightside Quiz">Sign out</button>';
-  headerSignOut.querySelector('button')?.addEventListener('click', async () => {
+  const current = route() === '/results' ? '/history' : route();
+  headerMenu.innerHTML = `<button type="button" class="menu-trigger" aria-label="More options" aria-expanded="false" aria-controls="header-menu-panel">
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><circle cx="12" cy="5" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="12" cy="19" r="1.8"/></svg></button>
+    <nav id="header-menu-panel" class="menu-panel" aria-label="More options" hidden>
+      ${profile ? `<a href="${path('/history/')}" ${current === '/history' ? 'aria-current="page"' : ''}>History</a>
+      <a href="${path('/progress/')}" ${current === '/progress' ? 'aria-current="page"' : ''}>Progress</a>` : ''}
+      <button type="button" class="menu-sign-out">Sign out</button>
+    </nav>`;
+  const trigger = headerMenu.querySelector<HTMLButtonElement>('.menu-trigger')!;
+  const panel = headerMenu.querySelector<HTMLElement>('.menu-panel')!;
+  trigger.addEventListener('click', () => {
+    const opening = panel.hidden;
+    panel.hidden = !opening;
+    trigger.setAttribute('aria-expanded', String(opening));
+    if (opening) panel.querySelector<HTMLElement>('a, button')?.focus();
+    else trigger.focus();
+  });
+  headerMenu.querySelector('.menu-sign-out')?.addEventListener('click', async () => {
+    closeHeaderMenu(true);
     try { await signOutUser(); } catch (error) { showError(error); }
   });
   if (!profile) return;
-  const links = [
-    { href: path('/'), label: 'Home', page: '/' },
-    { href: path('/quiz/'), label: 'Practice', page: '/quiz' },
-    { href: path('/history/'), label: 'History', page: '/history' },
-    { href: path('/progress/'), label: 'Progress', page: '/progress' },
-  ];
-  const current = route() === '/results' ? '/history' : route();
-  const items = links.map(({ href, label, page }) =>
-    `<a href="${href}" ${current === page ? 'aria-current="page"' : ''}>${label}</a>`).join('');
-  nav.innerHTML = items;
-  mobileNav.innerHTML = items;
   headerProfile.innerHTML = `<a class="profile-switch" href="${path('/profiles/')}" aria-label="Switch profile, current profile ${escapeHtml(profile.name)}">
     <span class="profile-mini" aria-hidden="true">${escapeHtml(profile.name.slice(0, 1).toUpperCase())}</span>
     <span class="profile-name">${escapeHtml(profile.name)}</span></a>`;
@@ -155,7 +186,7 @@ async function refreshProgress(): Promise<void> {
 }
 
 function renderSignedOut(): void {
-  renderNav();
+  renderHeader();
   app.innerHTML = `<section class="hero signed-out-hero"><div class="eyebrow">THOUGHTFUL PRACTICE, ONE QUESTION AT A TIME</div>
     <h1>A clearer way to keep practising.</h1>
     <p>Choose a pupil, pick a subject, and work through questions at your own pace.</p>
@@ -211,7 +242,7 @@ async function renderProfiles(): Promise<void> {
       try {
         await renameProfile(user.uid, person.id, nextName);
         person.name = nextName;
-        renderNav();
+        renderHeader();
         await renderProfiles();
       } catch (error) { showError(error); }
     });
@@ -253,47 +284,57 @@ function wireRetry(): void {
 async function renderHome(): Promise<void> {
   if (!profile || !user) return renderProfiles();
   const attempts = await listAttempts(user.uid, profile.id);
-  const latest = attempts[0];
-  const missed = progress.filter((item) => item.latestCorrect === false).length;
-  const subjects = [...new Set(questions.map((question) => question.subject))];
-  app.innerHTML = `${pendingBanner()}<section class="hero compact"><div class="eyebrow">WELCOME BACK, ${escapeHtml(profile.name.toUpperCase())}</div>
-    <h1>Make progress at your pace.</h1><p>Choose a subject, focus on a topic, or revisit questions you missed.</p>
-    <a class="button primary" href="${path('/quiz/')}">Start practice <span aria-hidden="true">→</span></a></section>
-    <div class="stat-grid"><div class="stat"><strong>${attempts.length}</strong><span>completed practices</span></div>
-    <div class="stat"><strong>${missed}</strong><span>questions to revisit</span></div>
-    <div class="stat"><strong>${subjects.length}</strong><span>subjects available</span></div></div>
-    ${latest ? `<section class="latest card"><div><div class="eyebrow">PICK UP WHERE YOU LEFT OFF</div><h2>Latest: ${escapeHtml(latest.subject)}</h2>
-      <p>${latest.correct} of ${latest.total} correct · ${formatDuration(latest.durationMs)}</p></div>
-      <a class="button secondary" href="${path('/results/', { id: latest.id })}">Review answers <span aria-hidden="true">→</span></a></section>` : ''}
-    <div class="section-heading"><h2>Choose a subject</h2><a href="${path('/quiz/')}">All practice →</a></div>
-    <div class="subject-grid">${subjects.map((subject) => `<a class="subject-card" href="${path('/quiz/', { subject })}">
-      <span class="subject-mark">${escapeHtml(subject.slice(0, 1))}</span><strong>${escapeHtml(subject)}</strong>
-      <small>${questions.filter((question) => question.subject === subject).length} questions <span aria-hidden="true">→</span></small></a>`).join('')}</div>`;
+  const groups = groupSubjectsBySource(questions);
+  app.innerHTML = `${pendingBanner()}<section class="home-subjects" aria-labelledby="subjects-title">
+    <div class="page-heading"><div><h1 id="subjects-title">Choose a subject</h1>
+      <p>Choose a source, then select a subject to set up your practice.</p></div></div>
+    ${groups.length ? `<div class="source-filter"><label for="source-filter">Filter by source</label>
+      <select id="source-filter"><option value="all">All sources</option>${groups.map(({ sourceId }) =>
+        `<option value="${escapeHtml(sourceId)}">${escapeHtml(contentSources[sourceId])}</option>`).join('')}</select></div>
+      <div id="source-filter-count" class="filter-count" aria-live="polite"></div>
+      ${groups.map(({ sourceId, subjects }) => `<section class="source-group" data-source-id="${escapeHtml(sourceId)}" aria-labelledby="source-${escapeHtml(sourceId)}">
+        <h2 id="source-${escapeHtml(sourceId)}">${escapeHtml(contentSources[sourceId])}</h2>
+        <div class="subject-grid">${subjects.map(({ name: subject, count }) => {
+      const subjectAttempts = attempts.filter((attempt) => attempt.subject === subject &&
+        (attempt.sourceId === sourceId || (!attempt.sourceId && subject === 'Physical Education' && sourceId === 'chatgpt')));
+      const latest = subjectAttempts[0];
+      return `<a class="subject-card" href="${path('/quiz/', { subject, sourceId })}">
+        <span class="subject-mark" aria-hidden="true">${escapeHtml(subject.slice(0, 1).toUpperCase())}</span>
+        <strong>${escapeHtml(subject)}</strong>
+        <span class="subject-question-count">${count} question${count === 1 ? '' : 's'}</span>
+        <span class="subject-practice-status">${subjectAttempts.length} completed practice${subjectAttempts.length === 1 ? '' : 's'}
+          <span> · </span>${latest ? `Last practised ${new Date(latest.completedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}` : 'Not started'}</span>
+        <span class="subject-card-arrow" aria-hidden="true">→</span></a>`;
+    }).join('')}</div></section>`).join('')}` : '<div class="card empty">No subjects are available yet.</div>'}</section>`;
   wireRetry();
+  const filter = app.querySelector<HTMLSelectElement>('#source-filter');
+  filter?.addEventListener('change', () => {
+    let visible = 0;
+    for (const group of app.querySelectorAll<HTMLElement>('.source-group')) {
+      group.hidden = filter.value !== 'all' && group.dataset.sourceId !== filter.value;
+      if (!group.hidden) visible += group.querySelectorAll('.subject-card').length;
+    }
+    app.querySelector('#source-filter-count')!.textContent = `${visible} subject${visible === 1 ? '' : 's'} shown`;
+  });
+  filter?.dispatchEvent(new Event('change'));
 }
 
-function renderQuizSetup(defaultSubject?: string, defaultSource?: string, defaultTopic?: string): void {
-  const subjects = [...new Set(questions.map((question) => question.subject))];
-  if (!subjects.length) {
-    app.innerHTML = '<div class="empty">No questions are available yet. Add Markdown files to the question bank.</div>';
-    return;
-  }
-  const subject = subjects.includes(defaultSubject ?? '') ? defaultSubject! : subjects[0];
-  const source = ['all', 'still-missed', 'ever-missed'].includes(defaultSource ?? '') ? defaultSource : 'all';
-  app.innerHTML = `${pendingBanner()}<div class="page-heading"><div><div class="eyebrow">NEW PRACTICE</div><h1>Set up your practice</h1>
+function renderQuizSetup(subject: string, sourceId: string): void {
+  app.innerHTML = `${pendingBanner()}<a class="back-link" href="${path('/')}">← Back to subjects</a>
+    <div class="page-heading"><div><div class="eyebrow">NEW PRACTICE</div><h1>Set up your practice</h1>
     <p>Choose what to work on. You can move between questions before submitting.</p></div></div>
     <form id="test-setup" class="card setup-card">
       <div class="setup-section"><div class="setup-step">01</div><div class="setup-fields">
-        <h2>Choose a subject</h2><label for="subject">Subject</label><select id="subject" name="subject">${subjects.map((item) =>
-          `<option value="${escapeHtml(item)}" ${item === subject ? 'selected' : ''}>${escapeHtml(item)}</option>`).join('')}</select>
+        <h2>Your practice</h2><p class="setup-context"><span>Source: <strong>${escapeHtml(contentSources[sourceId])}</strong></span>
+          <span>Subject: <strong>${escapeHtml(subject)}</strong></span></p>
         <fieldset><legend>Topics</legend><div id="topic-options" class="chip-list"></div>
           <p class="hint">Leave all unselected to include every topic.</p></fieldset>
       </div></div>
       <div class="setup-section"><div class="setup-step">02</div><div class="setup-fields">
         <h2>Choose your questions</h2><div class="setup-row"><div><label for="source">Question set</label><select id="source" name="source">
-          <option value="all" ${source === 'all' ? 'selected' : ''}>All available questions</option>
-          <option value="still-missed" ${source === 'still-missed' ? 'selected' : ''}>Questions still missed</option>
-          <option value="ever-missed" ${source === 'ever-missed' ? 'selected' : ''}>Questions missed before</option></select></div>
+          <option value="all">All available questions</option>
+          <option value="still-missed">Questions still missed</option>
+          <option value="ever-missed">Questions missed before</option></select></div>
         <div><label for="count">Number of questions</label><select id="count" name="count">
           <option value="15">15</option><option value="30">30</option><option value="all">All available</option></select></div></div>
       </div></div>
@@ -303,41 +344,37 @@ function renderQuizSetup(defaultSubject?: string, defaultSource?: string, defaul
   wireRetry();
   const form = app.querySelector<HTMLFormElement>('#test-setup')!;
   const topicOptions = app.querySelector<HTMLElement>('#topic-options')!;
-  let presetTopic = defaultTopic;
   const updateTopics = () => {
-    const selectedSubject = (form.elements.namedItem('subject') as HTMLSelectElement).value;
-    const topics = [...new Set(questions.filter((question) => question.subject === selectedSubject).flatMap((question) => question.topics))].sort();
-    topicOptions.innerHTML = topics.map((topic) => `<label class="chip"><input type="checkbox" name="topic" value="${escapeHtml(topic)}" ${topic === presetTopic ? 'checked' : ''} />${escapeHtml(topic)}</label>`).join('');
-    presetTopic = undefined;
+    const topics = [...new Set(questions.filter((question) => question.subject === subject && question.sourceId === sourceId)
+      .flatMap((question) => question.topics))].sort();
+    topicOptions.innerHTML = topics.map((topic) => `<label class="chip"><input type="checkbox" name="topic" value="${escapeHtml(topic)}" />${escapeHtml(topic)}</label>`).join('');
     updateCount();
   };
   const selection = () => ({
-    subject: (form.elements.namedItem('subject') as HTMLSelectElement).value,
     topics: [...form.querySelectorAll<HTMLInputElement>('input[name="topic"]:checked')].map((input) => input.value),
     source: (form.elements.namedItem('source') as HTMLSelectElement).value as Attempt['source'],
     count: (form.elements.namedItem('count') as HTMLSelectElement).value,
   });
   const updateCount = () => {
     const selected = selection();
-    const available = eligibleQuestions(questions, progress, selected.subject, selected.topics, selected.source).length;
+    const available = eligibleQuestions(questions, progress, subject, sourceId, selected.topics, selected.source).length;
     const requested = selected.count === 'all' ? available : Math.min(Number(selected.count), available);
     app.querySelector('#pool-count')!.textContent = available
       ? `${requested} question${requested === 1 ? '' : 's'} in this practice · ${available} available`
       : 'No questions match these choices. Try another topic or question set.';
     (form.querySelector('button[type="submit"]') as HTMLButtonElement).disabled = available === 0 || !!pending;
   };
-  form.querySelector('#subject')?.addEventListener('change', updateTopics);
   form.querySelector('#source')?.addEventListener('change', updateCount);
   form.querySelector('#count')?.addEventListener('change', updateCount);
   topicOptions.addEventListener('change', updateCount);
   form.addEventListener('submit', (event) => {
     event.preventDefault();
     const selected = selection();
-    const pool = eligibleQuestions(questions, progress, selected.subject, selected.topics, selected.source);
+    const pool = eligibleQuestions(questions, progress, subject, sourceId, selected.topics, selected.source);
     if (!pool.length) return;
     active = {
       questions: selectQuestions(pool, selected.count === 'all' ? 'all' : Number(selected.count)),
-      subject: selected.subject, topics: selected.topics, source: selected.source,
+      subject, sourceId, topics: selected.topics, source: selected.source,
       startedAt: Date.now(), answers: {}, index: 0,
     };
     reviewAvailable = false;
@@ -353,7 +390,7 @@ function renderActiveQuestion(): void {
   const selected = new Set(active.answers[question.id] ?? []);
   const answered = active.questions.filter((item) => active!.answers[item.id]?.length).length;
   const percent = Math.round((active.index + 1) / active.questions.length * 100);
-  app.innerHTML = `<div class="test-top"><div><div class="eyebrow">${escapeHtml(active.subject.toUpperCase())}</div>
+  app.innerHTML = `<div class="test-top"><div><div class="eyebrow">${escapeHtml(contentSources[active.sourceId])} · ${escapeHtml(active.subject.toUpperCase())}</div>
     <h1>Question ${active.index + 1} <span class="muted">of ${active.questions.length}</span></h1></div>
     <span class="test-progress">${answered} answered</span></div>
     <div class="progress-track" role="progressbar" aria-label="Question progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${percent}"><span style="width:${percent}%"></span></div>
@@ -424,7 +461,7 @@ async function submitActiveTest(): Promise<void> {
   const items = gradeItems(active.questions, active.answers);
   const completedAt = Date.now();
   const attempt: Attempt = {
-    id: crypto.randomUUID(), profileId: profile.id, subject: active.subject, topics: active.topics,
+    id: crypto.randomUUID(), profileId: profile.id, subject: active.subject, sourceId: active.sourceId, topics: active.topics,
     source: active.source, startedAt: active.startedAt, completedAt,
     durationMs: completedAt - active.startedAt, total: items.length,
     correct: items.filter((item) => item.correct).length, status: 'saving',
@@ -447,17 +484,15 @@ async function renderResults(): Promise<void> {
   if (!attempt) { app.innerHTML = '<div class="empty">This completed practice was not found in this pupil’s history.</div>'; return; }
   const items = await getAttemptItems(user.uid, profile.id, id);
   await refreshProgress();
-  const hasMissed = progress.some((item) => item.subject === attempt.subject && item.latestCorrect === false);
   const view = new URLSearchParams(location.search).get('view') === 'wrong' ? 'wrong' : 'all';
   const shown = view === 'wrong' ? items.filter((item) => !item.correct) : items;
   app.innerHTML = `<div class="page-heading"><div><div class="eyebrow">PRACTICE RESULT</div><h1>${escapeHtml(attempt.subject)}</h1>
-    <p>${new Date(attempt.completedAt).toLocaleDateString()} · ${formatDuration(attempt.durationMs)}</p></div>
+    <p>${attemptSourceName(attempt) ? `${escapeHtml(attemptSourceName(attempt))} · ` : ''}${new Date(attempt.completedAt).toLocaleDateString()} · ${formatDuration(attempt.durationMs)}</p></div>
     <a class="button secondary" href="${path('/history/')}">All history</a></div>
     <div class="result-hero"><div class="score-ring" style="--score:${Math.round(attempt.correct / attempt.total * 100)}%" aria-hidden="true"><span>${Math.round(attempt.correct / attempt.total * 100)}%</span></div>
       <div class="result-copy"><div class="eyebrow">PRACTICE COMPLETE</div><h2>${attempt.correct} of ${attempt.total} correct</h2>
-      <p>Review your answers, then choose what to practise next.</p>
-      <div class="result-actions">${hasMissed ? `<a class="button primary" href="${path('/quiz/', { subject: attempt.subject, source: 'still-missed' })}">Practice missed questions</a>` : ''}
-        <a class="button ${hasMissed ? 'secondary' : 'primary'}" href="${path('/quiz/', { subject: attempt.subject })}">New practice</a></div></div></div>
+      <p>Review your answers, then choose a subject from the home page when you are ready to practise again.</p>
+      <div class="result-actions"><a class="button primary" href="${path('/')}">Back to subjects</a></div></div></div>
     <nav class="tabs" aria-label="Result review filters"><a class="${view === 'all' ? 'active' : ''}" ${view === 'all' ? 'aria-current="page"' : ''} href="${path('/results/', { id })}">All questions (${items.length})</a>
       <a class="${view === 'wrong' ? 'active' : ''}" ${view === 'wrong' ? 'aria-current="page"' : ''} href="${path('/results/', { id, view: 'wrong' })}">Wrong or unanswered (${items.length - attempt.correct})</a></nav>
     <div class="review-list">${shown.length ? shown.map((item) => reviewCard(item.question, item.order + 1, item.selectedChoiceIds, item.correct)).join('') :
@@ -475,7 +510,7 @@ function reviewCard(question: Question, number: number, selectedIds: string[], c
       <strong>${escapeHtml(choice.id)}.</strong> ${escapeHtml(choice.text)}
       ${selectedIds.includes(choice.id) ? '<small>Your choice</small>' : ''}
       ${question.correctChoiceIds.includes(choice.id) ? '<small>Correct answer</small>' : ''}</li>`).join('')}</ul>
-    <div class="explanation"><strong>Explanation</strong><div class="prose">${markdown(question.explanation)}</div></div></article>`;
+    ${question.explanation.trim() ? `<div class="explanation"><strong>Explanation</strong><div class="prose">${markdown(question.explanation)}</div></div>` : ''}</article>`;
 }
 
 function wireBookmarks(): void {
@@ -504,13 +539,13 @@ async function renderHistory(): Promise<void> {
   if (!user || !profile) return;
   const attempts = await listAttempts(user.uid, profile.id);
   app.innerHTML = `<div class="page-heading"><div><div class="eyebrow">HISTORY</div><h1>${escapeHtml(profile.name)}’s practice history</h1>
-    <p>Every completed session, newest first.</p></div><a class="button primary" href="${path('/quiz/')}">New practice</a></div>
+    <p>Every completed session, newest first.</p></div><a class="button secondary" href="${path('/')}">Back to subjects</a></div>
     ${attempts.length ? `<div class="history-list">${attempts.map((attempt) => `<a class="history-row card" href="${path('/results/', { id: attempt.id })}">
-      <div class="history-details"><strong>${escapeHtml(attempt.subject)}</strong><small>${new Date(attempt.completedAt).toLocaleString()} · ${attempt.total} questions · ${formatDuration(attempt.durationMs)}</small></div>
+      <div class="history-details"><strong>${escapeHtml(attempt.subject)}</strong><small>${attemptSourceName(attempt) ? `${escapeHtml(attemptSourceName(attempt))} · ` : ''}${new Date(attempt.completedAt).toLocaleString()} · ${attempt.total} questions · ${formatDuration(attempt.durationMs)}</small></div>
       <span class="history-score"><strong>${Math.round(attempt.correct / attempt.total * 100)}%</strong><small>${attempt.correct}/${attempt.total} correct</small></span>
       <span class="row-arrow" aria-hidden="true">→</span></a>`).join('')}</div>` :
       `<div class="card empty"><h2>No completed sessions yet</h2><p>Your results will appear here after your first practice.</p>
-        <a class="button primary" href="${path('/quiz/')}">Start practice</a></div>`}`;
+        <a class="button primary" href="${path('/')}">Choose a subject</a></div>`}`;
 }
 
 async function renderProgress(): Promise<void> {
@@ -531,7 +566,7 @@ async function renderProgress(): Promise<void> {
     .sort((a, b) => b.wrong - a.wrong);
   const bookmarked = progress.filter((item) => item.bookmarked);
   app.innerHTML = `<div class="page-heading"><div><div class="eyebrow">PROGRESS</div><h1>${escapeHtml(profile.name)}’s report</h1>
-    <p>Your answer accuracy and the topics worth revisiting.</p></div></div>
+    <p>Your answer accuracy and the topics worth revisiting.</p></div><a class="button secondary" href="${path('/')}">Back to subjects</a></div>
     <div class="report-grid">${subjects.map((subject) => {
       const subjectAttempts = attempts.filter((attempt) => attempt.subject === subject);
       const total = subjectAttempts.reduce((sum, attempt) => sum + attempt.total, 0);
@@ -540,19 +575,17 @@ async function renderProgress(): Promise<void> {
       return `<article class="card report-card"><h2>${escapeHtml(subject)}</h2>
         <div class="report-value"><strong>${total ? `${accuracy}%` : '—'}</strong><span>answer accuracy</span></div>
         <div class="report-track" role="progressbar" aria-label="${escapeHtml(subject)} answer accuracy" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${accuracy}"><span style="width:${accuracy}%"></span></div>
-        <p>${subjectAttempts.length} completed practices · ${total} answers</p>
-        <a class="report-link" href="${path('/quiz/', { subject })}">Practise ${escapeHtml(subject)} <span aria-hidden="true">→</span></a></article>`;
+        <p>${subjectAttempts.length} completed practices · ${total} answers</p></article>`;
     }).join('')}</div>
     <section class="card report-section"><h2>Topics to revisit</h2>
-      ${weakTopics.length ? `<ul class="plain-list">${weakTopics.map((stat) => `<li><span><strong>${escapeHtml(stat.topic)}</strong><small>${escapeHtml(stat.subject)} · ${stat.wrong} still missed</small></span>
-        <a href="${path('/quiz/', { subject: stat.subject, source: 'still-missed', topic: stat.topic })}">Practise missed <span aria-hidden="true">→</span></a></li>`).join('')}</ul>` :
+      ${weakTopics.length ? `<ul class="plain-list">${weakTopics.map((stat) => `<li><span><strong>${escapeHtml(stat.topic)}</strong><small>${escapeHtml(stat.subject)} · ${stat.wrong} still missed</small></span></li>`).join('')}</ul>` :
         '<p>No currently missed topics. Start practising to build this report.</p>'}</section>
     <section class="card report-section"><h2>Bookmarked questions</h2>
       ${bookmarked.length ? `<ul class="plain-list">${bookmarked.map((item) => {
         const question = questions.find((candidate) => candidate.id === item.questionId);
         return `<li><details><summary>${escapeHtml(item.subject)} · ${escapeHtml(item.topics.join(', '))}<small>${escapeHtml(question?.stem.slice(0, 100) ?? item.questionId)}</small></summary>
           ${question ? `<div class="prose">${markdown(question.stem)}</div><p><strong>Answer:</strong> ${question.choices.filter((choice) => question.correctChoiceIds.includes(choice.id)).map((choice) => escapeHtml(choice.text)).join(', ')}</p>
-          <div class="prose">${markdown(question.explanation)}</div>` : '<p>This question is no longer in the current bank. Its past results still hold a snapshot.</p>'}</details>
+          ${question.explanation.trim() ? `<div class="prose">${markdown(question.explanation)}</div>` : ''}` : '<p>This question is no longer in the current bank. Its past results still hold a snapshot.</p>'}</details>
           <button class="bookmark" type="button" data-id="${escapeHtml(item.questionId)}" aria-label="Remove bookmark">★ Saved</button></li>`;
       }).join('')}</ul>` : '<p>Bookmark questions from a result review to find them here.</p>'}</section>`;
   wireBookmarks();
@@ -560,11 +593,17 @@ async function renderProgress(): Promise<void> {
 
 async function renderPage(): Promise<void> {
   clearMessage();
-  renderNav();
+  renderHeader();
   if (!profile || route() === '/profiles') return renderProfiles();
   if (route() === '/quiz') {
     const params = new URLSearchParams(location.search);
-    return renderQuizSetup(params.get('subject') ?? undefined, params.get('source') ?? undefined, params.get('topic') ?? undefined);
+    const subject = params.get('subject');
+    const sourceId = params.get('sourceId');
+    if (!subject || !sourceId || !questions.some((question) => question.subject === subject && question.sourceId === sourceId)) {
+      window.location.replace(path('/'));
+      return;
+    }
+    return renderQuizSetup(subject, sourceId);
   }
   if (route() === '/history') return renderHistory();
   if (route() === '/results') return renderResults();

@@ -11,7 +11,7 @@ const questions = defineCollection({
     topics: z.array(z.string().min(1)).min(1),
     choices: z.array(z.object({ id: z.string().min(1), text: z.string().min(1) })).min(2),
     correctChoiceIds: z.array(z.string().min(1)).min(1),
-    explanation: z.string().min(1),
+    explanation: z.string(),
   }).superRefine((question, context) => {
     const ids = question.choices.map((choice) => choice.id);
     if (new Set(ids).size !== ids.length) {

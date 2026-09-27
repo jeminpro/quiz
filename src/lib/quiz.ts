@@ -10,12 +10,13 @@ export function eligibleQuestions(
   questions: Question[],
   progress: Progress[],
   subject: string,
+  sourceId: string,
   topics: string[],
   source: 'all' | 'still-missed' | 'ever-missed',
 ): Question[] {
   const progressById = new Map(progress.map((item) => [item.questionId, item]));
   return questions.filter((question) => {
-    if (question.subject !== subject) return false;
+    if (question.subject !== subject || question.sourceId !== sourceId) return false;
     if (topics.length && !question.topics.some((topic) => topics.includes(topic))) return false;
     if (source === 'all') return true;
     const state = progressById.get(question.id);

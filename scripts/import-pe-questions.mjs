@@ -92,7 +92,7 @@ if (topicCounts.size !== 6 || [...topicCounts.values()].some((count) => count !=
   throw new Error(`Expected six topics of 20 questions, found ${JSON.stringify([...topicCounts])}`);
 }
 
-const outputDir = fileURLToPath(new URL('../src/content/questions/pe/', import.meta.url));
+const outputDir = fileURLToPath(new URL('../src/content/questions/chatgpt/pe/', import.meta.url));
 if (!checkOnly) await mkdir(outputDir, { recursive: true });
 for (const question of questions) {
   const answer = answers.get(question.number);

@@ -2,6 +2,7 @@ export interface Choice { id: string; text: string }
 export interface Question {
   id: string;
   subject: string;
+  sourceId: string;
   topics: string[];
   choices: Choice[];
   correctChoiceIds: string[];
@@ -22,6 +23,7 @@ export interface Attempt {
   id: string;
   profileId: string;
   subject: string;
+  sourceId?: string;
   topics: string[];
   source: 'all' | 'still-missed' | 'ever-missed';
   startedAt: number;

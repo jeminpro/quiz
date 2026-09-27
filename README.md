@@ -46,7 +46,7 @@ The workflow validates those variables, checks the app, tests it, builds the sta
 
 ## Add questions
 
-Add one `.md` file per question in `src/content/questions/`. For example:
+Add one `.md` file per question in `src/content/questions/<source-id>/<subject-folder>/`, for example `src/content/questions/chatgpt/maths/001.md`. The first folder names the question source. Register each new source ID and its display name in `src/lib/contentSources.ts` (for example, `oak-national-academy: 'Oak National Academy'`). Source names appear as headings on the home page; a subject may appear under more than one source. The build rejects question files outside a registered source and subject folder. For example:
 
 ```md
 ---
@@ -65,9 +65,9 @@ A shape has four equal parts. One part is shaded. What fraction is shaded?
 
 Use a stable, unique ULID for each question's `id`. A ULID sorts lexicographically by creation time. You can omit `id` when writing a new Markdown question and run `pnpm questions:ids` to generate it; keep that ULID when editing the question. The command replaces a missing ID or an old UUID, and rejects any other invalid or duplicate ID. Choice IDs such as `A` and `B` remain short labels. Use two or more choices and list one or more correct choice IDs. Multiple-answer questions are marked correct only when the exact set is selected. Markdown is supported in the question and explanation; choice text is plain text. Put images in `public/questions/` and reference them as `![Description](/questions/filename.svg)`. Keep image files that appear in saved tests so old reviews still display them.
 
-`pnpm build` validates required fields, duplicate IDs, answer references, and non-empty question bodies. The bank includes all 120 questions from the supplied Gloucestershire PE practice file, grouped into its six topics, plus six sample questions in other subjects. The earlier sample PE question was removed so the PE subject matches the supplied file exactly.
+`pnpm build` validates required fields, duplicate IDs, answer references, source folders, and non-empty question bodies. The bank includes all 120 questions from the supplied Gloucestershire PE practice file, grouped into its six topics and listed under ChatGPT on the home page.
 
-To regenerate the PE files from the same source format, run `pnpm import:pe "C:\path\to\FSCE_Gloucestershire_PE_120_Multiple_Choice_Questions.md"`. The importer retains each existing question's ULID, and generates one only for a new file. It writes files to `src/content/questions/pe/`. It requires 120 numbered questions, 120 matching answers, and six sections of 20 questions; it stops if anything is missing or mismatched. Add `--check` to compare generated files without changing them.
+To regenerate the PE files from the same source format, run `pnpm import:pe "C:\path\to\FSCE_Gloucestershire_PE_120_Multiple_Choice_Questions.md"`. The importer retains each existing question's ULID, and generates one only for a new file. It writes files to `src/content/questions/chatgpt/pe/`. It requires 120 numbered questions, 120 matching answers, and six sections of 20 questions; it stops if anything is missing or mismatched. Add `--check` to compare generated files without changing them.
 
 ## Behaviour and limits
 
