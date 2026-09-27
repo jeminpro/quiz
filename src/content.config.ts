@@ -1,11 +1,12 @@
 import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
+import { ULID_PATTERN } from '../scripts/ulid.mjs';
 
 const questions = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/questions' }),
   schema: z.object({
-    id: z.string().uuid(),
+    id: z.string().regex(ULID_PATTERN, 'Invalid ULID'),
     subject: z.string().min(1),
     topics: z.array(z.string().min(1)).min(1),
     choices: z.array(z.object({ id: z.string().min(1), text: z.string().min(1) })).min(2),

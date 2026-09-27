@@ -50,7 +50,7 @@ Add one `.md` file per question in `src/content/questions/`. For example:
 
 ```md
 ---
-id: 8d9c8b3d-3115-41a3-bdb6-36cc1f088baa
+id: 01J8X5K2Q3M4N6P7R8T9VWXYZ0
 subject: Maths
 topics: [Fractions]
 choices:
@@ -63,11 +63,11 @@ explanation: "One of four equal parts is **1/4**."
 A shape has four equal parts. One part is shaded. What fraction is shaded?
 ```
 
-Use a stable, unique UUID for each question's `id`. You can omit `id` when writing a new Markdown question and run `pnpm questions:ids` to generate it; keep that UUID when editing the question. The command rejects invalid or duplicate IDs. Choice IDs such as `A` and `B` remain short labels. Use two or more choices and list one or more correct choice IDs. Multiple-answer questions are marked correct only when the exact set is selected. Markdown is supported in the question and explanation; choice text is plain text. Put images in `public/questions/` and reference them as `![Description](/questions/filename.svg)`. Keep image files that appear in saved tests so old reviews still display them.
+Use a stable, unique ULID for each question's `id`. A ULID sorts lexicographically by creation time. You can omit `id` when writing a new Markdown question and run `pnpm questions:ids` to generate it; keep that ULID when editing the question. The command replaces a missing ID or an old UUID, and rejects any other invalid or duplicate ID. Choice IDs such as `A` and `B` remain short labels. Use two or more choices and list one or more correct choice IDs. Multiple-answer questions are marked correct only when the exact set is selected. Markdown is supported in the question and explanation; choice text is plain text. Put images in `public/questions/` and reference them as `![Description](/questions/filename.svg)`. Keep image files that appear in saved tests so old reviews still display them.
 
 `pnpm build` validates required fields, duplicate IDs, answer references, and non-empty question bodies. The bank includes all 120 questions from the supplied Gloucestershire PE practice file, grouped into its six topics, plus six sample questions in other subjects. The earlier sample PE question was removed so the PE subject matches the supplied file exactly.
 
-To regenerate the PE files from the same source format, run `pnpm import:pe "C:\path\to\FSCE_Gloucestershire_PE_120_Multiple_Choice_Questions.md"`. The importer retains each existing question's UUID, and generates one only for a new file. It requires 120 numbered questions, 120 matching answers, and six sections of 20 questions; it stops if anything is missing or mismatched. Add `--check` to compare generated files without changing them.
+To regenerate the PE files from the same source format, run `pnpm import:pe "C:\path\to\FSCE_Gloucestershire_PE_120_Multiple_Choice_Questions.md"`. The importer retains each existing question's ULID, and generates one only for a new file. It writes files to `src/content/questions/pe/`. It requires 120 numbered questions, 120 matching answers, and six sections of 20 questions; it stops if anything is missing or mismatched. Add `--check` to compare generated files without changing them.
 
 ## Behaviour and limits
 

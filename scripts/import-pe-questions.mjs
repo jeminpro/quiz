@@ -1,7 +1,7 @@
 import { readFile, mkdir, writeFile } from 'node:fs/promises';
-import { randomUUID } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { isUlid, ulid } from './ulid.mjs';
 
 const sourcePath = process.argv.find((arg, index) => index > 1 && arg !== '--check');
 const checkOnly = process.argv.includes('--check');
@@ -92,8 +92,7 @@ if (topicCounts.size !== 6 || [...topicCounts.values()].some((count) => count !=
   throw new Error(`Expected six topics of 20 questions, found ${JSON.stringify([...topicCounts])}`);
 }
 
-const outputDir = fileURLToPath(new URL('../src/content/questions/pe/gloucestershire/', import.meta.url));
-const uuidPattern = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+const outputDir = fileURLToPath(new URL('../src/content/questions/pe/', import.meta.url));
 if (!checkOnly) await mkdir(outputDir, { recursive: true });
 for (const question of questions) {
   const answer = answers.get(question.number);
@@ -105,7 +104,7 @@ for (const question of questions) {
   });
   if (checkOnly && previous === null) throw new Error(`Imported file is missing: ${filename}`);
   const previousId = previous?.match(/^id:[ \t]*(.*?)[ \t]*\r?$/m)?.[1];
-  const id = previousId && uuidPattern.test(previousId) ? previousId : randomUUID();
+  const id = previousId && isUlid(previousId) ? previousId : ulid();
   const content = [
     '---',
     `id: ${id}`,
