@@ -286,8 +286,8 @@ async function renderHome(): Promise<void> {
   const groups = groupSubjectsBySource(questions);
   app.innerHTML = `${pendingBanner()}<section class="home-subjects" aria-labelledby="subjects-title">
     <div class="page-heading"><div><h1 id="subjects-title">Choose a subject</h1></div></div>
-    ${groups.length ? `<div class="source-filter"><label for="source-filter">Filter by source</label>
-      <select id="source-filter"><option value="all">All sources</option>${groups.map(({ sourceId }) =>
+    ${groups.length ? `<div class="source-filter">
+      <select id="source-filter" aria-label="Filter by source"><option value="all">All sources</option>${groups.map(({ sourceId }) =>
         `<option value="${escapeHtml(sourceId)}">${escapeHtml(contentSources[sourceId])}</option>`).join('')}</select></div>
       ${groups.map(({ sourceId, subjects }) => `<section class="source-group" data-source-id="${escapeHtml(sourceId)}" aria-labelledby="source-${escapeHtml(sourceId)}">
         <h2 id="source-${escapeHtml(sourceId)}">${escapeHtml(contentSources[sourceId])}</h2>

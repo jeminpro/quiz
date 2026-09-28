@@ -154,8 +154,7 @@ input::placeholder { color: #798b80; }
 .report-link:hover, .plain-list a:hover { text-decoration: underline; }
 .home-subjects .page-heading { margin-bottom: 16px; }
 .home-subjects .page-heading h1 { margin-bottom: 0; }
-.source-filter { display: flex; align-items: center; gap: 10px; max-width: 380px; margin-bottom: 22px; }
-.source-filter label { flex: none; margin: 0; font-size: .82rem; font-weight: 800; }
+.source-filter { width: min(100%, 220px); margin: 0 0 22px auto; }
 .source-filter select { min-height: 38px; padding-block: 6px; }
 .source-group + .source-group { margin-top: 38px; }
 .source-group h2 { margin-bottom: 16px; }
@@ -384,4 +383,3 @@ input::placeholder { color: #798b80; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
-
