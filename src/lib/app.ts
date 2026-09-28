@@ -199,13 +199,11 @@ function renderSignedOut(): void {
 }
 
 async function renderProfiles(): Promise<void> {
-  app.innerHTML = `<div class="page-heading"><div><div class="eyebrow">PUPIL PROFILES</div><h1>Who’s practising?</h1>
-    <p>Choose a profile so each pupil’s progress stays separate.</p></div></div>
+  app.innerHTML = `<div class="page-heading profiles-heading"><div><h1>Profiles</h1></div></div>
     <div class="card-grid">${profiles.map((person) => `<article class="card profile-card">
-      <div class="avatar">${escapeHtml(person.name.slice(0, 1).toUpperCase())}</div>
       <h2>${escapeHtml(person.name)}</h2><div class="profile-actions">
-      <button type="button" class="primary select-profile" data-id="${escapeHtml(person.id)}">Continue as ${escapeHtml(person.name)}</button>
-      <button type="button" class="text-button rename-profile" aria-expanded="false">Rename</button></div>
+      <button type="button" class="text-button rename-profile" aria-expanded="false">Rename</button>
+      <button type="button" class="primary select-profile" data-id="${escapeHtml(person.id)}" aria-label="Switch to ${escapeHtml(person.name)}" ${person.id === profile?.id ? 'disabled' : ''}>Switch</button></div>
       <form class="rename-form" data-id="${escapeHtml(person.id)}" hidden>
         <label>New name<input name="name" maxlength="40" required autocomplete="off" value="${escapeHtml(person.name)}" /></label>
         <div class="form-actions"><button type="submit" class="primary">Save name</button><button type="button" class="secondary cancel-rename">Cancel</button></div>
@@ -320,8 +318,8 @@ function renderQuizSetup(subject: string, sourceId: string): void {
   app.innerHTML = `${pendingBanner()}<a class="back-link" href="${path('/')}">← Back to subjects</a>
     <form id="test-setup" class="card setup-card">
       <div class="setup-header"><h1>Set up your test</h1>
-        <p class="setup-context"><span>Source: <strong>${escapeHtml(contentSources[sourceId])}</strong></span>
-          <span>Subject: <strong>${escapeHtml(subject)}</strong></span></p></div>
+        <p class="setup-context"><span>Subject: <strong>${escapeHtml(subject)}</strong></span>
+          <span>Source: <strong>${escapeHtml(contentSources[sourceId])}</strong></span></p></div>
       <div class="setup-section setup-fields">
         <fieldset><legend>Topics</legend><div id="topic-select" class="topic-select">
           <button type="button" id="topic-trigger" class="topic-trigger" aria-expanded="false" aria-controls="topic-menu" aria-describedby="topic-hint">

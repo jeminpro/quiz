@@ -3,6 +3,8 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { isUlid } from './ulid.mjs';
 
+const expectedSubject = process.env.QUESTION_SUBJECT ?? 'Art';
+const outputFolder = process.env.QUESTION_FOLDER ?? 'art';
 const sourcePath = process.argv.find((arg, index) => index > 1 && arg !== '--check');
 const checkOnly = process.argv.includes('--check');
 if (!sourcePath) {
@@ -33,7 +35,9 @@ const questions = blocks.map((block, index) => {
   const choices = [...block.matchAll(/^\s*-\s*\{\s*id:\s*([A-D]),\s*text:\s*("(?:[^"\\]|\\.)*")\s*\}\s*$/gm)]
     .map((match) => ({ id: match[1], text: JSON.parse(match[2]) }));
   if (!isUlid(id)) throw new Error(`Question ${index + 1}: invalid ULID ${id}`);
-  if (subject !== 'Art') throw new Error(`Question ${index + 1}: expected subject Art, found ${subject}`);
+  if (subject !== expectedSubject) {
+    throw new Error(`Question ${index + 1}: expected subject ${expectedSubject}, found ${subject}`);
+  }
   if (!topicMatch) throw new Error(`Question ${index + 1}: expected exactly one topic`);
   if (choices.map((choice) => choice.id).join('') !== 'ABCD') {
     throw new Error(`Question ${index + 1}: expected choices A, B, C, D`);
@@ -55,7 +59,7 @@ if (new Set(questions.map((question) => question.id)).size !== questions.length)
   throw new Error('Question IDs must be unique');
 }
 
-const outputDir = fileURLToPath(new URL('../src/content/questions/chatgpt/art/', import.meta.url));
+const outputDir = fileURLToPath(new URL(`../src/content/questions/chatgpt/${outputFolder}/`, import.meta.url));
 if (!checkOnly) await mkdir(outputDir, { recursive: true });
 for (const [index, question] of questions.entries()) {
   const filename = path.join(outputDir, `${String(index + 1).padStart(3, '0')}.md`);
@@ -86,5 +90,5 @@ for (const [index, question] of questions.entries()) {
 
 const topicCounts = new Map();
 for (const question of questions) topicCounts.set(question.topic, (topicCounts.get(question.topic) ?? 0) + 1);
-console.log(`${checkOnly ? 'Verified' : 'Imported'} ${questions.length} Art questions across ${topicCounts.size} topics.`);
+console.log(`${checkOnly ? 'Verified' : 'Imported'} ${questions.length} ${expectedSubject} questions across ${topicCounts.size} topics.`);
 for (const [name, count] of topicCounts) console.log(`- ${name}: ${count}`);

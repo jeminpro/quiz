@@ -71,6 +71,8 @@ To regenerate the PE files from the same source format, run `pnpm import:pe "C:\
 
 The ChatGPT source also includes 120 Art questions across 11 topics. To regenerate them from their fenced-YAML source document, run `pnpm import:art "C:\path\to\Art_questions.md"`. The importer preserves the supplied ULIDs, validates every question and writes the files to `src/content/questions/chatgpt/art/`. Add `--check` to verify the generated files without changing them.
 
+Music questions use the same fenced-YAML format. Regenerate them with `pnpm import:music "C:\path\to\Music_questions.md"`; the validated files are written to `src/content/questions/chatgpt/music/`.
+
 ## Behaviour and limits
 
 - A test's elapsed time runs from starting to submitting, including time spent in a background tab. An unfinished test is discarded on refresh or close.
