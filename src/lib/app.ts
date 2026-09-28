@@ -199,9 +199,10 @@ function renderSignedOut(): void {
 }
 
 async function renderProfiles(): Promise<void> {
-  app.innerHTML = `<div class="page-heading profiles-heading"><div><h1>Profiles</h1></div></div>
+  app.innerHTML = `<a class="back-link" href="${path('/')}">← Back</a>
+    <div class="page-heading profiles-heading"><div><h1>Profiles</h1></div></div>
     <div class="card-grid">${profiles.map((person) => `<article class="card profile-card">
-      <h2>${escapeHtml(person.name)}</h2><div class="profile-actions">
+      <div class="profile-card-info"><span class="avatar avatar-round" aria-hidden="true">${escapeHtml(person.name.slice(0, 1).toUpperCase())}</span><h2>${escapeHtml(person.name)}</h2></div><div class="profile-actions">
       <button type="button" class="text-button rename-profile" aria-expanded="false">Rename</button>
       <button type="button" class="primary select-profile" data-id="${escapeHtml(person.id)}" aria-label="Switch to ${escapeHtml(person.name)}" ${person.id === profile?.id ? 'disabled' : ''}>Switch</button></div>
       <form class="rename-form" data-id="${escapeHtml(person.id)}" hidden>
@@ -314,8 +315,8 @@ async function renderHome(): Promise<void> {
 }
 
 function renderQuizSetup(subject: string, sourceId: string): void {
-  document.title = 'Set up your test · Brightside Quiz';
-  app.innerHTML = `${pendingBanner()}<a class="back-link" href="${path('/')}">← Back to subjects</a>
+  document.title = 'Set up your test · Quiz';
+  app.innerHTML = `${pendingBanner()}<a class="back-link" href="${path('/')}">← Back</a>
     <form id="test-setup" class="card setup-card">
       <div class="setup-header"><h1>Set up your test</h1>
         <p class="setup-context"><span>Subject: <strong>${escapeHtml(subject)}</strong></span>
@@ -457,7 +458,7 @@ function renderQuizSetup(subject: string, sourceId: string): void {
 
 function renderActiveQuestion(): void {
   if (!active) return;
-  document.title = 'Test · Brightside Quiz';
+  document.title = 'Test · Quiz';
   const question = active.questions[active.index];
   const multi = question.correctChoiceIds.length > 1;
   const selected = new Set(active.answers[question.id] ?? []);
@@ -611,9 +612,11 @@ function wireBookmarks(): void {
 async function renderHistory(): Promise<void> {
   if (!user || !profile) return;
   const attempts = await listAttempts(user.uid, profile.id);
-  app.innerHTML = `<div class="page-heading"><div><div class="eyebrow">HISTORY</div><h1>${escapeHtml(profile.name)}’s practice history</h1>
-    <p>Every completed session, newest first.</p></div><a class="button secondary" href="${path('/')}">Back to subjects</a></div>
+  app.innerHTML = `<a class="back-link" href="${path('/')}">← Back</a>
+    <div class="page-heading"><div><div class="eyebrow">HISTORY</div><h1>${escapeHtml(profile.name)}’s practice history</h1>
+    <p>Every completed session, newest first.</p></div></div>
     ${attempts.length ? `<div class="history-list">${attempts.map((attempt) => `<a class="history-row card" href="${path('/results/', { id: attempt.id })}">
+      <span class="avatar avatar-tile" aria-hidden="true">${escapeHtml(attempt.subject.slice(0, 1).toUpperCase())}</span>
       <div class="history-details"><strong>${escapeHtml(attempt.subject)}</strong><small>${attemptSourceName(attempt) ? `${escapeHtml(attemptSourceName(attempt))} · ` : ''}${new Date(attempt.completedAt).toLocaleString()} · ${attempt.total} questions · ${formatDuration(attempt.durationMs)}</small></div>
       <span class="history-score"><strong>${Math.round(attempt.correct / attempt.total * 100)}%</strong><small>${attempt.correct}/${attempt.total} correct</small></span>
       <span class="row-arrow" aria-hidden="true">→</span></a>`).join('')}</div>` :
@@ -638,8 +641,9 @@ async function renderProgress(): Promise<void> {
   const weakTopics = [...topicStats.values()].filter((stat) => stat.wrong > 0)
     .sort((a, b) => b.wrong - a.wrong);
   const bookmarked = progress.filter((item) => item.bookmarked);
-  app.innerHTML = `<div class="page-heading"><div><div class="eyebrow">PROGRESS</div><h1>${escapeHtml(profile.name)}’s report</h1>
-    <p>Your answer accuracy and the topics worth revisiting.</p></div><a class="button secondary" href="${path('/')}">Back to subjects</a></div>
+  app.innerHTML = `<a class="back-link" href="${path('/')}">← Back</a>
+    <div class="page-heading"><div><div class="eyebrow">PROGRESS</div><h1>${escapeHtml(profile.name)}’s report</h1>
+    <p>Your answer accuracy and the topics worth revisiting.</p></div></div>
     <div class="report-grid">${subjects.map((subject) => {
       const subjectAttempts = attempts.filter((attempt) => attempt.subject === subject);
       const total = subjectAttempts.reduce((sum, attempt) => sum + attempt.total, 0);

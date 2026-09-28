@@ -1,7 +1,9 @@
 ---
 import '../styles/global.css';
 const { title } = Astro.props;
-const home = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/`;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const home = `${base}/`;
+const logo = `${base}/quiz-logo.png`;
 ---
 <!doctype html>
 <html lang="en">
@@ -10,19 +12,26 @@ const home = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/`;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f7f8f5" />
     <meta name="description" content="A family quiz app for broad, curious 11+ practice." />
-    <title>{title} · Brightside Quiz</title>
+    <link rel="icon" type="image/png" href={logo} />
+    <title>{title} · Quiz</title>
   </head>
   <body>
     <header class="site-header">
       <div class="shell header-inner">
-        <a class="brand" href={home} aria-label="Brightside Quiz home"><span class="brand-icon" aria-hidden="true">✦</span><span>Brightside<span class="brand-light"> Quiz</span></span></a>
+        <a class="brand" href={home} aria-label="Quiz home"><img class="brand-logo" src={logo} alt="" /></a>
         <div class="header-actions"><div id="header-profile"></div><div id="header-menu"></div></div>
       </div>
     </header>
     <main class="shell" id="main">
       <div id="status" hidden role="alert"></div>
-      <div id="app"><div class="loading">Loading your practice space…</div></div>
+      <div id="app"><div class="loading" aria-busy="true"><div class="spinner"></div><p>Loading your practice space…</p></div></div>
     </main>
+    <script>
+      const header = document.querySelector('.site-header');
+      const toggleScrolled = () => header?.classList.toggle('is-scrolled', window.scrollY > 4);
+      toggleScrolled();
+      window.addEventListener('scroll', toggleScrolled, { passive: true });
+    </script>
     <script>import '../lib/app';</script>
   </body>
 </html>
