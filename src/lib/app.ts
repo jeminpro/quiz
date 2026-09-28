@@ -475,8 +475,9 @@ function renderActiveQuestion(): void {
   const selected = new Set(active.answers[question.id] ?? []);
   const answered = active.questions.filter((item) => active!.answers[item.id]?.length).length;
   const percent = Math.round((active.index + 1) / active.questions.length * 100);
-  app.innerHTML = `<div class="test-top"><div><div class="eyebrow">${escapeHtml(contentSources[active.sourceId])} · ${escapeHtml(active.subject.toUpperCase())}</div>
-    <h1>Question ${active.index + 1} <span class="muted">of ${active.questions.length}</span></h1></div>
+  app.innerHTML = `<div class="test-top"><div class="test-subject">${escapeHtml(active.subject.toUpperCase())}</div>
+    <div class="test-source">${escapeHtml(contentSources[active.sourceId])}</div>
+    <h2>Question ${active.index + 1} <span class="muted">of ${active.questions.length}</span></h2>
     <span class="test-progress">${answered} answered</span></div>
     <div class="progress-track" role="progressbar" aria-label="Question progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${percent}"><span style="width:${percent}%"></span></div>
     <section class="card question-card"><div class="question-meta">${question.topics.map(escapeHtml).join(' · ')}</div>
@@ -486,7 +487,7 @@ function renderActiveQuestion(): void {
         <input type="${multi ? 'checkbox' : 'radio'}" name="answer" value="${escapeHtml(choice.id)}" ${selected.has(choice.id) ? 'checked' : ''} />
         <span class="choice-key" aria-hidden="true">${escapeHtml(choice.id)}</span><span>${escapeHtml(choice.text)}</span></label>`).join('')}</div></fieldset></section>
     <div class="test-actions"><button type="button" class="secondary" id="previous" ${active.index === 0 ? 'disabled' : ''}>← Previous</button>
-      ${reviewAvailable ? '<button type="button" class="text-button" id="return-to-review">Back to review</button>' : '<span>You can change answers before submitting.</span>'}
+      ${reviewAvailable ? '<button type="button" class="text-button" id="return-to-review">Back to review</button>' : ''}
       <button type="button" class="primary" id="next">${active.index === active.questions.length - 1 ? 'Review answers' : 'Next question →'}</button></div>`;
   focusQuizView();
   for (const input of app.querySelectorAll<HTMLInputElement>('input[name="answer"]')) {
@@ -506,7 +507,7 @@ function renderActiveQuestion(): void {
 
 function focusQuizView(): void {
   window.scrollTo({ top: 0, behavior: 'auto' });
-  const heading = app.querySelector<HTMLElement>('h1');
+  const heading = app.querySelector<HTMLElement>('h1, h2');
   if (heading) { heading.tabIndex = -1; heading.focus({ preventScroll: true }); }
 }
 
