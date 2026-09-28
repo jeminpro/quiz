@@ -53,6 +53,17 @@ function attemptSourceName(attempt: Attempt): string | undefined {
   return attempt.subject === 'Physical Education' ? contentSources.chatgpt : undefined;
 }
 
+function formatCompactDateTime(value: number): string {
+  const date = new Date(value);
+  const day = date.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' });
+  const time = date.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', hour12: false });
+  return `${day} ${time}`;
+}
+
+function formatSeconds(value: number): string {
+  return `${Math.max(0, Math.floor(value / 1000))}s`;
+}
+
 function markdown(value: string): string {
   const container = document.createElement('div');
   container.innerHTML = DOMPurify.sanitize(marked.parse(value) as string);
@@ -613,11 +624,9 @@ async function renderHistory(): Promise<void> {
   if (!user || !profile) return;
   const attempts = await listAttempts(user.uid, profile.id);
   app.innerHTML = `<a class="back-link" href="${path('/')}">← Back</a>
-    <div class="page-heading"><div><div class="eyebrow">HISTORY</div><h1>${escapeHtml(profile.name)}’s practice history</h1>
-    <p>Every completed session, newest first.</p></div></div>
+    <div class="page-heading"><div><h1>Test history</h1></div></div>
     ${attempts.length ? `<div class="history-list">${attempts.map((attempt) => `<a class="history-row card" href="${path('/results/', { id: attempt.id })}">
-      <span class="avatar avatar-tile" aria-hidden="true">${escapeHtml(attempt.subject.slice(0, 1).toUpperCase())}</span>
-      <div class="history-details"><strong>${escapeHtml(attempt.subject)}</strong><small>${attemptSourceName(attempt) ? `${escapeHtml(attemptSourceName(attempt))} · ` : ''}${new Date(attempt.completedAt).toLocaleString()} · ${attempt.total} questions · ${formatDuration(attempt.durationMs)}</small></div>
+      <div class="history-details"><strong>${escapeHtml(attempt.subject)}</strong><small>${attemptSourceName(attempt) ? `${escapeHtml(attemptSourceName(attempt))} · ` : ''}${formatCompactDateTime(attempt.completedAt)} · ${attempt.total} questions · ${formatDuration(attempt.durationMs)} total · ${formatSeconds(attempt.total ? attempt.durationMs / attempt.total : 0)} avg/question</small></div>
       <span class="history-score"><strong>${Math.round(attempt.correct / attempt.total * 100)}%</strong><small>${attempt.correct}/${attempt.total} correct</small></span>
       <span class="row-arrow" aria-hidden="true">→</span></a>`).join('')}</div>` :
       `<div class="card empty"><h2>No completed sessions yet</h2><p>Your results will appear here after your first practice.</p>

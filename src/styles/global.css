@@ -171,7 +171,6 @@ input::placeholder { color: #798b80; }
 
 /* Avatars */
 .avatar { display: grid; place-items: center; flex: none; font: 800 1.02rem Outfit; }
-.avatar-tile { width: 42px; height: 42px; border-radius: 12px; background: linear-gradient(135deg, var(--accent-soft), #d3ecdb); color: var(--accent-dark); }
 .avatar-round { width: 40px; height: 40px; border-radius: 50%; background: linear-gradient(135deg, var(--accent-soft), #d3ecdb); color: var(--accent-dark); }
 
 /* Profiles */
