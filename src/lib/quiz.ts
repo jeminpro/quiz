@@ -12,7 +12,7 @@ export function eligibleQuestions(
   subject: string,
   sourceId: string,
   topics: string[],
-  source: 'all' | 'still-missed' | 'ever-missed',
+  source: 'all' | 'new' | 'still-missed' | 'ever-missed',
 ): Question[] {
   const progressById = new Map(progress.map((item) => [item.questionId, item]));
   return questions.filter((question) => {
@@ -20,6 +20,7 @@ export function eligibleQuestions(
     if (topics.length && !question.topics.some((topic) => topics.includes(topic))) return false;
     if (source === 'all') return true;
     const state = progressById.get(question.id);
+    if (source === 'new') return state?.latestAt == null;
     return source === 'still-missed' ? state?.latestCorrect === false : state?.everWrong === true;
   });
 }

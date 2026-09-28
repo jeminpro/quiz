@@ -69,6 +69,8 @@ Use a stable, unique ULID for each question's `id`. A ULID sorts lexicographical
 
 To regenerate the PE files from the same source format, run `pnpm import:pe "C:\path\to\FSCE_Gloucestershire_PE_120_Multiple_Choice_Questions.md"`. The importer retains each existing question's ULID, and generates one only for a new file. It writes files to `src/content/questions/chatgpt/pe/`. It requires 120 numbered questions, 120 matching answers, and six sections of 20 questions; it stops if anything is missing or mismatched. Add `--check` to compare generated files without changing them.
 
+The ChatGPT source also includes 120 Art questions across 11 topics. To regenerate them from their fenced-YAML source document, run `pnpm import:art "C:\path\to\Art_questions.md"`. The importer preserves the supplied ULIDs, validates every question and writes the files to `src/content/questions/chatgpt/art/`. Add `--check` to verify the generated files without changing them.
+
 ## Behaviour and limits
 
 - A test's elapsed time runs from starting to submitting, including time spent in a background tab. An unfinished test is discarded on refresh or close.

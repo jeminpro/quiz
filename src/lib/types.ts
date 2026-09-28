@@ -25,7 +25,7 @@ export interface Attempt {
   subject: string;
   sourceId?: string;
   topics: string[];
-  source: 'all' | 'still-missed' | 'ever-missed';
+  source: 'all' | 'new' | 'still-missed' | 'ever-missed';
   startedAt: number;
   completedAt: number;
   durationMs: number;

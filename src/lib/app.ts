@@ -286,68 +286,105 @@ async function renderHome(): Promise<void> {
   const attempts = await listAttempts(user.uid, profile.id);
   const groups = groupSubjectsBySource(questions);
   app.innerHTML = `${pendingBanner()}<section class="home-subjects" aria-labelledby="subjects-title">
-    <div class="page-heading"><div><h1 id="subjects-title">Choose a subject</h1>
-      <p>Choose a source, then select a subject to set up your practice.</p></div></div>
+    <div class="page-heading"><div><h1 id="subjects-title">Choose a subject</h1></div></div>
     ${groups.length ? `<div class="source-filter"><label for="source-filter">Filter by source</label>
       <select id="source-filter"><option value="all">All sources</option>${groups.map(({ sourceId }) =>
         `<option value="${escapeHtml(sourceId)}">${escapeHtml(contentSources[sourceId])}</option>`).join('')}</select></div>
-      <div id="source-filter-count" class="filter-count" aria-live="polite"></div>
       ${groups.map(({ sourceId, subjects }) => `<section class="source-group" data-source-id="${escapeHtml(sourceId)}" aria-labelledby="source-${escapeHtml(sourceId)}">
         <h2 id="source-${escapeHtml(sourceId)}">${escapeHtml(contentSources[sourceId])}</h2>
         <div class="subject-grid">${subjects.map(({ name: subject, count }) => {
       const subjectAttempts = attempts.filter((attempt) => attempt.subject === subject &&
         (attempt.sourceId === sourceId || (!attempt.sourceId && subject === 'Physical Education' && sourceId === 'chatgpt')));
       const latest = subjectAttempts[0];
-      return `<a class="subject-card" href="${path('/quiz/', { subject, sourceId })}">
-        <span class="subject-mark" aria-hidden="true">${escapeHtml(subject.slice(0, 1).toUpperCase())}</span>
+      return `<a class="subject-card" href="${path('/setup/', { subject, sourceId })}">
         <strong>${escapeHtml(subject)}</strong>
-        <span class="subject-question-count">${count} question${count === 1 ? '' : 's'}</span>
-        <span class="subject-practice-status">${subjectAttempts.length} completed practice${subjectAttempts.length === 1 ? '' : 's'}
-          <span> · </span>${latest ? `Last practised ${new Date(latest.completedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}` : 'Not started'}</span>
+        <span class="subject-card-details">
+          <span>${count} question${count === 1 ? '' : 's'}</span>
+          <span>${subjectAttempts.length} practice${subjectAttempts.length === 1 ? '' : 's'}</span>
+          <span>${latest ? new Date(latest.completedAt).toLocaleDateString('en-GB') : 'Not started'}</span>
+        </span>
         <span class="subject-card-arrow" aria-hidden="true">→</span></a>`;
     }).join('')}</div></section>`).join('')}` : '<div class="card empty">No subjects are available yet.</div>'}</section>`;
   wireRetry();
   const filter = app.querySelector<HTMLSelectElement>('#source-filter');
   filter?.addEventListener('change', () => {
-    let visible = 0;
     for (const group of app.querySelectorAll<HTMLElement>('.source-group')) {
       group.hidden = filter.value !== 'all' && group.dataset.sourceId !== filter.value;
-      if (!group.hidden) visible += group.querySelectorAll('.subject-card').length;
     }
-    app.querySelector('#source-filter-count')!.textContent = `${visible} subject${visible === 1 ? '' : 's'} shown`;
   });
   filter?.dispatchEvent(new Event('change'));
 }
 
 function renderQuizSetup(subject: string, sourceId: string): void {
+  document.title = 'Set up your test · Brightside Quiz';
   app.innerHTML = `${pendingBanner()}<a class="back-link" href="${path('/')}">← Back to subjects</a>
-    <div class="page-heading"><div><div class="eyebrow">NEW PRACTICE</div><h1>Set up your practice</h1>
-    <p>Choose what to work on. You can move between questions before submitting.</p></div></div>
     <form id="test-setup" class="card setup-card">
-      <div class="setup-section"><div class="setup-step">01</div><div class="setup-fields">
-        <h2>Your practice</h2><p class="setup-context"><span>Source: <strong>${escapeHtml(contentSources[sourceId])}</strong></span>
-          <span>Subject: <strong>${escapeHtml(subject)}</strong></span></p>
-        <fieldset><legend>Topics</legend><div id="topic-options" class="chip-list"></div>
-          <p class="hint">Leave all unselected to include every topic.</p></fieldset>
-      </div></div>
-      <div class="setup-section"><div class="setup-step">02</div><div class="setup-fields">
-        <h2>Choose your questions</h2><div class="setup-row"><div><label for="source">Question set</label><select id="source" name="source">
-          <option value="all">All available questions</option>
-          <option value="still-missed">Questions still missed</option>
-          <option value="ever-missed">Questions missed before</option></select></div>
-        <div><label for="count">Number of questions</label><select id="count" name="count">
-          <option value="15">15</option><option value="30">30</option><option value="all">All available</option></select></div></div>
-      </div></div>
+      <div class="setup-header"><h1>Set up your test</h1>
+        <p class="setup-context"><span>Source: <strong>${escapeHtml(contentSources[sourceId])}</strong></span>
+          <span>Subject: <strong>${escapeHtml(subject)}</strong></span></p></div>
+      <div class="setup-section setup-fields">
+        <fieldset><legend>Topics</legend><div id="topic-select" class="topic-select">
+          <button type="button" id="topic-trigger" class="topic-trigger" aria-expanded="false" aria-controls="topic-menu" aria-describedby="topic-hint">
+            <span id="topic-summary">All topics</span><span class="select-caret" aria-hidden="true"></span></button>
+          <div id="topic-menu" class="topic-menu" hidden><div id="topic-options" class="topic-options"></div>
+            <button type="button" id="clear-topics" class="clear-topics">Clear selection</button></div>
+        </div><p id="topic-hint" class="hint">No selection includes all topics.</p></fieldset>
+      </div>
+      <div class="setup-section setup-fields">
+        <h2>Choose your questions</h2><div class="setup-row"><div><label for="question-set">Question set</label><select id="question-set" name="source" aria-describedby="question-set-help">
+          <option value="all">All</option>
+          <option value="new" selected>New questions only</option>
+          <option value="still-missed">Incorrect on latest attempt</option>
+          <option value="ever-missed">Incorrect at least once</option></select>
+          <p id="question-set-help" class="field-help">Questions not included in a previously submitted test.</p></div>
+        <div><label for="count">Maximum questions</label><select id="count" name="count">
+          <option value="10">10</option><option value="20" selected>20</option><option value="30">30</option><option value="all">All</option></select></div></div>
+      </div>
       <div class="setup-footer"><div id="pool-count" class="pool-count" aria-live="polite"></div>
-        <button type="submit" class="primary">Start practice <span aria-hidden="true">→</span></button></div>
+        <button type="submit" class="primary">Start</button></div>
     </form>`;
   wireRetry();
   const form = app.querySelector<HTMLFormElement>('#test-setup')!;
   const topicOptions = app.querySelector<HTMLElement>('#topic-options')!;
+  const topicSelect = app.querySelector<HTMLElement>('#topic-select')!;
+  const topicTrigger = app.querySelector<HTMLButtonElement>('#topic-trigger')!;
+  const topicMenu = app.querySelector<HTMLElement>('#topic-menu')!;
+  const topicSummary = app.querySelector<HTMLElement>('#topic-summary')!;
+  const clearTopics = app.querySelector<HTMLButtonElement>('#clear-topics')!;
+  const questionSet = app.querySelector<HTMLSelectElement>('#question-set')!;
+  const questionSetHelp = app.querySelector<HTMLElement>('#question-set-help')!;
+  const questionSetHelpText: Record<Attempt['source'], string> = {
+    all: 'Every question matching your topics.',
+    new: 'Questions not included in a previously submitted test.',
+    'still-missed': 'Questions marked incorrect or unanswered on their most recent attempt.',
+    'ever-missed': 'Questions ever marked incorrect or unanswered, even if answered correctly later.',
+  };
+  const topicInputs = () => [...topicOptions.querySelectorAll<HTMLInputElement>('input[name="topic"]')];
+  const closeTopicMenu = (restoreFocus = false) => {
+    if (topicMenu.hidden) return;
+    topicMenu.hidden = true;
+    topicTrigger.setAttribute('aria-expanded', 'false');
+    if (restoreFocus) topicTrigger.focus();
+  };
+  const openTopicMenu = (focus: 'none' | 'first' | 'last' = 'none') => {
+    topicMenu.hidden = false;
+    topicTrigger.setAttribute('aria-expanded', 'true');
+    if (focus !== 'none') {
+      const inputs = topicInputs();
+      inputs[focus === 'first' ? 0 : inputs.length - 1]?.focus();
+    }
+  };
+  const updateTopicSummary = () => {
+    const selected = topicInputs().filter((input) => input.checked);
+    topicSummary.textContent = selected.length === 0 ? 'All topics'
+      : selected.length === 1 ? selected[0].value : `${selected.length} topics selected`;
+    clearTopics.disabled = selected.length === 0;
+  };
   const updateTopics = () => {
     const topics = [...new Set(questions.filter((question) => question.subject === subject && question.sourceId === sourceId)
       .flatMap((question) => question.topics))].sort();
-    topicOptions.innerHTML = topics.map((topic) => `<label class="chip"><input type="checkbox" name="topic" value="${escapeHtml(topic)}" />${escapeHtml(topic)}</label>`).join('');
+    topicOptions.innerHTML = topics.map((topic) => `<label class="topic-option"><input type="checkbox" name="topic" value="${escapeHtml(topic)}" /><span>${escapeHtml(topic)}</span></label>`).join('');
+    updateTopicSummary();
     updateCount();
   };
   const selection = () => ({
@@ -360,13 +397,49 @@ function renderQuizSetup(subject: string, sourceId: string): void {
     const available = eligibleQuestions(questions, progress, subject, sourceId, selected.topics, selected.source).length;
     const requested = selected.count === 'all' ? available : Math.min(Number(selected.count), available);
     app.querySelector('#pool-count')!.textContent = available
-      ? `${requested} question${requested === 1 ? '' : 's'} in this practice · ${available} available`
+      ? `${requested} question${requested === 1 ? '' : 's'} in this test · ${available} available`
       : 'No questions match these choices. Try another topic or question set.';
     (form.querySelector('button[type="submit"]') as HTMLButtonElement).disabled = available === 0 || !!pending;
   };
-  form.querySelector('#source')?.addEventListener('change', updateCount);
+  questionSet.addEventListener('change', () => {
+    questionSetHelp.textContent = questionSetHelpText[questionSet.value as Attempt['source']];
+    updateCount();
+  });
   form.querySelector('#count')?.addEventListener('change', updateCount);
-  topicOptions.addEventListener('change', updateCount);
+  topicOptions.addEventListener('change', () => { updateTopicSummary(); updateCount(); });
+  topicTrigger.addEventListener('click', () => {
+    if (topicMenu.hidden) openTopicMenu(); else closeTopicMenu();
+  });
+  topicTrigger.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+      event.preventDefault();
+      openTopicMenu(event.key === 'ArrowDown' ? 'first' : 'last');
+    }
+  });
+  topicMenu.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      closeTopicMenu(true);
+      return;
+    }
+    if (!['ArrowDown', 'ArrowUp', 'Home', 'End'].includes(event.key)) return;
+    const inputs = topicInputs();
+    const current = inputs.indexOf(document.activeElement as HTMLInputElement);
+    if (current < 0) return;
+    event.preventDefault();
+    const next = event.key === 'Home' ? 0 : event.key === 'End' ? inputs.length - 1
+      : (current + (event.key === 'ArrowDown' ? 1 : -1) + inputs.length) % inputs.length;
+    inputs[next]?.focus();
+  });
+  clearTopics.addEventListener('click', () => {
+    for (const input of topicInputs()) input.checked = false;
+    updateTopicSummary();
+    updateCount();
+    topicInputs()[0]?.focus();
+  });
+  document.addEventListener('click', (event) => {
+    if (!topicSelect.contains(event.target as Node)) closeTopicMenu();
+  });
   form.addEventListener('submit', (event) => {
     event.preventDefault();
     const selected = selection();
@@ -378,6 +451,7 @@ function renderQuizSetup(subject: string, sourceId: string): void {
       startedAt: Date.now(), answers: {}, index: 0,
     };
     reviewAvailable = false;
+    window.history.pushState(null, '', path('/test/'));
     renderActiveQuestion();
   });
   updateTopics();
@@ -385,6 +459,7 @@ function renderQuizSetup(subject: string, sourceId: string): void {
 
 function renderActiveQuestion(): void {
   if (!active) return;
+  document.title = 'Test · Brightside Quiz';
   const question = active.questions[active.index];
   const multi = question.correctChoiceIds.length > 1;
   const selected = new Set(active.answers[question.id] ?? []);
@@ -595,7 +670,7 @@ async function renderPage(): Promise<void> {
   clearMessage();
   renderHeader();
   if (!profile || route() === '/profiles') return renderProfiles();
-  if (route() === '/quiz') {
+  if (route() === '/setup') {
     const params = new URLSearchParams(location.search);
     const subject = params.get('subject');
     const sourceId = params.get('sourceId');
@@ -605,11 +680,18 @@ async function renderPage(): Promise<void> {
     }
     return renderQuizSetup(subject, sourceId);
   }
+  if (route() === '/test') {
+    if (active) return renderActiveQuestion();
+    window.location.replace(path('/'));
+    return;
+  }
   if (route() === '/history') return renderHistory();
   if (route() === '/results') return renderResults();
   if (route() === '/progress') return renderProgress();
   return renderHome();
 }
+
+window.addEventListener('popstate', () => { void renderPage(); });
 
 async function start(): Promise<void> {
   if (!isConfigured) {
