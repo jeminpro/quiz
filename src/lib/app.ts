@@ -6,9 +6,9 @@ import {
   listProfiles, listProgress, observeUser, renameProfile, saveAttempt, signIn, signOutUser,
   toggleBookmark,
 } from './firebase';
-import { eligibleQuestions, formatDuration, gradeItems, selectQuestions } from './quiz';
+import { eligibleQuestions, formatDuration, gradeItems, isCorrect, selectQuestions } from './quiz';
 import { contentSources, groupSubjectsBySource } from './contentSources';
-import type { Attempt, PendingAttempt, Profile, Progress, Question } from './types';
+import type { AnswerFeedback, Attempt, PendingAttempt, Profile, Progress, Question } from './types';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const app = document.querySelector<HTMLElement>('#app')!;
@@ -26,8 +26,10 @@ let active: {
   sourceId: string;
   topics: string[];
   source: Attempt['source'];
+  feedback: AnswerFeedback;
   startedAt: number;
   answers: Record<string, string[]>;
+  checked: Record<string, true>;
   index: number;
 } | undefined;
 let reviewAvailable = false;
@@ -350,6 +352,15 @@ function renderQuizSetup(subject: string, sourceId: string): void {
         <div><label for="count">Maximum questions</label><select id="count" name="count">
           <option value="10">10</option><option value="20" selected>20</option><option value="30">30</option><option value="all">All</option></select></div></div>
       </div>
+      <div class="setup-section setup-fields">
+        <fieldset class="feedback-fieldset"><legend>When to see answers</legend>
+          <div class="feedback-choices">
+            <label class="feedback-choice"><input type="radio" name="feedback" value="end" checked />
+              <span><strong>At the end</strong><small>Answers stay hidden until you submit the practice.</small></span></label>
+            <label class="feedback-choice"><input type="radio" name="feedback" value="each" />
+              <span><strong>After each question</strong><small>Each answer is marked right or wrong when you check it, then locked.</small></span></label>
+          </div></fieldset>
+      </div>
       <div class="setup-footer"><div id="pool-count" class="pool-count" aria-live="polite"></div>
         <button type="submit" class="primary">Start</button></div>
     </form>`;
@@ -401,6 +412,7 @@ function renderQuizSetup(subject: string, sourceId: string): void {
     topics: [...form.querySelectorAll<HTMLInputElement>('input[name="topic"]:checked')].map((input) => input.value),
     source: (form.elements.namedItem('source') as HTMLSelectElement).value as Attempt['source'],
     count: (form.elements.namedItem('count') as HTMLSelectElement).value,
+    feedback: (new FormData(form).get('feedback') === 'each' ? 'each' : 'end') as AnswerFeedback,
   });
   const updateCount = () => {
     const selected = selection();
@@ -457,8 +469,8 @@ function renderQuizSetup(subject: string, sourceId: string): void {
     if (!pool.length) return;
     active = {
       questions: selectQuestions(pool, selected.count === 'all' ? 'all' : Number(selected.count)),
-      subject, sourceId, topics: selected.topics, source: selected.source,
-      startedAt: Date.now(), answers: {}, index: 0,
+      subject, sourceId, topics: selected.topics, source: selected.source, feedback: selected.feedback,
+      startedAt: Date.now(), answers: {}, checked: {}, index: 0,
     };
     reviewAvailable = false;
     window.history.pushState(null, '', path('/test/'));
@@ -472,9 +484,31 @@ function renderActiveQuestion(): void {
   document.title = 'Test · Quiz';
   const question = active.questions[active.index];
   const multi = question.correctChoiceIds.length > 1;
-  const selected = new Set(active.answers[question.id] ?? []);
-  const answered = active.questions.filter((item) => active!.answers[item.id]?.length).length;
+  const selectedIds = active.answers[question.id] ?? [];
+  const selected = new Set(selectedIds);
+  const revealed = active.feedback === 'each' && !!active.checked[question.id];
+  const correct = revealed && isCorrect(question, selectedIds);
+  const answered = active.feedback === 'each'
+    ? active.questions.filter((item) => active!.checked[item.id]).length
+    : active.questions.filter((item) => active!.answers[item.id]?.length).length;
   const percent = Math.round((active.index + 1) / active.questions.length * 100);
+  const last = active.index === active.questions.length - 1;
+  const choiceClass = (choiceId: string) => {
+    if (!revealed) return selected.has(choiceId) ? 'chosen' : '';
+    if (question.correctChoiceIds.includes(choiceId)) return 'correct';
+    return selected.has(choiceId) ? 'incorrect' : 'locked';
+  };
+  const choiceNotes = (choiceId: string) => {
+    if (!revealed) return '';
+    const notes = [
+      selected.has(choiceId) ? '<small>Your choice</small>' : '',
+      question.correctChoiceIds.includes(choiceId) ? '<small>Correct answer</small>' : '',
+    ].filter(Boolean).join('');
+    return notes;
+  };
+  const primary = revealed || active.feedback === 'end'
+    ? `<button type="button" class="primary" id="next">${last ? 'Review answers' : 'Next question →'}</button>`
+    : `<button type="button" class="primary" id="check" ${selectedIds.length ? '' : 'disabled'}>Check answer</button>`;
   app.innerHTML = `<div class="test-top"><div class="test-subject">${escapeHtml(active.subject.toUpperCase())}</div>
     <div class="test-source">${escapeHtml(contentSources[active.sourceId])}</div>
     <h2>Question ${active.index + 1} <span class="muted">of ${active.questions.length}</span></h2>
@@ -483,21 +517,35 @@ function renderActiveQuestion(): void {
     <section class="card question-card"><div class="question-meta">${question.topics.map(escapeHtml).join(' · ')}</div>
       <div class="question-stem prose">${markdown(question.stem)}</div>
       <fieldset class="answer-fieldset"><legend>${multi ? 'Select all answers that apply' : 'Choose one answer'}</legend>
-      <div class="choice-list">${question.choices.map((choice) => `<label class="choice ${selected.has(choice.id) ? 'chosen' : ''}">
-        <input type="${multi ? 'checkbox' : 'radio'}" name="answer" value="${escapeHtml(choice.id)}" ${selected.has(choice.id) ? 'checked' : ''} />
-        <span class="choice-key" aria-hidden="true">${escapeHtml(choice.id)}</span><span>${escapeHtml(choice.text)}</span></label>`).join('')}</div></fieldset></section>
+      <div class="choice-list">${question.choices.map((choice) => `<label class="choice ${choiceClass(choice.id)}">
+        <input type="${multi ? 'checkbox' : 'radio'}" name="answer" value="${escapeHtml(choice.id)}" ${selected.has(choice.id) ? 'checked' : ''} ${revealed ? 'disabled' : ''} />
+        <span class="choice-key" aria-hidden="true">${escapeHtml(choice.id)}</span><span class="choice-body"><span>${escapeHtml(choice.text)}</span>${choiceNotes(choice.id)}</span></label>`).join('')}</div></fieldset>
+      ${revealed ? `<div id="answer-verdict" class="answer-verdict" role="status"><span class="result-pill ${correct ? 'right' : 'wrong'}">${correct ? 'Correct' : 'Incorrect'}</span></div>` : ''}
+      ${revealed && question.explanation.trim() ? `<div class="explanation"><strong>Explanation</strong><div class="prose">${markdown(question.explanation)}</div></div>` : ''}</section>
     <div class="test-actions"><button type="button" class="secondary" id="previous" ${active.index === 0 ? 'disabled' : ''}>← Previous</button>
       ${reviewAvailable ? '<button type="button" class="text-button" id="return-to-review">Back to review</button>' : ''}
-      <button type="button" class="primary" id="next">${active.index === active.questions.length - 1 ? 'Review answers' : 'Next question →'}</button></div>`;
-  focusQuizView();
-  for (const input of app.querySelectorAll<HTMLInputElement>('input[name="answer"]')) {
-    input.addEventListener('change', () => {
-      active!.answers[question.id] = [...app.querySelectorAll<HTMLInputElement>('input[name="answer"]:checked')].map((item) => item.value);
-      for (const label of app.querySelectorAll<HTMLElement>('.choice')) label.classList.toggle('chosen', !!label.querySelector('input:checked'));
-    });
+      ${primary}</div>`;
+  focusQuizView(revealed ? app.querySelector<HTMLElement>('#answer-verdict') : null);
+  if (!revealed) {
+    for (const input of app.querySelectorAll<HTMLInputElement>('input[name="answer"]')) {
+      input.addEventListener('change', () => {
+        active!.answers[question.id] = [...app.querySelectorAll<HTMLInputElement>('input[name="answer"]:checked')].map((item) => item.value);
+        for (const label of app.querySelectorAll<HTMLElement>('.choice')) label.classList.toggle('chosen', !!label.querySelector('input:checked'));
+        const check = app.querySelector<HTMLButtonElement>('#check');
+        if (check) check.disabled = !active!.answers[question.id]?.length;
+      });
+    }
   }
   app.querySelector('#previous')?.addEventListener('click', () => { active!.index--; renderActiveQuestion(); });
   app.querySelector('#return-to-review')?.addEventListener('click', renderQuizReview);
+  app.querySelector('#check')?.addEventListener('click', () => {
+    if (!active || active.checked[question.id]) return;
+    const chosen = [...app.querySelectorAll<HTMLInputElement>('input[name="answer"]:checked')].map((item) => item.value);
+    if (!chosen.length) return;
+    active.answers[question.id] = chosen;
+    active.checked[question.id] = true;
+    renderActiveQuestion();
+  });
   app.querySelector('#next')?.addEventListener('click', async () => {
     if (!active) return;
     if (active.index < active.questions.length - 1) { active.index++; renderActiveQuestion(); return; }
@@ -505,27 +553,42 @@ function renderActiveQuestion(): void {
   });
 }
 
-function focusQuizView(): void {
+function focusQuizView(focus?: HTMLElement | null): void {
   window.scrollTo({ top: 0, behavior: 'auto' });
-  const heading = app.querySelector<HTMLElement>('h1, h2');
+  const heading = focus ?? app.querySelector<HTMLElement>('h1, h2');
   if (heading) { heading.tabIndex = -1; heading.focus({ preventScroll: true }); }
 }
 
 function renderQuizReview(): void {
   if (!active) return;
   reviewAvailable = true;
+  const immediate = active.feedback === 'each';
   const answered = active.questions.filter((item) => active!.answers[item.id]?.length).length;
   const unanswered = active.questions.length - answered;
+  const correctCount = active.questions.filter((item) => active!.checked[item.id] && isCorrect(item, active!.answers[item.id] ?? [])).length;
   app.innerHTML = `<div class="page-heading"><div><div class="eyebrow">READY TO FINISH</div>
-    <h1>Review your answers</h1><p>${answered} of ${active.questions.length} answered${unanswered ? ` · ${unanswered} unanswered` : ''}.</p></div></div>
-    <section class="card review-summary"><h2>Questions</h2><p>Select a question to change its answer.</p>
+    <h1>Review your answers</h1><p>${immediate
+      ? `${correctCount} of ${active.questions.length} correct.`
+      : `${answered} of ${active.questions.length} answered${unanswered ? ` · ${unanswered} unanswered` : ''}.`}</p></div></div>
+    <section class="card review-summary"><h2>Questions</h2><p>${immediate
+      ? 'Your answers are locked. Submit to save this practice.'
+      : 'Select a question to change its answer.'}</p>
       <div class="question-jump-list">${active.questions.map((item, index) => {
-        const selected = active!.answers[item.id] ?? [];
-        return `<button type="button" class="question-jump ${selected.length ? 'answered' : 'unanswered'}" data-index="${index}"
-          aria-label="Question ${index + 1}, ${selected.length ? 'answered' : 'unanswered'}">
-          <span>${index + 1}</span><small>${selected.length ? 'Answered' : 'Unanswered'}</small></button>`;
+        if (!immediate) {
+          const selected = active!.answers[item.id] ?? [];
+          return `<button type="button" class="question-jump ${selected.length ? 'answered' : 'unanswered'}" data-index="${index}"
+            aria-label="Question ${index + 1}, ${selected.length ? 'answered' : 'unanswered'}">
+            <span>${index + 1}</span><small>${selected.length ? 'Answered' : 'Unanswered'}</small></button>`;
+        }
+        const checked = !!active!.checked[item.id];
+        const correct = checked && isCorrect(item, active!.answers[item.id] ?? []);
+        const label = !checked ? 'Not checked' : correct ? 'Correct' : 'Incorrect';
+        const state = !checked ? 'unanswered' : correct ? 'correct' : 'incorrect';
+        return `<button type="button" class="question-jump ${state}" data-index="${index}"
+          aria-label="Question ${index + 1}, ${label}">
+          <span>${index + 1}</span><small>${label}</small></button>`;
       }).join('')}</div></section>
-    ${unanswered ? `<div class="notice warning" role="status">${unanswered} question${unanswered === 1 ? ' is' : 's are'} unanswered. You can still submit.</div>` : ''}
+    ${!immediate && unanswered ? `<div class="notice warning" role="status">${unanswered} question${unanswered === 1 ? ' is' : 's are'} unanswered. You can still submit.</div>` : ''}
     <div class="test-actions"><button type="button" class="secondary" id="back-to-question">← Back to questions</button>
       <button type="button" class="primary" id="submit-test">Submit practice</button></div>`;
   focusQuizView();
@@ -548,7 +611,7 @@ async function submitActiveTest(): Promise<void> {
   const completedAt = Date.now();
   const attempt: Attempt = {
     id: crypto.randomUUID(), profileId: profile.id, subject: active.subject, sourceId: active.sourceId, topics: active.topics,
-    source: active.source, startedAt: active.startedAt, completedAt,
+    source: active.source, feedback: active.feedback, startedAt: active.startedAt, completedAt,
     durationMs: completedAt - active.startedAt, total: items.length,
     correct: items.filter((item) => item.correct).length, status: 'saving',
   };

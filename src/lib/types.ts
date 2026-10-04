@@ -9,6 +9,7 @@ export interface Question {
   explanation: string;
   stem: string;
 }
+export type AnswerFeedback = 'end' | 'each';
 export interface Profile { id: string; name: string; createdAt: number }
 export interface Progress {
   questionId: string;
@@ -26,6 +27,7 @@ export interface Attempt {
   sourceId?: string;
   topics: string[];
   source: 'all' | 'new' | 'still-missed' | 'ever-missed';
+  feedback?: AnswerFeedback;
   startedAt: number;
   completedAt: number;
   durationMs: number;
