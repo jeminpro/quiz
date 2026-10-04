@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "2 × 3 × 5 = 30."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QV9.png)
+
 The factor bug shows the factors of 30 Which of the calculations below correctly shows 30 decomposed into prime factors?

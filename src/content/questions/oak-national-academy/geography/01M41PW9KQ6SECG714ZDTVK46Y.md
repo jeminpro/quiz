@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, D]
 explanation: "Sea and Beach are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KQ6SECG714ZDTVK46Y.png)
+
 Which two physical features are shown in this aerial photograph?

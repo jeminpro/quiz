@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, D]
 explanation: "Four hundred and seven and Three hundred and sixty are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FHB.png)
+
 Which two numbers are being added in the column addition?

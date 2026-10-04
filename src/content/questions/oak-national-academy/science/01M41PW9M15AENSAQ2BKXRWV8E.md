@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "The bottle with the least water in it will."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWV8E.png)
+
 Jacob fills bottles with different amounts of water. He blows over the top of each bottle to produce a musical sound. Which statement below do you agree with?

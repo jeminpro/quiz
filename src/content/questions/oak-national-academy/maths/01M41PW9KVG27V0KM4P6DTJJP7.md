@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, B, C, D, E]
 explanation: "0, 1, 2, 3 and 4 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJP7.png)
+
 Which numbers are less than 5?

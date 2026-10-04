@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Observational."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KNFQR32JV927V6VPHX.png)
+
 Complete the statement: The process of drawing helps to develop careful looking and accurate drawing skills.

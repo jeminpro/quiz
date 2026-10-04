@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Deep underground."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KPMDSXJ94Z2N2A8KC8.png)
+
 Water wells get the water from...

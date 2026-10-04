@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The steady heartbeat of the music."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WMW.png)
+
 The pulse in music is...

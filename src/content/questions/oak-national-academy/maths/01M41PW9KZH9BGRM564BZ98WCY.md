@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Subtract 43 from 180."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WCY.png)
+
 Jun measured the acute angle in order to find the missing angle a. Tick what his next steps could be.

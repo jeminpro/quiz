@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "25."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJK0C.png)
+
 If you collect the five-spot tokens to represent these 5 p coins, how many spots will there be?

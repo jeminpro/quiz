@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Shadows change size if an object is moved further away from a light source."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNKD.png)
+
 Which statement is true?

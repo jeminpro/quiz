@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "The number being shown is 56 and There are 5 tens and 6 ones are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62G7.png)
+
 Which of the following is true?

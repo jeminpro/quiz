@@ -30,4 +30,6 @@ choices:
 correctChoiceIds: [G]
 explanation: "1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QFR.png)
+
 What volume of water is in the jug?

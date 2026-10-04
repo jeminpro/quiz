@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [A, D]
 explanation: "In the arctic and polar climate zone and in the far north of Canada, Russia and are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY0N.png)
+
 Tundra biomes are found....

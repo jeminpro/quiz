@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "3 ones."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJXG.png)
+
 To show 13 on the Gattegno chart, how many ones would there be?

@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, C, E]
 explanation: "5, 4.3 and 40.1 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QMB.png)
+
 Select the three numbers that would make the statement correct.

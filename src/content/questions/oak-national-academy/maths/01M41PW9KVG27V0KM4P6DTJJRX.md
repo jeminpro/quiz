@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "6 can be partitioned into two odd parts."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJRX.png)
+
 True or false? 6 can be partitioned into two odd parts.

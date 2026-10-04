@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "A secondary source."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNF6.png)
+
 Where can we find information about the amounts of food we should eat?

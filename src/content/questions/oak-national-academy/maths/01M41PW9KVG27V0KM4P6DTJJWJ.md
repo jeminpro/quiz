@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJWJ.png)
+
 There are 10 beads altogether. How many are covered up? beads are covered up.

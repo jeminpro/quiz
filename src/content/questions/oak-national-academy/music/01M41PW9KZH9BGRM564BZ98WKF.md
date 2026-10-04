@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Durations."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WKF.png)
+
 Notes can have shorter or longer...

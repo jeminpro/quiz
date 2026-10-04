@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "4 is the subtrahend in this problem."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJV8.png)
+
 What is the subtrahend in this problem?

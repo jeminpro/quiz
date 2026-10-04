@@ -24,4 +24,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FCX.png)
+
 Three children ran round the track and wrote their distance as a fraction. Tick the person who won by running the furthest distance.

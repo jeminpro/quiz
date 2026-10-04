@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "5 × 8 − 8 and 3 × 8 + 8 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FAK.png)
+
 Which mixed operation equation can be used to calculate the missing multiple of 8?

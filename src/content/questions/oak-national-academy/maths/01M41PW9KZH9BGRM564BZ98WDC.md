@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "150°."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WDC.png)
+
 Which of these is the best estimate for the angle shown?

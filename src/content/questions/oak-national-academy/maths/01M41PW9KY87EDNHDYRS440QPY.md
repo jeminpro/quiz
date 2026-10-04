@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Partial products."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPY.png)
+
 The numbers highlighted in purple are known as:

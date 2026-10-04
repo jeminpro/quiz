@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "56 = 20 + 36."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62JG.png)
+
 Which equation will come next in the pattern?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "−28fi is the temperature being shown on this thermometer."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QP0.png)
+
 What is the temperature being shown on this thermometer?

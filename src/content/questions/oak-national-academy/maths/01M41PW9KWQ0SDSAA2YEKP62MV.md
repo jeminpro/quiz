@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The missing number can be any."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62MV.png)
+
 In this puzzle, the numbers are multiplied as shown in the middle. What can we say about the missing number?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "8."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJHW.png)
+
 Count the pencils. How many pencils are in the group?

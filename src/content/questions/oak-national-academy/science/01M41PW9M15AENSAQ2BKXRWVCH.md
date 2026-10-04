@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "They have different prey."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVCH.png)
+
 Compare these food chains. What is different about them?

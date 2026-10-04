@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "10 + 10 + 10 + 10 + 10 = 50."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62FH.png)
+
 Which equation is represented by the number shapes?

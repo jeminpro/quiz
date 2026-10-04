@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "7 > 6."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJP4.png)
+
 What could you say about these two sets of counters?

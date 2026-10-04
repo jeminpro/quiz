@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "A giraffe is heavier than a snail and A snail is lighter than a giraffe are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJNH.png)
+
 What can you say about the giraffe and snail?

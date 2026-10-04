@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "False."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KMYVVCSRRAH2W7QSW6.png)
+
 Tone is always achieved through changing the pressure.

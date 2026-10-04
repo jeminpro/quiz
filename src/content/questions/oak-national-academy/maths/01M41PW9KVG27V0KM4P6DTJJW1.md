@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "4. That is how many cubes are needed on the other side to make this equal."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJW1.png)
+
 How many cubes are needed on the other side to make this equal?

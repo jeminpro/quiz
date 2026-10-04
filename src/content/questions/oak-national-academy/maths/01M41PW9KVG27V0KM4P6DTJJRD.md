@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "1 is the smallest number of cubes that Andeep could move to make arrangement 'b'."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJRD.png)
+
 What is the smallest number of cubes that Andeep could move to make arrangement 'b'?

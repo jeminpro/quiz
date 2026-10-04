@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "15 and 16."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJN.png)
+
 You are counting up to 20. Which numbers come after 14 on these cards?

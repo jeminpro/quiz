@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "Envelope is too small for card and card is too big for envelope are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KPMDSXJ94Z2N2A8KF4.png)
+
 What is wrong with this envelope?

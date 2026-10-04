@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "B."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62RV.png)
+
 Which part of the clock is showing the minutes?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Pointing up, pointing down is the unit of repeat for this repeating pattern, working from left to right."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJR3.png)
+
 What is the unit of repeat for this repeating pattern, working from left to right?

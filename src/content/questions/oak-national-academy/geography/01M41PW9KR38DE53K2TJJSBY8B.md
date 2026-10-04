@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, B, C]
 explanation: "The food that we eat, The clothes we wear and The TV programmes that we watch are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY8B.png)
+
 Which of these are examples of international links?

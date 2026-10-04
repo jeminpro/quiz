@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "To create multiple prints from the."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KNFQR32JV927V6VPHP.png)
+
 Why might artists use a paper-cut technique?

@@ -24,4 +24,6 @@ choices:
 correctChoiceIds: [A, G]
 explanation: "2 and 1 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62RC.png)
+
 Which equations does this model represent?

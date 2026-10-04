@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Inclined plane."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVGB.png)
+
 Which simple machine is shown in the image to help cars to board the ferry?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "5 × 5."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QCV.png)
+
 What expression does this square array show?

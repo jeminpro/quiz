@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62TD.png)
+
 Each boat on The Wavy Rapids holds 5 people. There are 15 people wanting to ride. How many boats will be needed?

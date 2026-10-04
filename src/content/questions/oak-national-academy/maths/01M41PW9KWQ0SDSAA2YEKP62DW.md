@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The ladybird has made a turn."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62DW.png)
+
 True or false. The ladybird has made a turn.

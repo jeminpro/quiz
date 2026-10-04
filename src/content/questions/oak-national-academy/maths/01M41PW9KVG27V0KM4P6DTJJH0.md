@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The next number is 6."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJH0.png)
+
 Count forwards from 1. What will the next number in the count be?

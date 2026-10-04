@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62NM.png)
+
 2 dogs share 8 biscuits equally. How many biscuits do they each get?

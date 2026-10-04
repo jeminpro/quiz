@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Now, the plant is 12 cm tall."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJYS.png)
+
 What is the final part of the story? First my plant was 10 cm tall. Then it grew 2 cm taller.

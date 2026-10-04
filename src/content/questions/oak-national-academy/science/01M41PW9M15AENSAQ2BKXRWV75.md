@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Bulb."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWV75.png)
+
 Which of the following electrical components is shown?

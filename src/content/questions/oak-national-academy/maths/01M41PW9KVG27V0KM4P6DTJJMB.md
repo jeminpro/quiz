@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "34 is 24, so the number after 33 is.."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJMB.png)
+
 ________ is 24, so the number after 33 is ___..

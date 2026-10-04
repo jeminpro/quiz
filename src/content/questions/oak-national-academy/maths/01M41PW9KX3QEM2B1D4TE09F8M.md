@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, B, D]
 explanation: "40 + 30 = 70, 70 = 30 + 40 and 70 = 30 + 40 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F8M.png)
+
 Which equations are represented by the bar model?

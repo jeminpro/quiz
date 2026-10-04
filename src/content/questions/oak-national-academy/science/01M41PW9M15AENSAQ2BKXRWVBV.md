@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [B, F]
 explanation: "The caterpillar is food for the and The plant is food for the caterpillar are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVBV.png)
+
 Which of the following are true about the food chain below?

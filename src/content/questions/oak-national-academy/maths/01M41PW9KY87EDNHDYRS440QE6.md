@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, B, D, E]
 explanation: "3 × 500 = 1,500, 500 × 3 = 1,500, 5 × 300 = 1,500 and 300 × 5 = 1,500 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QE6.png)
+
 Tick the multiplication equations being shown by the array.

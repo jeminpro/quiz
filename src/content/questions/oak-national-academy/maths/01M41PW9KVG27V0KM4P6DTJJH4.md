@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The missing number is 5."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJH4.png)
+
 If we miss a number in our count, we can correct ourselves. Count forwards from 1. Which number is missing?

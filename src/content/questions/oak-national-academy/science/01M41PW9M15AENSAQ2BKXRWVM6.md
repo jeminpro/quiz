@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Beetle, ant, butterfly, fly."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVM6.png)
+
 What are the names of these common insects?

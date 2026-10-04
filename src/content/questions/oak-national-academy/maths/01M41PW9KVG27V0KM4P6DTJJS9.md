@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJS9.png)
+
 Alex wants to show 7 beetles. How many more does he need?

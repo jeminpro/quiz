@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Bright, shiny, red apple."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WE7.png)
+
 This is the rhythm for...

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "6 × 10 =."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62M0.png)
+
 There are six, 10 p coins. What multiplication equation can you write to find out the total value of the six coins?

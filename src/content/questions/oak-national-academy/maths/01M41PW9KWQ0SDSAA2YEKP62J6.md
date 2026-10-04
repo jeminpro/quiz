@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Partition 5 into 3 and 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62J6.png)
+
 How should 5 be partitioned to bridge 10?

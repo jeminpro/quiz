@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "300 ÷ 100 = 3 is the equation being represented on this Gattegno chart."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QF0.png)
+
 What is the equation being represented on this Gattegno chart?

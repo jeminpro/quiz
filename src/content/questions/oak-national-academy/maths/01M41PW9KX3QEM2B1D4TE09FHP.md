@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "One thousand two hundred and Twelve hundred are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FHP.png)
+
 The place value counters represent…

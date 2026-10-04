@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The shape Jacob made on the pinboard contains exactly two right angles."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WCP.png)
+
 True or false? The shape Jacob made on the pinboard contains exactly two right angles.

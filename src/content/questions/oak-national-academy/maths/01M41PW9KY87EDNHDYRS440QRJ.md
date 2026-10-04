@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "No. It is not true that these rectilinear shapes show the same area."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QRJ.png)
+
 True or false. These rectilinear shapes show the same area.

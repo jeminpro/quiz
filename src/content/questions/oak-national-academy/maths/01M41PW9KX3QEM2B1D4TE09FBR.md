@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Smaller part."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FBR.png)
+
 If a yellow counter is added to this set of counters, has the red part become a bigger or smaller part of the whole?

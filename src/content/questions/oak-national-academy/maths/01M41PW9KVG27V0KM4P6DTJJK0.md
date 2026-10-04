@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "10."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJK0.png)
+
 What number should be in this box?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "Mains water and clean water are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY46.png)
+
 What type of water comes out of household taps?

@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B, E]
 explanation: "B and e are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QQK.png)
+
 Which division expressions have an answer of 2 r 2?

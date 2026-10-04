@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QX4.png)
+
 If this is the whole, what fraction of the whole is each segment?

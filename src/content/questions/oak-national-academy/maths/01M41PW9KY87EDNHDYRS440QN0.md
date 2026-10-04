@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "0.3 + 0.1 = 0.4 and 30 10 40 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QN0.png)
+
 Here is part of a number line. Which equation matches the representation?

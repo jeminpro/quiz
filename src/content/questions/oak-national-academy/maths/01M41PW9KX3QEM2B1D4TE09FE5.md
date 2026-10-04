@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FE5.png)
+
 What fraction is represented on the number line?

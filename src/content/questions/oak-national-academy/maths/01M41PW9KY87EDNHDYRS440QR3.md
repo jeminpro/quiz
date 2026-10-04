@@ -24,4 +24,6 @@ choices:
 correctChoiceIds: [B, C, E]
 explanation: "The two shapes have different areas, If two more half-squares were added and If a square unit was added to b, the are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QR3.png)
+
 Tick all of the statements that are true.

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "8. That is how many green bottles are there on the wall."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJ0.png)
+
 How many green bottles are there on the wall?

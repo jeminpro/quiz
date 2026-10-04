@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The blank should say 6."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62GW.png)
+
 Complete the sentence. One more than 5 is ___

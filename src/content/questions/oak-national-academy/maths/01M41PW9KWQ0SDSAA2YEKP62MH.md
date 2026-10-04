@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The blank should say half of."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62MH.png)
+
 Select the correct missing word or phrase. 5 is __________ 10

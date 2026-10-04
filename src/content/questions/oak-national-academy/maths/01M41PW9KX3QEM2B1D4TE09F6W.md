@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "I cannot be certain."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F6W.png)
+
 Look at these containers. Which has the greatest capacity?

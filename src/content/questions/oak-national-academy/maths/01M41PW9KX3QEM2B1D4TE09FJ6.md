@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "1,500 ml. That is how much liquid is in the container."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FJ6.png)
+
 How much liquid is in the container?

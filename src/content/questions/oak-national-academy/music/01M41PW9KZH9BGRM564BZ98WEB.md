@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Ripe sweet yellow melon."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WEB.png)
+
 Which fruit phrase does this rhythm show?

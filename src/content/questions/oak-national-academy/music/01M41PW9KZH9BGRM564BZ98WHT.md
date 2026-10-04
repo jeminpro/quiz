@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Do."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WHT.png)
+
 Which note has a lower pitch?

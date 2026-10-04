@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "A and C have the same number of."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJKB.png)
+
 Which comparative sentence about the blocks is false?

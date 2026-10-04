@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "A living thing is something that is."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN8S.png)
+
 What is a living thing?

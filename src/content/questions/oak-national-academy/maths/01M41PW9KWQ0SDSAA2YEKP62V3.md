@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Aisha."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62V3.png)
+
 Who has used a standard unit of measure to find the height of the astronaut?

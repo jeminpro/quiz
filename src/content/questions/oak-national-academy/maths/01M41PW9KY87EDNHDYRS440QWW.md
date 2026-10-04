@@ -20,4 +20,6 @@ choices:
 correctChoiceIds: [A, C, F]
 explanation: "30 ÷ 5, 1 and 1 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QWW.png)
+
 Tick the expressions that represent the bar model.

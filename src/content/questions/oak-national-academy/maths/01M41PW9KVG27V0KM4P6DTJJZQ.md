@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZQ.png)
+
 A chocolate costs 4 p and a lolly costs 5 p. Jacob has this set of one-pennies. Can he afford to buy both items?

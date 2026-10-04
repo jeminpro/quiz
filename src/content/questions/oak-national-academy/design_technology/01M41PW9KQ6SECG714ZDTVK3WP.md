@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "A loop toggle."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KQ6SECG714ZDTVK3WP.png)
+
 What type of fastener is this?

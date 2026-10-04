@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "3. That is how many more fingers does Sofia need to show."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJPP.png)
+
 How many more fingers does Sofia need to show?

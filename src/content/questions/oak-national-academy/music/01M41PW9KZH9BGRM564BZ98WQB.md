@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "So - mi - so - do."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WQB.png)
+
 Choose the correct solfège for this pattern:

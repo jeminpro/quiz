@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, D]
 explanation: "22 and 36 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FHC.png)
+
 Which two addends would make this column addition correct?

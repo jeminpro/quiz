@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Buzzer."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWV74.png)
+
 Which of the following electrical components is shown?

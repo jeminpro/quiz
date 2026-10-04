@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [A, E]
 explanation: "Izzy’s bottle has a smaller capacity and The capacity of Laura’s bottle > are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62VW.png)
+
 Now, Izzy and Laura are comparing the capacity of their bottles. Which statements are true?

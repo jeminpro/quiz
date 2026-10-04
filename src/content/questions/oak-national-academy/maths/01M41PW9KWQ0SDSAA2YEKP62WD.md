@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "8 + 3 + 1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62WD.png)
+
 Alex has these 3 number cards. What is the most sensible order to add them to find the sum?

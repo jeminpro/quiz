@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "There are 4 tens."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZA.png)
+
 True or false: There are 4 tens.

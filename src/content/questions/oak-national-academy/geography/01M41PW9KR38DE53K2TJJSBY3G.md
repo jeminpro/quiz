@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Village."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY3G.png)
+
 What type of settlement was Cramlington in the 1950s?

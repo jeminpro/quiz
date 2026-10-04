@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "The hundreds digit is incorrect."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FGZ.png)
+
 Look carefully at Alex’s column addition. Which of these statements about the sum is true?

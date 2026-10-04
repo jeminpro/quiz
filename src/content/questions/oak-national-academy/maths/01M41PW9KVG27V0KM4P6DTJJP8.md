@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Something that is complete, it is all."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJP8.png)
+
 What does a 'whole' mean?

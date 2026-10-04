@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "When you reffect a rectangle that has a side that touches the mirror line, it will create a larger rectangle."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QJG.png)
+
 True or false. When you reffect a rectangle that has a side that touches the mirror line, it will create a larger rectangle.

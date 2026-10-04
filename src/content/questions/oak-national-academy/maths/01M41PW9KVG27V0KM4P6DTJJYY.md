@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Object."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJYY.png)
+
 Choose the best heading for this part of the table.

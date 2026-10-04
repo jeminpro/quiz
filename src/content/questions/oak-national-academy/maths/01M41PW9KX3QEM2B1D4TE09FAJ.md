@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B, D]
 explanation: "32 and 48 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FAJ.png)
+
 40 is a multiple of 8. Which multiples of 8 are adjacent to 40?

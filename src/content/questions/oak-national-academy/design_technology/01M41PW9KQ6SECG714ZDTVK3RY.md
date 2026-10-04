@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Milk on the moo-ve! is the slogan for this brand."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KQ6SECG714ZDTVK3RY.png)
+
 What is the slogan for this brand?

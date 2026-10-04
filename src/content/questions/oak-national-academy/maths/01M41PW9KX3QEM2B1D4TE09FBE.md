@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "It is made up of 4 unequal parts."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FBE.png)
+
 This square has been split into four parts.

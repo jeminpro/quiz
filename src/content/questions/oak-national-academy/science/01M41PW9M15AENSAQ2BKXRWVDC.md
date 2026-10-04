@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The solid that was dissolved in the."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVDC.png)
+
 When the liquid part of a solution evaporates, what is left behind?

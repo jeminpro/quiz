@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The blank should say wider and shorter."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62NX.png)
+
 Complete the statement. Cylinder a is ______ than cylinder b.

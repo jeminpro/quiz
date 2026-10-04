@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Guide."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KPMDSXJ94Z2N2A8KEN.png)
+
 What part of the slider mechanism keeps the slider in place?

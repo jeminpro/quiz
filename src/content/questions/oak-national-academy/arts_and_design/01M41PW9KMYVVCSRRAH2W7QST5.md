@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "Going in circles and jumping up and down are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KMYVVCSRRAH2W7QST5.png)
+
 Which word best describes the action used to make these marks?

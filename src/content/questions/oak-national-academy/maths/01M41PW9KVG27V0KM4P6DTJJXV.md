@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Giraffe."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJXV.png)
+
 Which animal is taller?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "6 + 1 = 7."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJWQ.png)
+
 The picture shows 6 pencils and one more. Which equation matches the picture?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The blank should say less."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QFY.png)
+
 Using the number line to compare the size of the numbers, complete the sentence using 3 2 ‘greater’ or ‘less’: is __________ than 1

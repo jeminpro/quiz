@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B, E]
 explanation: "The leaf is the shortest object and The feather is the longest object are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZ1.png)
+
 Look carefully at the table. Which sentences are correct?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Scumbling."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KMYVVCSRRAH2W7QSXX.png)
+
 Which technique has the artist used for the shrubs?

@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62F7.png)
+
 Is the hour hand showing half past 11?

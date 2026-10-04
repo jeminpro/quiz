@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "9 > 7."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJP6.png)
+
 Which number is greater? 7 or 9?

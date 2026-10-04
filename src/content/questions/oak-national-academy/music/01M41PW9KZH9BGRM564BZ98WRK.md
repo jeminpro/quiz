@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Mostly leaps."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WRK.png)
+
 Does this melody use mostly steps or mostly leaps?

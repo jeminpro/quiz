@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "5 x 3 x 4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QTS.png)
+
 Select the missing equation?

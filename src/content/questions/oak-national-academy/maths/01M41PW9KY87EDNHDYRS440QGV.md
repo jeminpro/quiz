@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Eighths."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QGV.png)
+
 Aisha represents two and one-eighth with number rods. Which unit does she need to be thinking about?

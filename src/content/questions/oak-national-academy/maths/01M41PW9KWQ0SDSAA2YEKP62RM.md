@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "5 and 5."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62RM.png)
+
 Each missing part on this bar model represents one-half of the whole number of pencils. What numbers are missing?

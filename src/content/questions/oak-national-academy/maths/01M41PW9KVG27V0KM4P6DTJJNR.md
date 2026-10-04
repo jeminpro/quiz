@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "She missed out a number."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJNR.png)
+
 What mistake has Aisha made when counting the cakes?

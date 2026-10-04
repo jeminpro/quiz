@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The blank should say five."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QWQ.png)
+
 One-quarter of 20 is equal to ___

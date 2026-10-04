@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [A, E]
 explanation: "There are 10 apples. 3 of them are red and There are 10 apples. 7 of them are are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJTW.png)
+
 Which story could be represented by this bar model?

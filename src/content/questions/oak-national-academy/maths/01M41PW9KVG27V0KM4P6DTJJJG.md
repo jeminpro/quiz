@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "15. That is how many beads are there in the first row."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJG.png)
+
 How many beads are there in the first row?

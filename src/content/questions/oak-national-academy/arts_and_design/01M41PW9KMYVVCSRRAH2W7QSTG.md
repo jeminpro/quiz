@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Watercolour paint is what we call this type of paint:."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KMYVVCSRRAH2W7QSTG.png)
+
 What do we call this type of paint:

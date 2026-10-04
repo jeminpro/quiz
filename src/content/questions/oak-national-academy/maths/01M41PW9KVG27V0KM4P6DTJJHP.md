@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Six."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJHP.png)
+
 Count the apples. Start your count where the finger is pointing. What is the number word you use to tag the last apple?

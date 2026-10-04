@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZT.png)
+
 Jacob wants to represent these two spot tokens with 2 p coins. How many coins will he need?

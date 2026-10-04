@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "24 cm."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QRV.png)
+
 The green ribbon is 12 cm long. How long is the white ribbon?

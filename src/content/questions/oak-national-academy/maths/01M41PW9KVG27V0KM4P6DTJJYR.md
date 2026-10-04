@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "9 cm. That is how long is the pen."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJYR.png)
+
 How long is the pen?

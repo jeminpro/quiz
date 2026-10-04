@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Thirteen."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJR.png)
+
 What would be the next number if we count on one more here?

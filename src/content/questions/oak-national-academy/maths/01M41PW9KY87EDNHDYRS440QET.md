@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "12 × 100 = 1,200."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QET.png)
+
 Which of the following equations is represented by the place value counters and the arrow in the image?

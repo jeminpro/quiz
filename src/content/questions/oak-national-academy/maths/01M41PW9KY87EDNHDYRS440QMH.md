@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The blank should say 16 and 0.1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QMH.png)
+
 Fill in the missing numbers in this equation that represents this bar model. 1.6 = ___ × ___

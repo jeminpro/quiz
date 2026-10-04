@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "11 and 13 and 12 and 12 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F8N.png)
+
 Which pairs of addends could complete the bar model?

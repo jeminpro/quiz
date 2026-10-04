@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Yes."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F5B.png)
+
 Looking at the graph that Andeep drew, did all children kick the ball further than 30 m?

@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The blank should say The 'refiected' shape is not the same."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QJF.png)
+
 ________ correct answer

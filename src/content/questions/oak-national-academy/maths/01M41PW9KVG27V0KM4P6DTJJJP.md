@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "19 and 17."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJP.png)
+
 You are counting back from 20 to zero. Which numbers come before and after 18?

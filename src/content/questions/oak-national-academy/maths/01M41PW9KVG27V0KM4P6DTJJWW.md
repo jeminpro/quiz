@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A, B]
 explanation: "2 and 8 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJWW.png)
+
 Which of these numbers are even numbers?

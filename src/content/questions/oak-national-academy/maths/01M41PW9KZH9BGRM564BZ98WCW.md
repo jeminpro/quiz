@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "55°."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WCW.png)
+
 Read the protractor scale to measure the angle. °

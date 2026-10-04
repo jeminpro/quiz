@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The blank should say 2 metres tall."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62VB.png)
+
 The van is __________.

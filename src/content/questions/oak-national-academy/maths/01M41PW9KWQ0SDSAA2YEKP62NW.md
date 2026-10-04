@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Cylinder a is shorter than cylinder c."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62NW.png)
+
 Which sentence is correct?

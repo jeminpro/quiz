@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No. It is not true that one-quarter of the birds are in each nest. The whole group of birds has been divided into 4 equal parts."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62RG.png)
+
 True or False? One-quarter of the birds are in each nest. The whole group of birds has been divided into 4 equal parts.

@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "C."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QJ3.png)
+
 Izzy created shapes using trapeziums. Which shape does not have a line of symmetry?

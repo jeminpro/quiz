@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The blank should say 50."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62S9.png)
+
 10 x 10 = 100, so 10 x 5 = ___

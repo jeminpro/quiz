@@ -12,4 +12,12 @@ choices:
 correctChoiceIds: [A]
 explanation: "Picture 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPQ-1.png)
+
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPQ-2.png)
+
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPQ-3.png)
+
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPQ-4.png)
+
 Select the correct short multiplication method for this representation.

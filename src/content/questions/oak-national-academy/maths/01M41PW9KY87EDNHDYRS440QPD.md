@@ -24,4 +24,6 @@ choices:
 correctChoiceIds: [A, F, H]
 explanation: "The temperature on Tuesday was 0fi, Thursday is warmer than Wednesday and temperatures on Wednesday and are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPD.png)
+
 Tick all the statements that are true.

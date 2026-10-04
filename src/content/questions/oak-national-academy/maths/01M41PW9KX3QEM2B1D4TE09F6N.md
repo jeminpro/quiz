@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No. It is not true that the volume of liquid in this jug is 120 ml."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F6N.png)
+
 True or false? The volume of liquid in this jug is 120 ml?

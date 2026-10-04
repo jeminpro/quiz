@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The blank should say Skip count in 5s."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62ND.png)
+
 ________ correct answer

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Add 3 tens and 4 tens."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62JE.png)
+
 What could we do to help solve this equation? 32 + 40 =

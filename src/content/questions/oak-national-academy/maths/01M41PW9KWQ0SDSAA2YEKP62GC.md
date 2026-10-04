@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "40 is the previous multiple of 10."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62GC.png)
+
 What is the previous multiple of 10?

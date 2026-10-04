@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "280."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPG.png)
+
 Select the correct number to complete the estimation.

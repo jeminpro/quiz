@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [C, H]
 explanation: "4 and 0.8 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QXS.png)
+
 How much liquid is in the jug as a fraction and decimal of a litre?

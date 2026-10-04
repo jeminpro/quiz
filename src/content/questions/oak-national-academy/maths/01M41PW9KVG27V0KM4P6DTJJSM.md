@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "7 and 8."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJSM.png)
+
 Which numbers are in the wrong place?

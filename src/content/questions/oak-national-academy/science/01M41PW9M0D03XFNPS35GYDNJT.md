@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Alex can plan an enquiry and test."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNJT.png)
+
 How can Alex find out which sunglasses will provide the best protection from UV light?

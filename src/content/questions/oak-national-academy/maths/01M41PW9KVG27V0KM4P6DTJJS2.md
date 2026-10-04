@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "The whole is 7 and the missing part is 1 and The whole is 9 and the missing part is are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJS2.png)
+
 What could the missing whole and part be? Which of these are correct?

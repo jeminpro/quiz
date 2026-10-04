@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "415 − 230 = and 230 + ___ = 415 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F8V.png)
+
 How could you calculate the missing part in this bar model?

@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No. It is not true that this clock shows quarter to 12."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62S5.png)
+
 True or false? This clock shows quarter to 12

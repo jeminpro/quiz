@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Ta-mi is what we call this rhythm."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WK7.png)
+
 What do we call this rhythm?

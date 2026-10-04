@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The blank should say one-third."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62RK.png)
+
 __________of the cakes have cherries.

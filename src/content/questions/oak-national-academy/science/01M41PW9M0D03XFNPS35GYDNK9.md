@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The distance of the object from the."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNK9.png)
+
 The size of a shadow changes depending on...

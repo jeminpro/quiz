@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The length of both lines are the same."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WD0.png)
+
 What do these lines represent on two sides of this polygon?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The candles."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJHF.png)
+
 Which group has more objects than the cups but fewer objects than the cakes?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Fruit growing on trees."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KQ6SECG714ZDTVK42B.png)
+
 Which sign of summer is this?

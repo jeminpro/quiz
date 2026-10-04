@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The blank should say 4 × 4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QCW.png)
+
 ________ correct answer

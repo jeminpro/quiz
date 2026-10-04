@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62EC.png)
+
 Is this clock showing half past 10?

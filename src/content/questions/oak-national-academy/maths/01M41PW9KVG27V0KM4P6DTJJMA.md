@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "37."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJMA.png)
+
 Which of these numbers is between 30 and 40 on the number track?

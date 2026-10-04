@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, D]
 explanation: "Half of 10 is equal to 5 and Half of 4 is equal to 2 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62N7.png)
+
 Which facts will help you to find half of 14 by partitioning the parts?

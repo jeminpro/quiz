@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No. It is not true that , one large triangle is the same size as one medium triangle and one small triangle."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJR8.png)
+
 True or false, one large triangle is the same size as one medium triangle and one small triangle.

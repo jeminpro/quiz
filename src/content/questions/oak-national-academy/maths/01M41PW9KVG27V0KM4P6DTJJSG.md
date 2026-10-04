@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "7 is the missing whole."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJSG.png)
+
 What is the missing whole?

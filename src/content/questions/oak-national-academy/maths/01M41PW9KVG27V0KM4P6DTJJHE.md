@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No. It is not true that there are fewer green hats than orange hats."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJHE.png)
+
 True or false: there are fewer green hats than orange hats.

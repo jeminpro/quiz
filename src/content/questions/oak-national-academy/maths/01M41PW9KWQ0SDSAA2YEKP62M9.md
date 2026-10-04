@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "60 p."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62M9.png)
+
 Laura has found some 10p coins. What is the total amount?

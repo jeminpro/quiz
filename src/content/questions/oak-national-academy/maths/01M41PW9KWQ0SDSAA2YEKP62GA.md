@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, D]
 explanation: "34 and 22 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62GA.png)
+
 Jun has these Base 10 blocks. Which of these numbers could he make?

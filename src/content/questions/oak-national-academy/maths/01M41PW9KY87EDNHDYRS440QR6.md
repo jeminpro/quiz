@@ -20,4 +20,6 @@ choices:
 correctChoiceIds: [A, F]
 explanation: "The area of a = the area of b and The two shapes have exactly the same are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QR6.png)
+
 Tick all the statements that are true.

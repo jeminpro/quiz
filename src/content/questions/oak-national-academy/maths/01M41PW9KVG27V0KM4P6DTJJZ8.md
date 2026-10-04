@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "There are 5 twos. There are 10."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZ8.png)
+
 Which of the following describes the groups shown in the picture?

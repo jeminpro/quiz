@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No. It is not true that , there are 6 twos."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZ7.png)
+
 True or false, there are 6 twos.

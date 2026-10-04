@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "3 groups of 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62M7.png)
+
 2, 3 times is the same as saying…

@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "First, there were 2 children on the mat."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJTD.png)
+
 Which story matches the picture?

@@ -20,4 +20,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "Being evacuated from your home."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY7V.png)
+
 Which of these is not a pull factor for migration?

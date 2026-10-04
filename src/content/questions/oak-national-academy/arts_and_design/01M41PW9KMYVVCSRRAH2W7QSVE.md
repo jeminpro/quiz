@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Blue and yellow."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KMYVVCSRRAH2W7QSVE.png)
+
 Green is made by mixing together.

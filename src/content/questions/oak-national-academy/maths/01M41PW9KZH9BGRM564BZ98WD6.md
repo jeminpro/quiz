@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The blank should say three-quarter."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WD6.png)
+
 Look carefully at the image of the wheel and the arrow. Complete the sentence. This shows a __________ turn.

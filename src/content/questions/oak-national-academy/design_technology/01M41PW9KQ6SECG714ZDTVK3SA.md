@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Lazy-tong."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KQ6SECG714ZDTVK3SA.png)
+
 What type of linkage is this?

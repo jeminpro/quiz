@@ -164,6 +164,35 @@ export function findTickPoints(operatorList) {
   return ticks;
 }
 
+export function findContentImages(operatorList) {
+  const { OPS } = pdfjs;
+  const images = [];
+  let matrix = [1, 0, 0, 1, 0, 0];
+  const stack = [];
+  for (let index = 0; index < operatorList.fnArray.length; index += 1) {
+    const fn = operatorList.fnArray[index];
+    const args = operatorList.argsArray[index];
+    if (fn === OPS.save) stack.push(matrix);
+    else if (fn === OPS.restore) matrix = stack.pop() ?? matrix;
+    else if (fn === OPS.transform) matrix = multiplyMatrix(matrix, args);
+    else if (fn === OPS.paintImageXObject || fn === OPS.paintInlineImageXObject) {
+      const [x0, y0] = applyMatrix(matrix, 0, 0);
+      const [x1, y1] = applyMatrix(matrix, 1, 1);
+      const width = Math.abs(x1 - x0);
+      const height = Math.abs(y1 - y0);
+      if (width < 40 || height < 30) continue;
+      images.push({
+        name: args[0],
+        x0: Math.min(x0, x1),
+        y0: Math.min(y0, y1),
+        x1: Math.max(x0, x1),
+        y1: Math.max(y0, y1),
+      });
+    }
+  }
+  return images;
+}
+
 function isNoiseLine(text) {
   return /exit quiz|oak national academy|open government licence|licensed on the|produced in partnership|terms & conditions|scratch is a project|scratchjr is a project|cc by|available for free|https?:|scratch\.org|image \d|foundation under|project of the|©/i.test(text);
 }
@@ -329,6 +358,8 @@ export function questionsFromLines(lines, ticks) {
       stem,
       choices,
       correctChoiceIds: correctIndexes.sort((a, b) => a - b).map((choiceIndex) => CHOICE_IDS[choiceIndex]),
+      top,
+      bottom,
     });
   }
   return { questions, skipped };
@@ -368,7 +399,7 @@ async function collectPdfs() {
   return files;
 }
 
-function locateQuiz(file) {
+export function locateQuiz(file) {
   const parts = path.relative(SOURCE_ROOT, file).split(path.sep);
   if (parts.length < 4) return null;
   const [subjectKey, year, unit] = parts;

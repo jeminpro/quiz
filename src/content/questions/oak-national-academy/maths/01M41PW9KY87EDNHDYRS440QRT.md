@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "3 × 7 = and 7 × 3 = are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QRT.png)
+
 The black ribbon is 7 cm long. Which calculation would you need to use to calculate the length of the white ribbon?

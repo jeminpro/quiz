@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "40 × 10 = 400."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QEA.png)
+
 What’s the multiplication being represented on this Gattegno chart?

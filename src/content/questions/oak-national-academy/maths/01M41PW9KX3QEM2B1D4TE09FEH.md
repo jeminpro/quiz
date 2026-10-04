@@ -20,4 +20,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "10."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FEH.png)
+
 3 What fraction can I substitute for to be able to find the answer?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "B."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJST.png)
+
 Which letter shows where 6 would be on this number line?

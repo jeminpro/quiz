@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "5 is the missing part on this number line."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJSK.png)
+
 What is the missing part on this number line?

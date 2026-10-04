@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "15. That is how many minutes are there until the next hour."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62S2.png)
+
 How many minutes are there until the next hour?

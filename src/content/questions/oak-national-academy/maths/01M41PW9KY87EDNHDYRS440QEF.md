@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "They become one tenth times the size."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QEF.png)
+
 What happens to the value of digits as they move right, down the place value columns as shown in the image.

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "14, 12, 10, 8, 6, 4, 2, 0."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZ9.png)
+
 Jacob counts the wheels in twos and Sam counts backwards to check. Which of the following will Sam say to check Jacob is correct?

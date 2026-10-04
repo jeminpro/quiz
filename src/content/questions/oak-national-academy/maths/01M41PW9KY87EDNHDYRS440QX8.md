@@ -20,4 +20,6 @@ choices:
 correctChoiceIds: [C, D]
 explanation: "Close to zero and Between 0 and are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QX8.png)
+
 2 How would you describe the position of on this number line?

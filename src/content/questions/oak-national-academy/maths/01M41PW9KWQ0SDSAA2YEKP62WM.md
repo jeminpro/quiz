@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "7 is the missing addend in the bar model."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62WM.png)
+
 What is the missing addend in the bar model?

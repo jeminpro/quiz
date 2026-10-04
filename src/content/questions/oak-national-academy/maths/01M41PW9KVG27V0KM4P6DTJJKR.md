@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "40 and 50."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJKR.png)
+
 Which numbers are missing from the number track?

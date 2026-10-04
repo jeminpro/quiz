@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "The bird is on a branch and The fish is inside the bird's beak are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KQ6SECG714ZDTVK402.png)
+
 Which sentences use locational language correctly?

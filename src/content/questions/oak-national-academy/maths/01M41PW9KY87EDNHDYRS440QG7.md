@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [D, E]
 explanation: "8 and 9 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QG7.png)
+
 Andeep has spilt his drink on his homework. What could the missing digit be?

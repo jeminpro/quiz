@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "32 ÷ 6 = 5 r 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QKR.png)
+
 Which equation does this number line represent?

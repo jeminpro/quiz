@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C, D]
 explanation: "The blank should say The stone is the heaviest object, The toy car is heavier than the block and The stick is the lightest object."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62VP.png)
+
 ________ correct answers

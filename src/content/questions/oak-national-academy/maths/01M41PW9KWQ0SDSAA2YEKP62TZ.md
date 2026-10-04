@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Yes, as long as they are all identical."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62TZ.png)
+
 Jun asked Aisha this question. What is the answer to the question?

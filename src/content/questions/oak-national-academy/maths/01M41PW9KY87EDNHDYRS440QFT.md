@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "B."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QFT.png)
+
 Which of these is an accurate estimation for the position of one and one-fifth?

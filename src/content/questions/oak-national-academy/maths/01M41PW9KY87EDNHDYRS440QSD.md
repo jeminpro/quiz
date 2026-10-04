@@ -20,4 +20,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QSD.png)
+
 Jacob had £250 when he opened his bank account. Now he has one tenth times his original amount. Which fraction is missing from the arrow in the table?

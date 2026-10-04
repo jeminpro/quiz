@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, C, D]
 explanation: "(0,0), (4,2) and (−2,−3) are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPC.png)
+
 When joined together, the four crosses form a rectangle. Tick all of the coordinates that would be found inside the rectangle.

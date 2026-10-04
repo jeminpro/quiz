@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "63."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62GJ.png)
+
 If we combine the parts, what will the whole amount be? (Note, each bundle of sticks is a group of 10)

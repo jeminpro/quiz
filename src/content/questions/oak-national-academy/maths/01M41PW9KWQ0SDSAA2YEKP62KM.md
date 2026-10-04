@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "3 + 3 + 3 + 3 + 3 + 3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62KM.png)
+
 Which is the correct expression for the groups of milkshakes shown here?

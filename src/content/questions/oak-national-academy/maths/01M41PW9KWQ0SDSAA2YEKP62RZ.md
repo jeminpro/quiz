@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "B."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62RZ.png)
+
 Which of the letters is exactly halfway between 1 and 2 on the number line?

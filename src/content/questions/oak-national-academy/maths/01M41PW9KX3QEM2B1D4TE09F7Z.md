@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "Both triangles have one right angle and Both triangles have two sides of equal are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F7Z.png)
+
 Aisha cuts this square into two triangles using one diagonal line. Which of these statements is true?

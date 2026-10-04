@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "130 ÷ 10 = 13."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QEH.png)
+
 What equation is being represented by the place value counters shown here?

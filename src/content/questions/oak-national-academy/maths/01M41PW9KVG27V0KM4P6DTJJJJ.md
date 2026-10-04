@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, B, C]
 explanation: "13, 14, 15, 14, 15, 16 and 15, 16, 17 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJJ.png)
+
 If one of three counting cards is 15, what might the cards be?

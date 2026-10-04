@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "How high or low a note is."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WE8.png)
+
 What is pitch?

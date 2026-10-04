@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "27 × 3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPE.png)
+
 Which multiplication is represented by this grid model?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "11 cm is the length of the missing side."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QRM.png)
+
 What is the length of the missing side?

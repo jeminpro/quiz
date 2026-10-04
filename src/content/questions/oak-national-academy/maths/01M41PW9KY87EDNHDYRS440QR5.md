@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [A, B, E]
 explanation: "A has a greater area than b, b has a smaller area than a and The size of the square units in these are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QR5.png)
+
 Select all of the statements that are true.

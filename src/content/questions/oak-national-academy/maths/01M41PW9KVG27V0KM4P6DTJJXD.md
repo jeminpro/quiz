@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "16."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJXD.png)
+
 What number is the arrow pointing to on this number line?

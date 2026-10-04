@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [F]
 explanation: "The blank should say it helps keep us all to the same tempo."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WM0.png)
+
 ________ correct answer)

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Microorganisms can make people ill."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVFX.png)
+
 Why must microorganisms be removed from water to make it safe to drink?

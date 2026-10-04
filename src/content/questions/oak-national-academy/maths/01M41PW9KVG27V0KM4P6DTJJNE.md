@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJNE.png)
+
 The whole is 8. Sofia has 5 counters and Lucas has 2 counters. How many counters does Jacob have?

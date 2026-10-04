@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The playing or showing of the steady."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WE0.png)
+
 Beat is...

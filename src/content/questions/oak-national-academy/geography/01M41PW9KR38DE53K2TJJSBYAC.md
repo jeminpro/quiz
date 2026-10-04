@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "To allow us to show a score out of 9."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBYAC.png)
+
 Why did we use 3 x 3 grids on our map?

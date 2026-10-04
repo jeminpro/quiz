@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The blank should say divisor."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QQM.png)
+
 ________ correct answer

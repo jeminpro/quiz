@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "Half 6 is 3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62H4.png)
+
 What halving equation is represented by the bar model?

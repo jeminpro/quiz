@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "Set D."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QF8.png)
+
 Look at these sets of marbles. Out of all the sets, in which one is the blue marble the greatest part of the whole?

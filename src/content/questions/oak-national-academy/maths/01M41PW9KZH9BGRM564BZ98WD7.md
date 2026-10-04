@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Half turn."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WD7.png)
+
 The minute hand shows 4 o’clock. The minute hand moves to show half past 4. What kind of turn has the minute hand made?

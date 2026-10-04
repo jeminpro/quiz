@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The adult and growing ofispring are in."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN7T.png)
+
 Use your observation skills to spot the mistake in this life cycle of a goat.

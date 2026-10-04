@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, B, D]
 explanation: "3 + 3 + 3 + 3, 6 + 6 and 2 + 2 + 2 + 2 + 2 + 2 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62KN.png)
+
 Select the repeated addition expressions which could be represented by this collection of milkshakes.

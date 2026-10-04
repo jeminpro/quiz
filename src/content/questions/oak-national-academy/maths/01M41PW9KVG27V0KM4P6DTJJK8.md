@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "A has fewer blocks than B and C."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJK8.png)
+
 Using these blocks, which comparative sentence is true?

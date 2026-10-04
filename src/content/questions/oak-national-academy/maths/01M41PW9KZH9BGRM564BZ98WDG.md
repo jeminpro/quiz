@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "It has rotated more than 360°."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WDG.png)
+
 The time is 2 o’clock. When Lucas next looks, it is 4 o’clock. How has the minute hand moved?

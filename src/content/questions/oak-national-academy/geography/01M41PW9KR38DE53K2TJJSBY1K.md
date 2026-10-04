@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "North."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY1K.png)
+
 What does the letter 'N' stand for on a compass?

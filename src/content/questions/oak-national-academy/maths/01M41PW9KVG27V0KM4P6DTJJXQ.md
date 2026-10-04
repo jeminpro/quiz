@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Even."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJXQ.png)
+
 Is the number 40 odd or even?

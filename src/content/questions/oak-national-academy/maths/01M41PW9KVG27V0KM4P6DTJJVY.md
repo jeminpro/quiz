@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "4 + 4 = 8."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJVY.png)
+
 What doubling fact is being shown here?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "4 and 7."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJSQ.png)
+
 Which numbers are in the wrong place on the number line?

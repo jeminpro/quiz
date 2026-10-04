@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "2 and 3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62Q7.png)
+
 Which of the digit cards shown would complete the equation?

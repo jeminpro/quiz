@@ -32,4 +32,6 @@ choices:
 correctChoiceIds: [F]
 explanation: "1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QFV.png)
+
 Which of the following numbers is represented by the letter ‘A’?

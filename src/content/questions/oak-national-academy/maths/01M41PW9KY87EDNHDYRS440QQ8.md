@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "C."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QQ8.png)
+
 Select the calculation which will require two or more instances of regrouping.

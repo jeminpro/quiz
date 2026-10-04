@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "There are 10 cakes on a plate. 6 have."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJTP.png)
+
 Which story could these counters represent?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "3575 is the grid reference of St Mary's Island and lighthouse."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY17.png)
+
 What is the grid reference of St Mary's Island and lighthouse?

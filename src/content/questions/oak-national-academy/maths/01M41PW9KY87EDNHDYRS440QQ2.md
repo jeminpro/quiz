@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "2 regroups."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QQ2.png)
+
 Look at Andeep's calculation. How many times did he regroup?

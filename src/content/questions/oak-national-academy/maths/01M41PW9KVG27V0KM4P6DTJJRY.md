@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, B, D]
 explanation: "6 and 1, 4 and 3 and 2 and 5 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJRY.png)
+
 Which pictures show 7?

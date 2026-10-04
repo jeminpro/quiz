@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "How loudly or quietly the music is."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WFJ.png)
+
 What are dynamics?

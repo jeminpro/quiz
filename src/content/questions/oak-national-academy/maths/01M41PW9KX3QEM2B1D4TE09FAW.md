@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "28."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FAW.png)
+
 Calculate the difference.

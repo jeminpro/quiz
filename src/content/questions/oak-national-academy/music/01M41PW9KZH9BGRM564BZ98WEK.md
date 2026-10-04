@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "So we can sing and play together at."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WEK.png)
+
 Why do we practise our sense of pulse by playing on the beat?

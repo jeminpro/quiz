@@ -30,4 +30,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "1 3 4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FEX.png)
+
 What addition is being represented on this number line?

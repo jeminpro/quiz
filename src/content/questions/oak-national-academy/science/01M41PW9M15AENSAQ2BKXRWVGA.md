@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "Wedge."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVGA.png)
+
 Which simple machine is shown in the image?

@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [E]
 explanation: ">."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FEK.png)
+
 Compare the expressions. What is the missing symbol that will go between them?

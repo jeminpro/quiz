@@ -28,4 +28,6 @@ choices:
 correctChoiceIds: [A, C, G]
 explanation: "Each of the two shapes has been, The two shapes have the same area as and Each of the shapes has an area of ten are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QR2.png)
+
 Tick all of the statements that are true about the two shapes shown in the image.

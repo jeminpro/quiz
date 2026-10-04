@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "There are 2 groups of 6 pencils."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62KH.png)
+
 Use the image to select the correct statement.

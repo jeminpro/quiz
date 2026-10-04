@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Pea plant."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVBF.png)
+
 Which plant is being described? It has smooth bark and makes seeds that grow in green pods.

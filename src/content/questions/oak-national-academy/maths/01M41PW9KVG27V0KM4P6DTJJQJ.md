@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJQJ.png)
+
 Izzy has 5 pounds in her piggy bank. She takes one pound out to spend. How many does she have left?

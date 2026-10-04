@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "B is the tallest cylinder."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62NV.png)
+
 True or false. b is the tallest cylinder.

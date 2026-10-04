@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "5. That is how many fingers can you see."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJPK.png)
+
 How many fingers can you see?

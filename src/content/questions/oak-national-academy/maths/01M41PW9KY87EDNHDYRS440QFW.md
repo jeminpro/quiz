@@ -36,4 +36,6 @@ choices:
 correctChoiceIds: [G, J]
 explanation: "5 and 7 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QFW.png)
+
 Which of these numbers could be being represented by the letter ‘A’?

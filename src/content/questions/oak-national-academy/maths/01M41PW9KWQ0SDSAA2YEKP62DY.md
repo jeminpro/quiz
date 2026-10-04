@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Slide."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62DY.png)
+
 Jun is facing the house. He makes a half turn. Now, he is facing the.

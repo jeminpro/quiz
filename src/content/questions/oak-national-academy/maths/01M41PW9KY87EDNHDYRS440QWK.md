@@ -30,4 +30,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "5 5."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QWK.png)
+
 Tick the correct expressions that represent the image

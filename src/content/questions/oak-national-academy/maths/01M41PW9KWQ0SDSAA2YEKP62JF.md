@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Subtract 3 tens from 7 tens."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62JF.png)
+
 What could we do to help solve this equation? 75 − 30 =

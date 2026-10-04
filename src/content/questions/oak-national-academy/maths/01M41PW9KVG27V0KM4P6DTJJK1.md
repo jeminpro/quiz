@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "15 is one fewer than 16."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJK1.png)
+
 Which sentence describes the beads?

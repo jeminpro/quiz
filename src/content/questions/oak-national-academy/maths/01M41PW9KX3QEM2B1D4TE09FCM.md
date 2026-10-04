@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The blank should say greater."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FCM.png)
+
 Fill in the correct word from the choices below to complete this sentence: one-half is __________ than one-third which is __________ than one-quarter.

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "9 is the sum of the numbers in the bar model."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62W9.png)
+
 What is the sum of the numbers in the bar model?

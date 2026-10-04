@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Yellow."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62T2.png)
+
 Lucas answers this question, ‘There are 20 people waiting to ride The Ferris Wheel. How many carriages of 5 will they fill?’ Which colour target will Lucas need to hit?

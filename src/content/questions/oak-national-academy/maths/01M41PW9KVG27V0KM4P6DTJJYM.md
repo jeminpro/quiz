@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "True."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJYM.png)
+
 A strip of paper 10 centimetres long has been used to measure the pen. The glasses are 16 centimetres in length. True or False?

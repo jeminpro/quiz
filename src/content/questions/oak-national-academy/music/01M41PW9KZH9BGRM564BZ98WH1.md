@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Sparkly, rich, dull."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WH1.png)
+
 Which of these lists examples of timbre vocabulary?

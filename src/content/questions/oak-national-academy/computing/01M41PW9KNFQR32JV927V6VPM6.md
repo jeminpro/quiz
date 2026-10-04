@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Font size."
 ---
+![Picture for the question](/questions/oak-national-academy/computing/01M41PW9KNFQR32JV927V6VPM6.png)
+
 What can you change with this part of the toolbar?

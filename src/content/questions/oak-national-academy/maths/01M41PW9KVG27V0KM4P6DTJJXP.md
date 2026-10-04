@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "4. That is how many pairs is the number 8 made of."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJXP.png)
+
 How many pairs is the number 8 made of?

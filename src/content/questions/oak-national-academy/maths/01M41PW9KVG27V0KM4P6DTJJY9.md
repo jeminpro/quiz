@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Put the coins in a straight line with no."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJY9.png)
+
 What could Alex do to measure the length (across) of this apple?

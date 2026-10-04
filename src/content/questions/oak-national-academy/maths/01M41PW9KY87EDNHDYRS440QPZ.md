@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "600+90+6."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPZ.png)
+
 Choose the correct partial product expression.

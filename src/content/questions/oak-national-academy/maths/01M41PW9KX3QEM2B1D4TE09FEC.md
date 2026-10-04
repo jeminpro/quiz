@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Two one-quarters is the missing counting label here."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FEC.png)
+
 What is the missing counting label here?

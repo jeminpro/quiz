@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "£36."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62PN.png)
+
 Andeep’s items cost £35 Which of the following shows the cost of Izzy’s items?

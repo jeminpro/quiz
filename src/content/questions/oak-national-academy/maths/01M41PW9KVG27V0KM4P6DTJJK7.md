@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "16 is more than 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJK7.png)
+
 Using this number track, which comparative sentence is true?

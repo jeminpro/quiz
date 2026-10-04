@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The number of rows in a layer."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QTQ.png)
+
 One layer has three rows and four columns. There are two layers. What does the 3 represent?

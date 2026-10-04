@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "90."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62FE.png)
+
 What number is being represented by the counters in the 100 square?

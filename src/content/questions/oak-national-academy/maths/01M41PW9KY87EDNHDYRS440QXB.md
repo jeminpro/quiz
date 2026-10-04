@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [C, G]
 explanation: "8 and 2 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QXB.png)
+
 What fraction of the shape is shaded?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "15."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62MD.png)
+
 Skip count in 5s to count the counters. Select the correct number of counters.

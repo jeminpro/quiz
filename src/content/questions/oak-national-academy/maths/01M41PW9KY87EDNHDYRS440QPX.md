@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "4 × 31."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPX.png)
+
 Select the correct short multiplication for this representation.

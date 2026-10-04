@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "Add a square unit to Shape B and Remove a square unit from Shape A are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QR1.png)
+
 How can these shapes be made equal? Select all options that apply.

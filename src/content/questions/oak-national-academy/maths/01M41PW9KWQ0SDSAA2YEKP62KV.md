@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "1 × 4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62KV.png)
+
 Here is 1 group of 4 ripe oranges. Select the correct multiplication expression which represents this.

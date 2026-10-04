@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "Composite volcano."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY74.png)
+
 What type of volcano is this...

@@ -28,4 +28,6 @@ choices:
 correctChoiceIds: [G]
 explanation: "1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FC9.png)
+
 A piece of paper is folded in half and placed on top of another identically sized piece. What fraction of the whole is the paper on top showing?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Izzy and Lucas."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62HN.png)
+
 Which two children had a difference of 4 points?

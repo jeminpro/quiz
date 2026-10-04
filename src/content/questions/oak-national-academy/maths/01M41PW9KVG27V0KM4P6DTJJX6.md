@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "5 - 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJX6.png)
+
 Which equation is in the wrong place?

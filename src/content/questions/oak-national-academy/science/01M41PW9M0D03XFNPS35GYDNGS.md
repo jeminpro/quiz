@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Plants can’t survive without water."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNGS.png)
+
 Lucas investigated what happens to a plant with no water. Here are his results. What conclusion can he make from his results?

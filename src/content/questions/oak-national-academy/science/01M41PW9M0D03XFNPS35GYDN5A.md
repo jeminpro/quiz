@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Which materials are transparent and."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN5A.png)
+
 What do these results tell us?

@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The pebble's mass must be smaller."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F6X.png)
+
 Andeep holds a pebble and compares its mass to the mass of a 50 g egg that he is holding. The pebble feels lighter than the egg. Which statement is true?

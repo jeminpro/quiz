@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "2 regroupings. That is how many regroupings does this calculation require."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QNE.png)
+
 How many regroupings does this calculation require?

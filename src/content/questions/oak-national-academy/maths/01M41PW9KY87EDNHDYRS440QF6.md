@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The whole line has been divided into."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QF6.png)
+
 Which sentence accurately describes this line?

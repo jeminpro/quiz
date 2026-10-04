@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Year 6."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62SG.png)
+
 Sofia and Lucas want to put every child in the year group into groups of 10 Which year groups could they do this for?

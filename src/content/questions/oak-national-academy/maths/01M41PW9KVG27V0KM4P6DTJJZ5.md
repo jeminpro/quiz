@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "5. That is how many 10 p coins do these ten-spot tokens represent."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZ5.png)
+
 How many 10 p coins do these ten-spot tokens represent?

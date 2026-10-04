@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, D]
 explanation: "4 and 8 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJT6.png)
+
 Which even numbers are missing from this number line?

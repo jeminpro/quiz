@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [D, E]
 explanation: "1,000 and 2,000 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WC6.png)
+
 What are the missing numbers on this number line?

@@ -20,4 +20,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "It has brushed past the anthers of a."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVK3.png)
+
 How has this bee become covered in pollen?

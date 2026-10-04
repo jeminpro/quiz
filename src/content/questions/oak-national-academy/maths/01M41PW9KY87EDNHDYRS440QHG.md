@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, D]
 explanation: "The blank should say a and d."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QHG.png)
+
 ________ correct answers

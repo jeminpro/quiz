@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "5. That is how many cubes is the whole made up of."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJQ1.png)
+
 How many cubes is the whole made up of?

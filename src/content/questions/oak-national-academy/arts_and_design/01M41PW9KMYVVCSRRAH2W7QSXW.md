@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Hatching and cross-hatching."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KMYVVCSRRAH2W7QSXW.png)
+
 Which technique has the artist used on the roof?

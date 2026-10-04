@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "It ascends and then descends."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WRJ.png)
+
 Describe the following melody.

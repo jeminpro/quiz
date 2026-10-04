@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "He is learning in a multisensory way,."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WT1.png)
+
 Jun learns to play a melody by listening to it, singing it, signing it, chanting the rhythm and adding actions. He also reads the notation. How is this efiective?

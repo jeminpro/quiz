@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Ta-di."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WRH.png)
+
 How would you describe these rhythms?

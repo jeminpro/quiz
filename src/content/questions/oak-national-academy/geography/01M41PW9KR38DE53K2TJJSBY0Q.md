@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, B, D]
 explanation: "Have long limbs for swinging on trees, have curved claws to grab branches and live high in the trees in the rainforest are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY0Q.png)
+
 Sloths have adapted to live in the tropical rainforest. They...

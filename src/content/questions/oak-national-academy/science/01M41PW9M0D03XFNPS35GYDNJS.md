@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Keeping something safe from harm."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNJS.png)
+
 What does protect mean?

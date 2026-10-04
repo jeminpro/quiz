@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJS5.png)
+
 There are 6 fingers. We can say that 6 is five and more. Choose the number that completes the sentence.

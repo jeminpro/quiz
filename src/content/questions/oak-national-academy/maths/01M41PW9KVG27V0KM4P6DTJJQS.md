@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "C."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJQS.png)
+
 Which shape is the same as the one above the line?

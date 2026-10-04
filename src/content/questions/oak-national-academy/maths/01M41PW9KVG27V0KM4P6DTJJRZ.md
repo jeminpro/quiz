@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "8 and 0 and 5 and 3 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJRZ.png)
+
 Which pictures show 8?

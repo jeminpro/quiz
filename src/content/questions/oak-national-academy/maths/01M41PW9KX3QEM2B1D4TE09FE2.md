@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, B, C]
 explanation: "1, 2 and 3 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FE2.png)
+
 Which numerator could make this correct?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The blank should say thicker."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WN2.png)
+
 ________ correct answer)

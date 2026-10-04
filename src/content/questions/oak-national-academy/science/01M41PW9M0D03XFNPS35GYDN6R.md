@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The plant got more wind in July."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN6R.png)
+
 Which of these is not a good reason why my sunflower grew most in July?

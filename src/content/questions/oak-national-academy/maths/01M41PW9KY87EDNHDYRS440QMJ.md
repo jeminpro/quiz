@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "1.4 = 10 × 0.1 + 4 × 0.1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QMJ.png)
+
 Which equation matches the bar model?

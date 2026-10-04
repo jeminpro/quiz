@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "He said the same number twice."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJNS.png)
+
 What mistake has Jacob made when counting the cakes?

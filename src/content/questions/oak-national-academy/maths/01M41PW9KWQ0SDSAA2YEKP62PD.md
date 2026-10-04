@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Vertices."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62PD.png)
+
 These shapes are in the same set because they have 6 or more.

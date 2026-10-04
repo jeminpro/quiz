@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "£225."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QSE.png)
+
 Jacob had £250 when he opened his bank account. Now he has one tenth times his original amount. How much money has Jacob spent?

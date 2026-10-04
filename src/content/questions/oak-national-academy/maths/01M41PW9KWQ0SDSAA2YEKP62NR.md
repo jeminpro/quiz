@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, C, E]
 explanation: "They have three or more straight, They are 2D shapes and They have sides that join at vertices are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62NR.png)
+
 These shapes are all polygons. Which of the statements are true for all polygons?

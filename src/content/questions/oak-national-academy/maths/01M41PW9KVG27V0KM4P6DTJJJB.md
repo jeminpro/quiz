@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "6 is the missing numeral."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJB.png)
+
 What is the missing numeral?

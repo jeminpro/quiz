@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "1 and 3 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QVC.png)
+
 Tick the common factors of 12 and 15

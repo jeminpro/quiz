@@ -14,4 +14,14 @@ choices:
 correctChoiceIds: [D]
 explanation: "Pic 4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPN-1.png)
+
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPN-2.png)
+
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPN-3.png)
+
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPN-4.png)
+
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPN-5.png)
+
 Choose the correct grid model which represents this informal method.

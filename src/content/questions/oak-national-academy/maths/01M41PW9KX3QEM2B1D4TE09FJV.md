@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The ones and the tens."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FJV.png)
+
 Where is regrouping needed in this column addition?

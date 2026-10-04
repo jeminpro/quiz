@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [A, B, C, E]
 explanation: "It has marked intervals, It has unmarked intervals, It shows both positive and negative and The marked intervals are going up in are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QP3.png)
+
 Tick all the statements that are true of this number line.

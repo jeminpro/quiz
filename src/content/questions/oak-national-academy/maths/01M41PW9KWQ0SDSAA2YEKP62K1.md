@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "6 + 3 = 9."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62K1.png)
+
 Use the bar chart to answer the question below. Which known fact would help you solve it?

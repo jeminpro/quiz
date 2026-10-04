@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Negative change."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QNR.png)
+
 Describe the change.

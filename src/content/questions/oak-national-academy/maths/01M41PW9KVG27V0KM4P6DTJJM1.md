@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "9 tens."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJM1.png)
+
 Andeep is counting. What number will he say next?

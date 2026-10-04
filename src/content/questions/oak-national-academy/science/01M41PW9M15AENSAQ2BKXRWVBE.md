@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Silver birch."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVBE.png)
+
 Which plant is being described? It has rough bark and has small yellow fiowers.

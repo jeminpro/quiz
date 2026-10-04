@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "11. That is how many beads are there in the second row."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJF.png)
+
 How many beads are there in the second row?

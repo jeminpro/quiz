@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Sometimes."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WC2.png)
+
 Is Jun's statement always, sometimes or never true?

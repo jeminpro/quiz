@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "6 hundredths."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QMV.png)
+
 The image represents:

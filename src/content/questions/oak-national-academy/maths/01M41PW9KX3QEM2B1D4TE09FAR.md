@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "37 − 15 = 22."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FAR.png)
+
 Which equation exactly matches the column subtraction?

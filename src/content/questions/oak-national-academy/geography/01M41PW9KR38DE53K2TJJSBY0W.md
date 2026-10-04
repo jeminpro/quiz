@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Pink."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY0W.png)
+
 What colour is Wales on this UK map?

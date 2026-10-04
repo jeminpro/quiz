@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, B, C]
 explanation: "Both have triangular faces, Both have vertices and Both have faces that are flat are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62P9.png)
+
 What is the same about these two pyramids?

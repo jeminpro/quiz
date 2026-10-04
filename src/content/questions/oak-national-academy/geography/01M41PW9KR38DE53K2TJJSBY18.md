@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "3475 is the grid reference of the caravan park."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY18.png)
+
 What is the grid reference of the caravan park?

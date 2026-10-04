@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Subtract 115 from 360."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WCX.png)
+
 Sofia measured the obtuse angle in order to find the missing angle a. What is her next step?

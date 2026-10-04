@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [C, D]
 explanation: "110.75 and 3 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QXR.png)
+
 Which fraction and decimal equivalent could label point a on the number line?

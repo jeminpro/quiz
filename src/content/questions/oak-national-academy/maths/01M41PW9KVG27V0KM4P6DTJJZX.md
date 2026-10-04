@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "8. That is how many five-spot tokens would we use to represent the 5 p coins shown."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZX.png)
+
 How many five-spot tokens would we use to represent the 5 p coins shown?

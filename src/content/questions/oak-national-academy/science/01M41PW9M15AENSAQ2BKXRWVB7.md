@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Classification key."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVB7.png)
+
 What kind of diagram is this?

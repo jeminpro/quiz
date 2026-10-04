@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "The blank should say 59 + 1 = 60 and 60 - 1 = 59."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62JQ.png)
+
 ________ correct answers

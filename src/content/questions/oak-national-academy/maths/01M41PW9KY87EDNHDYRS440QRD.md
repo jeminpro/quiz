@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, D]
 explanation: "B and d are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QRD.png)
+
 Which of the shapes have an area of 5 square metres?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "2 groups of 9 and 6 groups of 3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FMV.png)
+
 What does the image show?

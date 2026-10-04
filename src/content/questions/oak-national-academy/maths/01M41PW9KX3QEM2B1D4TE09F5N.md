@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "360 cm."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F5N.png)
+
 Colin the cat is 410 cm high in a tree. He climbs down 50 cm. How high is he now?

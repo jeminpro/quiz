@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, C, E]
 explanation: "(3, 29), (3,−50) and (3,−2.5) are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QNY.png)
+
 A pair of coordinates have values of (3,2) and (3,−5). Imagine they are joined to make a line, which is extended beyond the coordinates. Tick all of the coordinates that would appear on the line.

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, C, D]
 explanation: "2.76 – 1.34 = ___, 2.76 – ___ = 1.34 and 2.76 = 1.34 + ___ are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QNF.png)
+
 Which calculation represents this bar model?

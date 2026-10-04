@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "140°."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WDQ.png)
+
 This is a hexagon. Which of these is a good estimate for the angle of the circled vertex?

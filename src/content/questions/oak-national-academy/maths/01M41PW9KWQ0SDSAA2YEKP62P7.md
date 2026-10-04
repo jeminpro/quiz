@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, E]
 explanation: "They are both polygons and They both have a pointy vertex are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62P7.png)
+
 What is the same about both of these shapes?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Crisps."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KQ6SECG714ZDTVK3RR.png)
+
 Which of these products could the branding shown belong to?

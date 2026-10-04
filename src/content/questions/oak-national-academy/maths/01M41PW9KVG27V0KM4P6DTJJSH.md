@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "3 is the missing part."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJSH.png)
+
 What is the missing part?

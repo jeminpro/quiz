@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "13 × 6 + 6 and Increase 78 by 6 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FM0.png)
+
 Here is part of the 6 times table grid. What could Andeep do to find 14 × 6 quickly?

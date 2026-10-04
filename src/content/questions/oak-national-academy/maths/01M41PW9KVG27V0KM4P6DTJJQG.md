@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJQG.png)
+
 Izzy has 3 pounds in her piggy bank. She is given one more pound. How many does she have now?

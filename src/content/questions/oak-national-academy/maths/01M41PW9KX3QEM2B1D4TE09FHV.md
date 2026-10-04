@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C, D]
 explanation: "Izzy and Jacob are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FHV.png)
+
 Five children played a game. Which two children scored exactly 900 points between them?

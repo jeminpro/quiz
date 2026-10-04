@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "2 × 2 =."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QV3.png)
+
 Which multiplication is shown by this array?

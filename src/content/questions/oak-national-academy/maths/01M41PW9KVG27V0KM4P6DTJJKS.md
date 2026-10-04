@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "40."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJKS.png)
+
 A number on the number track is hidden. Which of these numbers must it be?

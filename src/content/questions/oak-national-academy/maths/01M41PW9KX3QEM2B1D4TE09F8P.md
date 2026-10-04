@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, D]
 explanation: "80 and 110 and 95 and 95 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F8P.png)
+
 Which pairs of addends could complete the bar model?

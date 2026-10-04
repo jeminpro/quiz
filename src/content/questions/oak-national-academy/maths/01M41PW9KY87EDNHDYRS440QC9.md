@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The blank should say −."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QC9.png)
+
 Laura needs to find the previous multiple of 7 to complete the table. Which symbol will make this correct? 10 × 7 ___ 7 = 63

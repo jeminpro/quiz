@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No. It is not true that alex is standing halfway between 1 and 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62F3.png)
+
 True or false? Alex is standing halfway between 1 and 2.

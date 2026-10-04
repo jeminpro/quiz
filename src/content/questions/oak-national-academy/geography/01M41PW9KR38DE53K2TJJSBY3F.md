@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Town."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY3F.png)
+
 What type of settlement was Cramlington in 2023?

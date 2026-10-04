@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "8 cm."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJYX.png)
+
 Which of these is the best estimate for the length of this leaf?

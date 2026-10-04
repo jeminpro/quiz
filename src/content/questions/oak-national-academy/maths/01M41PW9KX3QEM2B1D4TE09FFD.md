@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "5."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FFD.png)
+
 Sam has a full bottle of bubble mixture. She uses one-sixth of the mixture to blow some bubbles. What fraction of the bubble mixture remains?

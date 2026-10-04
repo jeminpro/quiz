@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "9 sharpeners long. That is how long is the blue snake."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJY4.png)
+
 How long is the blue snake?

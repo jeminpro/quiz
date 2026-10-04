@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The bottom one."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJKG.png)
+
 Which bead string is one less than 20?

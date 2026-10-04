@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The total score for a location."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBYAB.png)
+
 What would a bar chart of our results show in each location?

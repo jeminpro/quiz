@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJ1.png)
+
 Don’t count - see the amount. How many fingers can you see?

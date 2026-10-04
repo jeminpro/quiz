@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Colosseum."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KQ6SECG714ZDTVK41K.png)
+
 This landmark is found in the city of Rome. What is it called?

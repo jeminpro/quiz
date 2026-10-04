@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, D]
 explanation: "0.25 m × 4 = 1 m and 1 m = 0.25 m + 0.25 m + 0.25 m + 0.25 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QNB.png)
+
 Tick the equations that could represent this number line.

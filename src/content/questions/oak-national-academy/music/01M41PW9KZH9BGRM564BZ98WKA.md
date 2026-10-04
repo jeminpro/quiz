@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Ta-di Takadimi Ta-di Ta."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WKA.png)
+
 How do we chant this rhythm?

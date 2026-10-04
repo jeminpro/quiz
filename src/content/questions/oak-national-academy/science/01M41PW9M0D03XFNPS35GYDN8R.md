@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The teddy and the dandelion."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN8R.png)
+
 Lucas has been grouping things that are alive and things that have never been alive. Which things has he put in the wrong place?

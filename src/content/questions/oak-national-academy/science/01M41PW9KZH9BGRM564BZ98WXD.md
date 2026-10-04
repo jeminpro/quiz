@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Our eyes."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9KZH9BGRM564BZ98WXD.png)
+
 What will help us to observe and compare trees?

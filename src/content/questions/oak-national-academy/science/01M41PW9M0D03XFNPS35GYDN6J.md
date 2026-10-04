@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Bulbs take a few months to grow into."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN6J.png)
+
 Laura planted some bulbs in September and is disappointed that they haven't grown into plants by October. Why is this?

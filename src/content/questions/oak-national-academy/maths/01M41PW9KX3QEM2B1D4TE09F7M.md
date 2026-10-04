@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, D]
 explanation: "A and d are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F7M.png)
+
 Which quadrilaterals have at least one right angle?

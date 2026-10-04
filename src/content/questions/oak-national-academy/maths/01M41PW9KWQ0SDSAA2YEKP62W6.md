@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "4 and 9."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62W6.png)
+
 Which two number cards have a difference of 5?

@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Even."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJT5.png)
+
 The numbers on this number line are all numbers.

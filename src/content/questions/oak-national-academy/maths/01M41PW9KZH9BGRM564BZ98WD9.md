@@ -20,4 +20,6 @@ choices:
 correctChoiceIds: [F]
 explanation: "The trapezium has two right angles,."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WD9.png)
+
 This is a trapezium. Look carefully at the vertices and the angles inside the shape. Which statement is correct?

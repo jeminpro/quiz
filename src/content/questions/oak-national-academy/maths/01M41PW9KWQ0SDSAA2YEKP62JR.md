@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "32 + 7 = 39."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62JR.png)
+
 Which equation would come next in the pattern?

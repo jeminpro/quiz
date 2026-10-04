@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, B]
 explanation: "78 − 35 − 20 = 21 and 78 − 20 − 35 = 21 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62Q0.png)
+
 Choose an equation to represent the problem. Then, solve it. First, Izzy had 78 points. Then, she bought a t-shirt. Then, she bought a pair of shoes. How many points does she have left?

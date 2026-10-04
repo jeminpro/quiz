@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "33."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62QB.png)
+
 Which of the following is the missing addend?

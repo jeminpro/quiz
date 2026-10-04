@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "6 and 4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62J2.png)
+
 Which two addends are a number pair to 10?

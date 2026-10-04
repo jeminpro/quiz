@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "There are 3 tens and 0 ones. There are."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62FF.png)
+
 Which sentence matches the image?

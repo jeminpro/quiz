@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [C, G]
 explanation: "2 and 4 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WBY.png)
+
 Which other fractions would be equivalent to the ones in the image?

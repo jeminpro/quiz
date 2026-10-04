@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The blank should say 3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WBK.png)
+
 ________ correct answer

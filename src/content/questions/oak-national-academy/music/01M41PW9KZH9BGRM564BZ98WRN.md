@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Takadi, takadi, tadi, ta."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WRN.png)
+
 How would you describe the following rhythm?

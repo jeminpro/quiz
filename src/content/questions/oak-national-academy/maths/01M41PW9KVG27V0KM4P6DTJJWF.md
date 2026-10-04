@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "Use knowledge of consecutive even."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJWF.png)
+
 Sam had 6 pounds. He spent 4 pound on a new book. How much money does he have left?

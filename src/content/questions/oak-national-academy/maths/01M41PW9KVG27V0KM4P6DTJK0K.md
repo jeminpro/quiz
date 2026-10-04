@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Two 10 p coins and one 1 p."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJK0K.png)
+
 Which sets of coins would be worth less than this set?

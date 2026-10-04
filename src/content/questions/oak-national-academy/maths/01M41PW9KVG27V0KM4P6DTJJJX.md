@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "6."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJX.png)
+
 Continue the countdown. What would come next?

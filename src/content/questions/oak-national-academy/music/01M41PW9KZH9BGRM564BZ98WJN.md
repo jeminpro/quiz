@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "A repeated musical pattern is an ostinato."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WJN.png)
+
 What is an ostinato?

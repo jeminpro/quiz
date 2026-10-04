@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B, C, D]
 explanation: "2 + 3 + 2 + 3, 3 + 3 + 2 + 2 and 3 + 2 + 3 + 2 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FKG.png)
+
 Which calculations could be used to work out the perimeter of the number shape?

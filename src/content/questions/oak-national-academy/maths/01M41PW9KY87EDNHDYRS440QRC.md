@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "13 m²."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QRC.png)
+
 Which value shows the best estimate of the whole area?

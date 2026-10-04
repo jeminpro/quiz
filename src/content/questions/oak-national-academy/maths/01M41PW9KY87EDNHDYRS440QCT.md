@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The blank should say a square."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QCT.png)
+
 This array shows the equation 4 × 4 When both factors have the same value, the product is __________ number.

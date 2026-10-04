@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "6 × 52 is the multiplication shown in this grid model."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPK.png)
+
 What is the multiplication shown in this grid model?

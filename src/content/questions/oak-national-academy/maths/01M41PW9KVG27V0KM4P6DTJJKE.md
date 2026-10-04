@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "14. That is how many beads are there on the first bead string."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJKE.png)
+
 How many beads are there on the first bead string?

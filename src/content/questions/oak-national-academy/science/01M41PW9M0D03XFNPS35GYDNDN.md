@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "The results do not show a clear pattern."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNDN.png)
+
 Which is the correct conclusion from this enquiry question and set of results?

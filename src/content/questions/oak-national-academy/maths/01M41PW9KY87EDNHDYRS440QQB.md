@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "C."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QQB.png)
+
 Choose the correct short division for this equation: 325 ÷ 5.

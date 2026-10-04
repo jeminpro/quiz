@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "Insulators is what we call materials, such as electrical tape, that do not let electricity pass through them."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KQ6SECG714ZDTVK3XF.png)
+
 What do we call materials, such as electrical tape, that do not let electricity pass through them?

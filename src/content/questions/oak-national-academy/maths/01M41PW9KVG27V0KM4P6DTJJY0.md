@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "A - yellow."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJY0.png)
+
 Which snake matches this description? This snake is shorter than snake b but longer than snake c.

@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [D, E]
 explanation: "The blank should say 2 + 5 = 7 and 7 − 5 = 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62K2.png)
+
 ________ correct answers

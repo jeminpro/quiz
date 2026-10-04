@@ -30,4 +30,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "1 1 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FED.png)
+
 Which repeated addition equations represent the non-unit fraction shown here?

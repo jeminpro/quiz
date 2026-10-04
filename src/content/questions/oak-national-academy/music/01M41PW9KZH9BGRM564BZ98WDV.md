@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The way an instrument sounds that."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WDV.png)
+
 Timbre is...

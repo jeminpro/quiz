@@ -20,4 +20,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QX7.png)
+
 3 1 The arrow on the number line represents How many intervals would be equal to?

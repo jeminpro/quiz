@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Do is the last note of this melody."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WRR.png)
+
 What is the last note of this melody?

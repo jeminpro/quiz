@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The blank should say 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FF3.png)
+
 Aisha and Alex share a pizza cut into 8 slices. Alex eats sixth-eighths of the pizza. How much does Aisha eat? Aisha eats ___ of the pizza.

@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [A, E]
 explanation: "4 and 2 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WBZ.png)
+
 Which fractions can be used to label point a on the number line?

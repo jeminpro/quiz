@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "Increase 36 by 3 and 12 × 3 + 3 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FKW.png)
+
 Here is part of the 3 times table grid. What could Izzy do to find 13 × 3?

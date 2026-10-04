@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, D]
 explanation: "They all have no edges and They all have a curved surface are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62P0.png)
+
 What is the same about these 3D shapes?

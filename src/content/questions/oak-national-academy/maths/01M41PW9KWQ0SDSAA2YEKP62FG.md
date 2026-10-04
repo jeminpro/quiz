@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "10 + 10 + 10."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62FG.png)
+
 Which expression is represented by the number shapes?

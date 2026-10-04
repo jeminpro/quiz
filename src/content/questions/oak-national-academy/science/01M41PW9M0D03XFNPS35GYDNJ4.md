@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [A, D]
 explanation: "Listening carefully to instructions from and Using her hands and feet to feel her are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNJ4.png)
+
 What can help Izzy to complete an obstacle course while wearing a blindfold?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "A."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QJ2.png)
+
 These shapes have been made using two identical triangles. Which shape does not have a line of symmetry?

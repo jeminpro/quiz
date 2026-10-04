@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C, E]
 explanation: "Jacob and Sam are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FHX.png)
+
 Five children played a game. Which two children scored a total of 1,300 points?

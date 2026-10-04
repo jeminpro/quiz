@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No. It is not true that , tempo always stays the same in a piece of music."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WEX.png)
+
 True or false, tempo always stays the same in a piece of music.

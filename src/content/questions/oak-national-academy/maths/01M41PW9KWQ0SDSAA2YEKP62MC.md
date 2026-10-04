@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "6 × 10."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62MC.png)
+
 There are 6 packs of pencils. Each holds 10 pencils. Select the correct multiplication expression which represents this.

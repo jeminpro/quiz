@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "9 and 10."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJQ.png)
+
 You are counting up from 0 to 20. Which two numbers will you say before 11?

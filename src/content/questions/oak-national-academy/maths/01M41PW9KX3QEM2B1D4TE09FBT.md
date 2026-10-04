@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Numerator is the name of the indicated part of the fraction."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FBT.png)
+
 What is the name of the indicated part of the fraction?

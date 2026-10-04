@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "113."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62XS.png)
+
 Use the number line representation to help you calculate 123 − 10

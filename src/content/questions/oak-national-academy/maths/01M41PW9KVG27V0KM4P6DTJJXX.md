@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "Taller."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJXX.png)
+
 Alex is than Sam. Choose the correct word to complete the sentence.

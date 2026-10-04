@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "No - most people in richer countries."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KS756K0NXKCCN8SR5B.png)
+
 Do all places emit the same amount of CO² from burning fossil fuels?

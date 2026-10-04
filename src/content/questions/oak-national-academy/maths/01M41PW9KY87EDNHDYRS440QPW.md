@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "6 + 420."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPW.png)
+
 Choose the correct partial products for this expanded method.

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "B."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F6P.png)
+
 A jug contains 75 ml water. Another 75 ml of water is poured into the jug. Which of these jugs represents the volume of water that would now be in the jug?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "Bell crank."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KQ6SECG714ZDTVK3S9.png)
+
 What type of linkage is this?

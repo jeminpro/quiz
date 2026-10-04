@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QSF.png)
+
 Jacob has a netball that has a mass of 500 g and a tennis ball that is one quarter of the mass of the netball. Does this bar model represent this?

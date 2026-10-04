@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B, C, E]
 explanation: "2, 3 and 5 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62HG.png)
+
 This ten frame shows a total of 10 What 3 addends have been added together?

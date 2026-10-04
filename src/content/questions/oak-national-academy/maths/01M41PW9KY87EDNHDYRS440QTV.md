@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "There are 4 groups of 8 x 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QTV.png)
+
 Which statement is correct about this array?

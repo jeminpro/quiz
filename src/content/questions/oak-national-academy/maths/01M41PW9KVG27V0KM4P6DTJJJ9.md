@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Six. That is how many pencils can you count."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJ9.png)
+
 How many pencils can you count?

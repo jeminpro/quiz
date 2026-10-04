@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Pollution."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBXZ1.png)
+
 What problem is shown in the picture?

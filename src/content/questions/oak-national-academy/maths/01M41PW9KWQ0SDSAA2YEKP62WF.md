@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "6 + 4 + 3 = 13."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62WF.png)
+
 What equation do the tens frames represent?

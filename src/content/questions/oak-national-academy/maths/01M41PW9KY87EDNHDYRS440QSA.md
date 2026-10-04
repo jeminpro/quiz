@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C, E]
 explanation: "Jacob played for one third of the time and Jacob played for 30 minutes less time are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QSA.png)
+
 Izzy plays the whole 45 minutes of a netball match but Jacob has to leave after 15 minutes. Which statement describes how long he played for?

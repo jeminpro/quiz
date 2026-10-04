@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "14 centimetres."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJYK.png)
+
 A strip of paper 10 centimetres long has been used to measure the pen. What is the length of the pen?

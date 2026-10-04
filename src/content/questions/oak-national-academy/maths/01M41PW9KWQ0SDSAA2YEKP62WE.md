@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The missing number is 14."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62WE.png)
+
 What number is missing from the equation?

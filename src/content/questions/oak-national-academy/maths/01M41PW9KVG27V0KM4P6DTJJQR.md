@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "5. That is how many triangles are there."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJQR.png)
+
 How many triangles are there?

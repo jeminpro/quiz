@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No. It is not true that sam has created a symmetrical pattern."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QHY.png)
+
 True or false. Sam has created a symmetrical pattern.

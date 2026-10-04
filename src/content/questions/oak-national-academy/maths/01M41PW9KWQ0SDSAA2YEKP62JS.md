@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "4 + 3 = 7 and 3 + 4 = 7 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62JS.png)
+
 Which known fact could be used to solve the equation shown on the number line?

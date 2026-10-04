@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Shading."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KMYVVCSRRAH2W7QSXT.png)
+
 What does this colour mixing show?

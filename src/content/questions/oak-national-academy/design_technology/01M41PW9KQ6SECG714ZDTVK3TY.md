@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "Shield face and neck is the purpose of a brim or peak on a hat."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KQ6SECG714ZDTVK3TY.png)
+
 What is the purpose of a brim or peak on a hat?

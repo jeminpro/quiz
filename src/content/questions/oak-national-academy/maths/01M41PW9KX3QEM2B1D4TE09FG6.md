@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No. It is not true that alex has drawn a pair of perpendicular lines on this circular geoboard."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FG6.png)
+
 True or false: Alex has drawn a pair of perpendicular lines on this circular geoboard.

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "0. That is how many fingers are held up."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJC.png)
+
 How many fingers are held up?

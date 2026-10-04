@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The number line shows adjacent multiples of 4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FAC.png)
+
 True or false. The number line shows adjacent multiples of 4.

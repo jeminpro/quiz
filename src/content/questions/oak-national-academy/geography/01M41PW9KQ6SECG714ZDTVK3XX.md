@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "½ to ¾."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KQ6SECG714ZDTVK3XX.png)
+
 What fraction of living things are thought to live in the oceans?

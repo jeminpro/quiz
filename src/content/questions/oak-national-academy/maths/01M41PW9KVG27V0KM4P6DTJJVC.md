@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Subtraction."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJVC.png)
+
 Does this story show addition or subtraction?

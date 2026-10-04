@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Four hundred and fifty-three."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FHA.png)
+
 What number is the sum in this column addition?

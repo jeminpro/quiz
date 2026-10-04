@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "9 coins is the missing piece of information for this table."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJYC.png)
+
 What is the missing piece of information for this table?

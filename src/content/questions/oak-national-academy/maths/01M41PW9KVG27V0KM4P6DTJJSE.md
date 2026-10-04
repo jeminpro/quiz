@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "5 is a part and 1 is a part are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJSE.png)
+
 Which are true?

@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QX6.png)
+
 4 The part of the image shown by the arrow represents How many intervals would 10 1 represent

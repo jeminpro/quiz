@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The blank should say rectangles."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJQZ.png)
+
 All of these shapes are called __________.

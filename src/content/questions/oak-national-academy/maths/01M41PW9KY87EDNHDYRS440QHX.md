@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Trapezium."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QHX.png)
+
 What shape is missing from this symmetrical pattern?

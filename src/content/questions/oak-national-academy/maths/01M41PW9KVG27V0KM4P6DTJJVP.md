@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "7 - 4 = 3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJVP.png)
+
 Write an equation for this 'First, then, now' story.

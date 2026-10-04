@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "89 is the missing whole in the bar model."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62Q5.png)
+
 What is the missing whole in the bar model?

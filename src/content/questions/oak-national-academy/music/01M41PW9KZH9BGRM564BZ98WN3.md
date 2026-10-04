@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Takadi is what we call this rhythm."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WN3.png)
+
 What do we call this rhythm?

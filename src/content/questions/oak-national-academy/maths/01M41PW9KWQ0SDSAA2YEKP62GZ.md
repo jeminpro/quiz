@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The blank should say 4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62GZ.png)
+
 Complete the sentence. Two less than 6 is ___

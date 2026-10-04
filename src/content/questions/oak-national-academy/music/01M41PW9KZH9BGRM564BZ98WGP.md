@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "A description of the sound or tone of."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WGP.png)
+
 When we talk about the timbre in music we mean:

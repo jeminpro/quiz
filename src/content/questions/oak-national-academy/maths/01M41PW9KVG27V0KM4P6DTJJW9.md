@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "4 is the missing number in this bar model."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJW9.png)
+
 What is the missing number in this bar model?

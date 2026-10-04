@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Middle."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62E6.png)
+
 Around what part of the day do you have lunch?

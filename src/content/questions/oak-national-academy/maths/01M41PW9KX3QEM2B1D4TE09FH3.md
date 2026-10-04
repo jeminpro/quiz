@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "777 and 656 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FH3.png)
+
 Which two numbers could be used to make this column subtraction correct?

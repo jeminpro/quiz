@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "They move in the same direction."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KQ6SECG714ZDTVK3S6.png)
+
 What happens to the input and output movements on a push-pull linkage?

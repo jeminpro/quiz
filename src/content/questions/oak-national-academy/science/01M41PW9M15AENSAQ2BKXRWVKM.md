@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "It has grown roots."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVKM.png)
+
 Aisha has taken a cutting from a basil plant and taken photos at the start and after three weeks. How has her cutting changed?

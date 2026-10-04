@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "4 × 2 = 2 + 2 + 2 + 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62KQ.png)
+
 Select the correct multiplication and addition expression.

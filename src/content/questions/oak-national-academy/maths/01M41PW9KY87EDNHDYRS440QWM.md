@@ -26,4 +26,6 @@ choices:
 correctChoiceIds: [A, G, J]
 explanation: "4, 4 and ___ ÷ 4 = 4 × are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QWM.png)
+
 Tick the equation this bar model represents.

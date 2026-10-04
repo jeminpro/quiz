@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Because they are \"copycats\"."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WQD.png)
+
 How do you know these pitches are 'so', 'mi' and 'do'?

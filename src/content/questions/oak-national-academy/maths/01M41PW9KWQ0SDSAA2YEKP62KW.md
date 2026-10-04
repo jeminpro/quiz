@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "2 × 5 = 10."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62KW.png)
+
 Here are 2 groups of 5 ripe oranges. Select the correct multiplication equation which represents this.

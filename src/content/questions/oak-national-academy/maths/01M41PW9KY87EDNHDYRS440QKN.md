@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "3 r 4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QKN.png)
+
 Using the given multiples of 12, solve the equation.

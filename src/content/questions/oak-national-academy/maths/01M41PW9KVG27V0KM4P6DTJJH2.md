@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The next number is 4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJH2.png)
+
 Count backwards from 10. What will the next number in the count be?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Double 4 is 8, subtract 1 is 7."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62H8.png)
+
 Which sentence describes the representations?

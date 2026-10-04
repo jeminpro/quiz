@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "94 is 100 subtract 6? Use the number square."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62X5.png)
+
 What is 100 subtract 6? Use the number square.

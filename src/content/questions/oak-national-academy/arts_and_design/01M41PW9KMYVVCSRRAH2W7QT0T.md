@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Blending."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KMYVVCSRRAH2W7QT0T.png)
+
 Which painting technique has been used here?

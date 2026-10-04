@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "6 and 4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62W7.png)
+
 Which two numbers have a sum of 10 and a difference of 2?

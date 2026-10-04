@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "The lines are curved and the shapes."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KMYVVCSRRAH2W7QSV6.png)
+
 What description best fits this sea creature?

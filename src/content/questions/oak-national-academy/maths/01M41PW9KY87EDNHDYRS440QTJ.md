@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "There are 3 rows of 6 cubes in a layer."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QTJ.png)
+
 How can you describe the number of cubes in this cuboid?

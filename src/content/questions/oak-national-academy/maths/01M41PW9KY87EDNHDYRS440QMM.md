@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The decimal points are not lined up."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QMM.png)
+
 Tick the explanation that explains why the column addition is laid out incorrectly.

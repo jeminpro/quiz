@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "30 cm × 1 = 30 cm."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QRW.png)
+
 Which equation describes the length of the blue ribbon?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "18 units is the perimeter of this rectangle."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FKK.png)
+
 What is the perimeter of this rectangle?

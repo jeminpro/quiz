@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "29. That is how many people walked past the school gate at 9:00 am."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY26.png)
+
 How many people walked past the school gate at 9:00 am?

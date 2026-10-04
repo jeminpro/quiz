@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "61 points is the total cost of the hat and the glasses."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62PZ.png)
+
 What is the total cost of the hat and the glasses?

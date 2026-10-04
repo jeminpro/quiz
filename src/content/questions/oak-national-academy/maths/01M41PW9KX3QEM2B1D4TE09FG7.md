@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, D]
 explanation: "It is a triangle and It has three equal sides are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FG7.png)
+
 Select the statements that are true for this polygon drawn on a circular geoboard.

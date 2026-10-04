@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "0.1 × 7 = 0.7."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QMG.png)
+
 Which equation could represent the shaded parts of this bar model?

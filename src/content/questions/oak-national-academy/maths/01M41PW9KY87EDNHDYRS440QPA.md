@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "B."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPA.png)
+
 In which quadrant will you find the coordinate (−2, 5)?

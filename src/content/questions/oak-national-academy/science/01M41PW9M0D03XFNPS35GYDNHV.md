@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "It won’t grow at all."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNHV.png)
+
 Alex is investigating what happens to a plant with no water. Here is his data so far. What would be a sensible prediction for his plant without water?

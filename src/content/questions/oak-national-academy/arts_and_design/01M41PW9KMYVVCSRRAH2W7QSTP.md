@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Tin foil."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KMYVVCSRRAH2W7QSTP.png)
+
 Which material has been used to create this effect in watercolour?

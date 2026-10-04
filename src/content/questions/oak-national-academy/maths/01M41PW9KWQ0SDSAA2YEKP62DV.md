@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "Between the rocket and the ball and above the teddy are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62DV.png)
+
 Where is the car?

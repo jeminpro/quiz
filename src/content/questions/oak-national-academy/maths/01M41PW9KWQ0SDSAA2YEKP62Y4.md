@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, D]
 explanation: "1 m and 100 cm are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62Y4.png)
+
 Use the bar model to support you to identify the calculation, and then solve the problem. Choose all possible options.

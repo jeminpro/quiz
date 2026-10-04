@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "3. That is how many 10 p coins would have the same value as this set of 1p coins."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZ6.png)
+
 How many 10 p coins would have the same value as this set of 1p coins?

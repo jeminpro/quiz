@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Its axis is Earth tilted on."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KQ6SECG714ZDTVK41Y.png)
+
 What is Earth tilted on?

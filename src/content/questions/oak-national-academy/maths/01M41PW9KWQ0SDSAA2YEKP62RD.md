@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "She cut it into unequal parts."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62RD.png)
+
 Laura was asked to cut the strawberry in half. She has made a mistake. Which statement describes her mistake?

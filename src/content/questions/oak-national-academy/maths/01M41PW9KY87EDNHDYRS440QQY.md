@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "D."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QQY.png)
+
 Which of these shapes is most commonly used for measuring the area of a flat surface?

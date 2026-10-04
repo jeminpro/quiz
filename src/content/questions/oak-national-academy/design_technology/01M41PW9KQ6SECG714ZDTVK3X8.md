@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Motor."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KQ6SECG714ZDTVK3X8.png)
+
 Which circuit component is shown in the diagram?

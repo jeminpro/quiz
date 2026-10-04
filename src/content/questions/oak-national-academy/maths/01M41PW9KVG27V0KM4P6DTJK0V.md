@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "2 pencils were taken out."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJK0V.png)
+
 Complete the missing part of the story. First, there were 6 pencils in a pot. Then,. Now, there are 4 pencils in the pot.

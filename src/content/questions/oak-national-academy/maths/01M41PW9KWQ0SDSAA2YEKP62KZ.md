@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "5."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62KZ.png)
+
 There are four 5 p coins. What is the number we will skip count in to find the total amount?

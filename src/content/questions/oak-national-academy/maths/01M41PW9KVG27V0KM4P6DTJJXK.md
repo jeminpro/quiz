@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "14 − 10 = ___."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJXK.png)
+
 Which of these equations can be represented by this bar model?

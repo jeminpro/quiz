@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C, E]
 explanation: "The chocolates are in groups of 5, so I and The chocolates are in groups of 10, so are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZJ.png)
+
 Complete the stem sentences about the picture.

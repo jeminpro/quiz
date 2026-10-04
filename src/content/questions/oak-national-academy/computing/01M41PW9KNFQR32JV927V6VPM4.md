@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Makes the letters dark and thick."
 ---
+![Picture for the question](/questions/oak-national-academy/computing/01M41PW9KNFQR32JV927V6VPM4.png)
+
 In a word processor, what does this button do?

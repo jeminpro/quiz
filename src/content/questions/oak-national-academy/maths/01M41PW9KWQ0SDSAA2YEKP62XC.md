@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "150 - 100."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62XC.png)
+
 How can you calculate the missing part?

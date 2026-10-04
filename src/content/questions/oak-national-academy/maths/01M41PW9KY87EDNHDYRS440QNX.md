@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, C, E]
 explanation: "(4,2), (−5,1) and (0,−5) are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QNX.png)
+
 The vertices of a square have coordinates (3,3), (−3,3), (−3,−3) and (3,−3). Which of the coordinates below would appear outside the square?

@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJSV.png)
+
 8 has been placed on the number line. Is it in the right place?

@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "10 + 5, then double the answer and Double 10 + double 5 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FKJ.png)
+
 Which calculations will give the perimeter of this rectangle?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Lose their leaves in winter."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY0K.png)
+
 Deciduous trees...

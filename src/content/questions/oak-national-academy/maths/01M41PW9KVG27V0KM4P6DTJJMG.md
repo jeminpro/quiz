@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The pencil."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJMG.png)
+
 Which is longer, the pencil or the pen?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "2 + 3 = 5 then add 5."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62HX.png)
+
 The image shows Aisha's strategy for adding three addends. What strategy did she use?

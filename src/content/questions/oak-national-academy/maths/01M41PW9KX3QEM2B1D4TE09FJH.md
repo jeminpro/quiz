@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The blank should say 3,000."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FJH.png)
+
 Select the correct value to complete the sentence: ___ is the previous multiple of 1,000 to 3,278

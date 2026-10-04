@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Yellow."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KMYVVCSRRAH2W7QSWB.png)
+
 Which primary colour is missing?

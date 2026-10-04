@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "2 is a part and 8 is a part."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJWK.png)
+
 Which equation matches the part-part-whole representation? 10 is the whole...

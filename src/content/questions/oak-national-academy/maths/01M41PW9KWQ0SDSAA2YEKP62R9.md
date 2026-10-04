@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The blue knight and the car."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62R9.png)
+
 Two children each use the toy money to buy a toy from their classroom toy shop. Together, they spend 95 p Which two toys did they buy?

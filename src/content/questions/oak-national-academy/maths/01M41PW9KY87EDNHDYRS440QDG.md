@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A, B]
 explanation: "3 × 5 + 2 × 5 = 5 × 5 and 5 × 5 − 2 × 5 = 3 × 5 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QDG.png)
+
 Tick the equations, showing the distributive law, that are represented by this part-part- whole model.

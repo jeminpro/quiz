@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "A description of the sound or tone of."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WGR.png)
+
 Timbre is...

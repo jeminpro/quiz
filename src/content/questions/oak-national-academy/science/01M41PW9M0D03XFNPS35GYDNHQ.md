@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The red water moved up through the."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNHQ.png)
+
 Jun left a celery stalk in water with some red dye. After a few hours, the leaves started to turn red. Why did this happen?

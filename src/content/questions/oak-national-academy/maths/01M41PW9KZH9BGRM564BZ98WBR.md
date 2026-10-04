@@ -24,4 +24,6 @@ choices:
 correctChoiceIds: [F]
 explanation: "The denominator is 4 times the value."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WBR.png)
+
 What is the relationship between the numerator and the denominator in these fractions?

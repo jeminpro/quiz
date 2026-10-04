@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "8 is the missing number."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJX2.png)
+
 What is the missing number?

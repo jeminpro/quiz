@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "A."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FK2.png)
+
 Which is the best estimate of 750 g shown on this scale?

@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The area of rectangle A is greater than."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QR9.png)
+
 Look at rectangles A and B. Which of the statements is correct?

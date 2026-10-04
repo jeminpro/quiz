@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A, B]
 explanation: "Add more games and build a new climbing frame are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KQ6SECG714ZDTVK3Z3.png)
+
 How could you improve this playground?

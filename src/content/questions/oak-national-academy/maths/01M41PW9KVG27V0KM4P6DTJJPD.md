@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJPD.png)
+
 Izzy thinks that an apple can only be split into two parts. Is Izzy right?

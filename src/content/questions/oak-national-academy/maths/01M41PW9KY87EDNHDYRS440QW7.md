@@ -24,4 +24,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "7 7."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QW7.png)
+
 What does the image represent?

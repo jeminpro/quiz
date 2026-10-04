@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "6 cm is the length of the pencil."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F4R.png)
+
 What is the length of the pencil?

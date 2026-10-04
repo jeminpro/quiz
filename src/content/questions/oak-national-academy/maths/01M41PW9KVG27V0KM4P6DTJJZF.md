@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "There are 6 fives. There are 30."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZF.png)
+
 Which of the following describes the groups shown in the picture?

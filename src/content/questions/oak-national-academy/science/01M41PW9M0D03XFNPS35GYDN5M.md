@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Metal because it is strong."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN5M.png)
+
 Sofia has sorted these materials into two groups: materials suitable to make a chair / materials unsuitable to make a chair. Which material has she put in the wrong group, and why?

@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "45°."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WDN.png)
+
 This is a triangle. Which of these is a good estimate for the angle of the circled vertex?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "The blank should say four."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62ME.png)
+
 There are __________ bundles of 5 pencils.

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "14 is the sum of the dots on the three dice."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62W1.png)
+
 What is the sum of the dots on the three dice?

@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, B, C]
 explanation: "8.01, 8.38 and 8.09 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QNJ.png)
+
 Tick the numbers that would round to the previous multiple of one, in this case 8.

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "4.82 - 4 = 0.82 and 0.8 = 4.82 - 4.02 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QN4.png)
+
 Tick the equations that could be written based on this part-part-whole model.

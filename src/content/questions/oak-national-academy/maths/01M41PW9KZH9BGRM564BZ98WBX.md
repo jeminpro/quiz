@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [C, E, G]
 explanation: "The denominator is 2 times the value, 1 out of 2 is the same proportion of the and The numerator is half the value of the are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WBX.png)
+
 What relationship is shown by the arrows in the image?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Equal to."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJNX.png)
+
 What does the symbol = represent?

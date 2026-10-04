@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The blank should say No."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJS0.png)
+
 ________ correct answer

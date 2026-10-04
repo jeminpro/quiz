@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "The blank should say centre."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KQ6SECG714ZDTVK422.png)
+
 The Equator is an imaginary line that runs around the __________ of the Earth?

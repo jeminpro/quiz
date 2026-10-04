@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Hand puppet."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KPMDSXJ94Z2N2A8KD5.png)
+
 What type of puppet is shown in the picture?

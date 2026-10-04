@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "50 is less than 90."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJKV.png)
+
 Compare the 3 numbers shown. Which of the following is true?

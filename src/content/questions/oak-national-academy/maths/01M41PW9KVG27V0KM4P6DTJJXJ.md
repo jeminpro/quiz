@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "10 + 7 = 17."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJXJ.png)
+
 Which equation matches the part-part-whole model?

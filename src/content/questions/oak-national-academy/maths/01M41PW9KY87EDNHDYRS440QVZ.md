@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QVZ.png)
+
 The yellow coloured part has a value of:

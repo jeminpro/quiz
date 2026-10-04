@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Heart and lungs."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNCF.png)
+
 Which two organs does the rib cage protect?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "C has more fruit than A and B."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJKA.png)
+
 Which comparative sentence about the fruit is true?

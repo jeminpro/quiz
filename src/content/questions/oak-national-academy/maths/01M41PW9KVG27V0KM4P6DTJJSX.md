@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJSX.png)
+
 Which of the following is closer to 5?

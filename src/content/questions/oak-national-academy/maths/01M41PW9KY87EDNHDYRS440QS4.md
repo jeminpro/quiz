@@ -26,4 +26,6 @@ choices:
 correctChoiceIds: [C, E]
 explanation: "The sunflower is four times the height and 1 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QS4.png)
+
 Compare the height of the tree and the sunflower and the height of the dog. Which sentences could describe the image?

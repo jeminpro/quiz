@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [A, G]
 explanation: "The cuboid and the cube have the and The cuboid and the cube have are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62NY.png)
+
 Tick the correct sentences.

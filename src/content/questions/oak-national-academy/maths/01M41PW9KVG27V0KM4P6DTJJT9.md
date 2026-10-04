@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "3 + 4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJT9.png)
+
 There are 3 large cars and 4 small cars. We can represent this as...

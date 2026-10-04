@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "32 × 100 = 3,200 is the equation being represented in the place value chart showing before and after."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QEV.png)
+
 What is the equation being represented in the place value chart showing before and after?

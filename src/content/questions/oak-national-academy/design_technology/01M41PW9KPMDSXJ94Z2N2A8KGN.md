@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Holes too big."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KPMDSXJ94Z2N2A8KGN.png)
+
 Why wouldn't a loose weave fabric be suitable for a pencil case design?

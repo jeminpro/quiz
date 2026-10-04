@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "3 × 5 =."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62M1.png)
+
 Alex has drawn a picture. Select the correct multiplication equation which represents this correctly.

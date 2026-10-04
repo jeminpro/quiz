@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "The patterns of sounds that we play."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WE1.png)
+
 Rhythm is...

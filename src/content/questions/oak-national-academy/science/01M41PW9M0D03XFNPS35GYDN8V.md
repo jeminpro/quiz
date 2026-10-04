@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Seals eat sea creatures."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN8V.png)
+
 A seal's habitat is near to the sea. Why is this a good place for a seal to live?

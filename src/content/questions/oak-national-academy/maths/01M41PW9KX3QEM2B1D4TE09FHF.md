@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "223 and 321 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FHF.png)
+
 Which two numbers have a sum of 544?

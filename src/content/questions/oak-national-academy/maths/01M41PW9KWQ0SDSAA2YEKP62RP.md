@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, D]
 explanation: "Double 7 is 14 and One-half of 14 is 7 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62RP.png)
+
 What facts does this bar model show?

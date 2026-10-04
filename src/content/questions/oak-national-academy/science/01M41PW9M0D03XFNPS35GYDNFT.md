@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, B, D]
 explanation: "Carbohydrates, fruits and vegetables and dairy and alternatives are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNFT.png)
+
 Sofia is writing a healthy eating plan. For breakfast she had wholegrain cereal with milk and strawberries. Which food groups did Sofia's breakfast contain?

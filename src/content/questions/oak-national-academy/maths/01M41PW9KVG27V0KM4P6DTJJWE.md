@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "There were 5. 4 more cars arrived. How."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJWE.png)
+
 The representation matches with which question?

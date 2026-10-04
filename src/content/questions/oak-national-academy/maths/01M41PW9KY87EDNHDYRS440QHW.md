@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Square."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QHW.png)
+
 What shape would go in this box to make the pattern symmetrical?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "Two-thirds are shaded and 2 one-thirds are shaded are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FDC.png)
+
 Which description is correct?

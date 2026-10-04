@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJS4.png)
+
 There are 7 fingers. We can say that 7 is five and more. Choose the number that completes the sentence.

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "125 cm."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62XX.png)
+
 Penny is 95 cm tall. She puts on a green hat which is 30 cm tall. What is the total height of Penny and her hat?

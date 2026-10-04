@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "3 pounds."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJV3.png)
+
 I created a picture to show a 'First, then, so, then, now' story. How much was added to the amount at the start of the story?

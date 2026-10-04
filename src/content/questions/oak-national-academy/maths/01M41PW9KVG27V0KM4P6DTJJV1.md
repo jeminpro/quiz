@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "5 + 4 = 9."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJV1.png)
+
 Which equation matches the number line.

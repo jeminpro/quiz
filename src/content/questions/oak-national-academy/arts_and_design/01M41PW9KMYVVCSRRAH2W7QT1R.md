@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The blank should say 3D model."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KMYVVCSRRAH2W7QT1R.png)
+
 A maquette is a small __________ that helps artists plan their sculptures.

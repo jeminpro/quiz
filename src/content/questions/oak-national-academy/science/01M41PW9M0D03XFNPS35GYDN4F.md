@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Using something more than once."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN4F.png)
+
 Reuse means...

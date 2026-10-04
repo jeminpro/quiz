@@ -32,4 +32,6 @@ choices:
 correctChoiceIds: [K]
 explanation: "1 1 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FEE.png)
+
 Which repeated addition equation represents the fraction of pandas wearing hats here?

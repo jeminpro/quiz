@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "B."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QQP.png)
+
 Which partitioning would be most eficient to solve: 848 ÷ 4?

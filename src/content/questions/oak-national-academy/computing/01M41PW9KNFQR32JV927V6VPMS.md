@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Looks."
 ---
+![Picture for the question](/questions/oak-national-academy/computing/01M41PW9KNFQR32JV927V6VPMS.png)
+
 What kind of command block is the say block?

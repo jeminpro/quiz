@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "10 p."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62WW.png)
+
 What amount is not equivalent to these 10 p pieces?

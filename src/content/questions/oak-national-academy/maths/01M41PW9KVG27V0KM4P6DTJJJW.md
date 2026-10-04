@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "8, 7, 6, 5, 4, 3, 2, 1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJW.png)
+
 If I count backwards from 9, what numbers would I say?

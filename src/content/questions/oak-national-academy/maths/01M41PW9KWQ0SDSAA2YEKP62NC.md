@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Skip count in 10s."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62NC.png)
+
 Jun counts 50 legs. How many crabs are there? How would you solve this problem?

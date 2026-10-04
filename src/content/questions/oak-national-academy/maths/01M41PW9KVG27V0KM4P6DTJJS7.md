@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Four."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJS7.png)
+
 There are 9 fingers. We can say that 9 is five and more. Choose the number word that completes the sentence.

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "6 tens subtract 2 tens =."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62FV.png)
+
 Which equation is being represented?

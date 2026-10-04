@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "10."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62WZ.png)
+
 100 can be decomposed into how many tens?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "6 × 7 = 42 and 7 × 6 = 42 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QV2.png)
+
 What multiplication does this array represent?

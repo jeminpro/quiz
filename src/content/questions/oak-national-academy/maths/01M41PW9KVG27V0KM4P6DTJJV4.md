@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The amount left at the end of the."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJV4.png)
+
 Alex writes an equation to match his story. 7 - 2 = 5 What does the 5 represent?

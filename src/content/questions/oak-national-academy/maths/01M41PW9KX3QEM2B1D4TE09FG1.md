@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "A shape composed of two or more."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FG1.png)
+
 This is an example of a compound shape. What is a compound shape?

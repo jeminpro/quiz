@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C, D]
 explanation: "A) and b) are both triangles, Shape a) is wider than shape b) and Shape b) is 'taller' than shape a) are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62P5.png)
+
 Compare these shapes. Which statements are true?

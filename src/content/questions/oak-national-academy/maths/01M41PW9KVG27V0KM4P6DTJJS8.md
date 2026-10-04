@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "9 - there are five and 4 more."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJS8.png)
+
 How many ladybirds can you see?

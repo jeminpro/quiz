@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "20 × 10 = 200 is the equation being represented on this Gattegno chart."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QEZ.png)
+
 What is the equation being represented on this Gattegno chart?

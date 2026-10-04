@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "44 − 20 = 24 and 20 = 44 − 24 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F8R.png)
+
 Which equations are represented by the bar model?

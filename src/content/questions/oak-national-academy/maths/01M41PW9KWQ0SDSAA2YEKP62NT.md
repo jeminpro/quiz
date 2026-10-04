@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "Shapes in a) have more than 6 vertices."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62NT.png)
+
 How have these shapes been sorted?

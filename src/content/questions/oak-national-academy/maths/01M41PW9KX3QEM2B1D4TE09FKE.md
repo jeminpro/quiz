@@ -20,4 +20,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The rectangles could have the same."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FKE.png)
+
 Which of these statements is true about these three rectangles?

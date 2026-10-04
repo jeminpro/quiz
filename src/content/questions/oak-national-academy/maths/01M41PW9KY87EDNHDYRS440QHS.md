@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "A."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QHS.png)
+
 These triangles have been sorted. Which triangle has been incorrectly sorted?

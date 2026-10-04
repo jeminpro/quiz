@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C, D]
 explanation: "4,500 and 5,499 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FJK.png)
+
 Select all of the numbers that when rounded to the nearest multiple of 1,000 round to 5,000

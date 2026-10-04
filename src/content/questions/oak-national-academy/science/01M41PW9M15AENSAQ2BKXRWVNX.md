@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Around 6 months old."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVNX.png)
+
 Andeep’s sister is 67 cm tall. Use the graph to predict how old she is likely to be.

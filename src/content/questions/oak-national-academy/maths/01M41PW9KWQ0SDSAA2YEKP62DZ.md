@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Quarter."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62DZ.png)
+
 The arrow has made a turn.

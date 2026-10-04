@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62WT.png)
+
 Alex has 11 cherries. He eats 7 of them. How many are left?

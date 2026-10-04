@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [A, B, E]
 explanation: "15 is the shortest stick of cubes, The biggest stick of cubes has 17 and 16 is one more than 15 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJKD.png)
+
 What do you notice about these sticks of cubes?

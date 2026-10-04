@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "6 − 3 = 3 and 3 = 6 − 3 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62JB.png)
+
 Which equations represent the difference between the towers of cubes?

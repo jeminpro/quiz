@@ -32,4 +32,6 @@ choices:
 correctChoiceIds: [D, G, I, L]
 explanation: "In October it is warmer in Sydney than, difference between min and max, Temperatures are always negative in and min and max temperatures in the are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QP7.png)
+
 Use the information in the table to tick all the statements that are true.

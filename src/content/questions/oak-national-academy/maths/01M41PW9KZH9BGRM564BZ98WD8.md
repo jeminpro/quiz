@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Obtuse."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WD8.png)
+
 Which type of angle is shown?

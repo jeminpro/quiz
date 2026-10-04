@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B, D]
 explanation: "16 and 24 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FAD.png)
+
 20 is a multiple of 4. Which multiples of 4 are adjacent to 20?

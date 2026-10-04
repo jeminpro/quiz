@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Living things cannot survive without."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNJQ.png)
+
 Which statement is true?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "7 - 4 = 3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62GV.png)
+
 Alex is trying to write all the addition and subtraction facts for this bar model. He cannot think of the last one. What is the missing equation from his list?

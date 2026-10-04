@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "That some places in Tanzania get cold and that there are mountains in Tanzania are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KQ6SECG714ZDTVK47W.png)
+
 What does this photograph tell you about Tanzania?

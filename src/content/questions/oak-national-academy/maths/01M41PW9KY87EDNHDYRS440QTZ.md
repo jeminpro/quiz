@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Sam whose box is 36 cm long."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QTZ.png)
+
 Whose box has the greatest volume?

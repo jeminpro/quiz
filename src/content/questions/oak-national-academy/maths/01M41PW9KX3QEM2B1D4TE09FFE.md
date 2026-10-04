@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "7."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FFE.png)
+
 Izzy has a multipack of 10 juice blast drinks. She drinks one on Sunday, Wednesday and Friday. What fraction of the multipack is left?

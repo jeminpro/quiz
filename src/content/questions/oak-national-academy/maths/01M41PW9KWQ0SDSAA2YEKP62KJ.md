@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, D, E]
 explanation: "4 equal groups of 4, 2 equal groups of 8 and 8 equal groups of 2 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62KJ.png)
+
 Which of these could be shown by this collection of presents?

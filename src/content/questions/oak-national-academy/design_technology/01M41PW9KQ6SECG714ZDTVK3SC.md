@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Loose pivots."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KQ6SECG714ZDTVK3SC.png)
+
 In a bell crank linkage, what connects the levers to the central 'bell' shaped piece?

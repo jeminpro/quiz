@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The blank should say 111 r 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QQX.png)
+
 ________ correct answer

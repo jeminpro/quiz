@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Turn left then turn right."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62DX.png)
+
 Which turns will Izzy make to get to the swing?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Diagram is the name for this type of picture which we can use to show information about something."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNHS.png)
+
 What is the name for this type of picture which we can use to show information about something?

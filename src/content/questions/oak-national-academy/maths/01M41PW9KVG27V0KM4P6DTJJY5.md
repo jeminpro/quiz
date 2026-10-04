@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "7 sharpeners. That is how long is the grey snake."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJY5.png)
+
 How long is the grey snake?

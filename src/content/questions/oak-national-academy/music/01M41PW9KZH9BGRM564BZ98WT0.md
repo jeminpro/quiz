@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Ta-di Ta Ta-di Ta."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WT0.png)
+
 How would you clap and chant this rhythm?

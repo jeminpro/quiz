@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "A kite can also be a rhombus or a square."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QJ8.png)
+
 True or false. A kite can also be a rhombus or a square.

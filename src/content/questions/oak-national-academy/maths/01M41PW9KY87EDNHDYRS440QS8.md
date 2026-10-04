@@ -24,4 +24,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "The mass of the cub is one third times."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QS8.png)
+
 The mass of the mother bear is 120 kg. Which statement describes the mass of the cub?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Two-sixths."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FDF.png)
+
 What fraction of the frogs are on the log?

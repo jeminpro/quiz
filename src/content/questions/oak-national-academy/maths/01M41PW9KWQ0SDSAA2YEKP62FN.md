@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "B."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62FN.png)
+
 Which arrow shows the position of 80 on this number line?

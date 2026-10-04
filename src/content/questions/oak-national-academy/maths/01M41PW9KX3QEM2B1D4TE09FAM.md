@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "12 x 8 + 8 and Increase 96 by 8 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FAM.png)
+
 Here is part of the 8 times table grid. What could Izzy do to find 13 × 8 quickly?

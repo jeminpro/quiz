@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C, F]
 explanation: "The missing number is one more than and The missing number is one less than 5 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJHN.png)
+
 Choose 2 sentences that describe the missing number in these cards.

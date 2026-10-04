@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Partitioning."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QRF.png)
+
 Which strategy has been used to calculate the area of this rectangle?

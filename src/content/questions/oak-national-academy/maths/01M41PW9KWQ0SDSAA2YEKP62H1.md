@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Double 4 is 8."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62H1.png)
+
 Which sentence describes what the bar model is representing?

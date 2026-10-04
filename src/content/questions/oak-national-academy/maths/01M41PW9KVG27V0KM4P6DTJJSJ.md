@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "7."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJSJ.png)
+
 What number do the cubes represent on the number line?

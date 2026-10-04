@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "4. That is how many counters can you see."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJPJ.png)
+
 How many counters can you see?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "10 centimetres is the height of the knight, which is the second toy in the picture."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJYJ.png)
+
 What is the height of the knight, which is the second toy in the picture.

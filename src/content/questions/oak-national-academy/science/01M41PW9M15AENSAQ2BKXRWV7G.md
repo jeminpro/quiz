@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Slide."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWV7G.png)
+
 What types of switch are shown on this clock radio?

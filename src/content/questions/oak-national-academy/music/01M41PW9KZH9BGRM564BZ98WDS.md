@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Hitting or striking."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WDS.png)
+
 How is this glockenspiel played?

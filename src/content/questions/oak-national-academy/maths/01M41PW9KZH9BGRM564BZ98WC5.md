@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "5,000 m."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WC5.png)
+
 Convert these kilometres to metres.

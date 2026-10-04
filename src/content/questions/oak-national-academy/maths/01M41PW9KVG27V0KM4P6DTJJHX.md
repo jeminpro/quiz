@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The next number is 3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJHX.png)
+
 I have 2 pencils. I need to make a group of 5 pencils. What is the next number I will say to count out my group?

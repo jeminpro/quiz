@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62NP.png)
+
 5 dogs share 10 biscuits equally. How many biscuits do they each get?

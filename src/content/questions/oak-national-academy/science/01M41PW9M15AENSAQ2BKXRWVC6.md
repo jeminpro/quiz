@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The plant is food for the caterpillar."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVC6.png)
+
 What does the arrows in this food chain show?

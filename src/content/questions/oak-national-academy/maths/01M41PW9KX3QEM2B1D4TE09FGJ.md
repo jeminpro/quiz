@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C, D]
 explanation: "30 minutes and Half an hour are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FGJ.png)
+
 What time interval is being shown here? Select all of the options that apply.

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "0.2 = 7 − 7.2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QME.png)
+
 Which equation would not represent the part-part-whole model.

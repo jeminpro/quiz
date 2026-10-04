@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Lucas."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJQV.png)
+
 The children have matched shapes. Who has made a mistake?

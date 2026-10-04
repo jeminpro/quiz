@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "That foil and plastic are waterproof and that cotton and denim are not are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN53.png)
+
 What do these investigation results show us?

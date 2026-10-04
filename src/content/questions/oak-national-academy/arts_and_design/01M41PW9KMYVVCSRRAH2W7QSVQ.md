@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Red and blue."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KMYVVCSRRAH2W7QSVQ.png)
+
 Which two colours are mixed together to make purple?

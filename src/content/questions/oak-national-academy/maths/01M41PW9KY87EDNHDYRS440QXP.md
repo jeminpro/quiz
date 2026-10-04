@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: ">."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QXP.png)
+
 Which symbol would go between this fraction and decimal?

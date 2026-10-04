@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "2 × 2 × 2 × 2 = 16."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QV8.png)
+
 The factor bug shows the factors of 16 Which of the calculations below correctly shows 16 decomposed into prime factors?

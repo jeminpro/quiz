@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "6 square units is the area of the shaded shape."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QR7.png)
+
 What is the area of the shaded shape?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "15 mm."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KQ6SECG714ZDTVK3V3.png)
+
 What size is a typical seam allowance?

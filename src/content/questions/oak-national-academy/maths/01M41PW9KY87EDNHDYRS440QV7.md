@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "2, 3, 5."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QV7.png)
+
 What are the prime factors shown in this factor bug?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Takadi Takadi Ta-di Ta."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WKG.png)
+
 How would you chant this rhythm?

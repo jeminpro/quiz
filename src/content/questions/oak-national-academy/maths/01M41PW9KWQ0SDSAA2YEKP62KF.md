@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "2 groups of 6 and 3 groups 4 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62KF.png)
+
 Select the ways in which you can equally group 12

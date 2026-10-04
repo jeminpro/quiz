@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "4. That is how many 2p coins would have the same value as this set of 1 p coins."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZV.png)
+
 How many 2p coins would have the same value as this set of 1 p coins?

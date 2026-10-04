@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, B, D]
 explanation: "50 + 54 = 104, 104 − 54 = 50 and 54 = 104 − 50 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F8S.png)
+
 Which equations are represented by the bar model?

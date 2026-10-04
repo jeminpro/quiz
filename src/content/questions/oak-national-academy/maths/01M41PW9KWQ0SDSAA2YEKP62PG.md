@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Vertices."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62PG.png)
+
 How have these shapes been sorted? What is the missing word in each set?

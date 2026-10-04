@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The top or outside layer of a material is the surface of a material."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNJ6.png)
+
 What is the surface of a material?

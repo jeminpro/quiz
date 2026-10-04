@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "Have a B section which is different and repeat the A section at the end of the are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WGN.png)
+
 When we play within an ABA musical structure we need to...

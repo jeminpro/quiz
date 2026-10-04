@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "C."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QX9.png)
+
 8 Which letter best represents the position of on this number line?

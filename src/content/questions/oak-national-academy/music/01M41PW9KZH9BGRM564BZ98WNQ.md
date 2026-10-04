@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "Takadi, takadi, ta-di, ta."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WNQ.png)
+
 How would you chant this rhythm?

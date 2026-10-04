@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "LED display."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KQ6SECG714ZDTVK3T5.png)
+
 Which of these is an output component in a micro:bit?

@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "23 × 10 = 230 is the equation being represented in the place value chart showing before and after."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QEC.png)
+
 What is the equation being represented in the place value chart showing before and after?

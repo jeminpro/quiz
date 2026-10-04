@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "45 minutes past."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62RX.png)
+
 What time is being shown by the minute hand here?

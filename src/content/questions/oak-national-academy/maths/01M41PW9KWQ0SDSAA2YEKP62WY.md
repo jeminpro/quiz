@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "170 cm - 70 cm - 50 cm."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62WY.png)
+
 Read the word problem. Jacob has 170 cm of ribbon. Andeep cuts 70 cm from the ribbon. Izzy cuts 50 cm from the ribbon. How is the missing part calculated?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Go forward 3 squares. Turn left."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62E2.png)
+
 Which directions take Jun to the 2 pence coin?

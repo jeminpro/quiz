@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "A."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62FP.png)
+
 Which arrow shows the position of 30 on this number line?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "3 is the missing part in this part-part-whole model."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJW3.png)
+
 What is the missing part in this part-part-whole model?

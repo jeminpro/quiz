@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The blank should say commutativity."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62MY.png)
+
 Which word completes the sentence? The order of the factors can be changed and the product remains the same. This is known as __________.

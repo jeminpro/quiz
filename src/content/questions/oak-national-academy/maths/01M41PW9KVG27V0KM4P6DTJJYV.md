@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The blank should say 7."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJYV.png)
+
 Complete the ‘First, then, now’ story using the picture. First the bracelet was 7 cm long. Then I added a 4 cm bead. Now the bracelet is ___ cm long.

@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The green vehicle is between 2 and 3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJYE.png)
+
 Which statement is correct?

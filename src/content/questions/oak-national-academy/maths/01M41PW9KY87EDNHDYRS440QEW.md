@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "× 100 is the missing operation and number in the image shown."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QEW.png)
+
 What is the missing operation and number in the image shown?

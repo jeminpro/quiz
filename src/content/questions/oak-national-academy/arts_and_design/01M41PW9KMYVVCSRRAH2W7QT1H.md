@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "It is three-dimensional."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KMYVVCSRRAH2W7QT1H.png)
+
 What makes sculpture unique as an art form?

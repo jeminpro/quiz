@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "No, because they spend most of their."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN8W.png)
+
 Is a desert a suitable habitat for a hippo?

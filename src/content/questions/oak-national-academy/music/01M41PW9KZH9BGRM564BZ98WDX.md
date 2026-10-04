@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "The regular, steady heartbeat of the."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WDX.png)
+
 Pulse is...

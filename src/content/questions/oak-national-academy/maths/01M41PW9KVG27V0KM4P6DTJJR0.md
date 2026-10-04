@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, D]
 explanation: "B and D are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJR0.png)
+
 Which shapes are in the wrong place?

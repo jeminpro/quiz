@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "An aerial photograph."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KQ6SECG714ZDTVK3ZP.png)
+
 What type of photograph is this?

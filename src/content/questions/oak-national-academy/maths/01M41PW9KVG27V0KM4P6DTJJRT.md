@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, B]
 explanation: "2 and 3 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJRT.png)
+
 This shows 5 split into two parts. Tick the parts.

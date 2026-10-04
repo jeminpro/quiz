@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C, D]
 explanation: "Oak and giant redwood are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVB0.png)
+
 Which of the plants listed could be added to the group of plants that are trees?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "More than 15."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJK6.png)
+
 Is the number of robots more, equal to, or less than 15?

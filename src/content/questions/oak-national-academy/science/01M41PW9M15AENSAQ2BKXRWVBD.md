@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "It has shorter green leaves on the top."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVBD.png)
+
 Which of these statements describe the structure of this pineapple plant?

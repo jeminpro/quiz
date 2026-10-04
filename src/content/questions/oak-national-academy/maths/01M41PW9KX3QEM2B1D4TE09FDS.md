@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C, F]
 explanation: "6 and One part represents one-tenth are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FDS.png)
+
 Which of these statements are true?

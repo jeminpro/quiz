@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "(180° − 46°) ÷ 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WD3.png)
+
 A triangle is placed inside a rectangle. Tick the calculation that helps to find missing angle b.

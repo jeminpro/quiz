@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "A cake which costs 7 p."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZP.png)
+
 Jun used these 1 p coins to buy one item at the cake sale. Which item did he buy?

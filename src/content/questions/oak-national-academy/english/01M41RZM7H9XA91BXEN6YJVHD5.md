@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The blank should say amazed."
 ---
+![Picture for the question](/questions/oak-national-academy/english/01M41RZM7H9XA91BXEN6YJVHD5.png)
+
 ________ correct answer)

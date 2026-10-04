@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Takadimi, Ta-di, Ta-di, Ta."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WMZ.png)
+
 Which of the following matches the rhythm?

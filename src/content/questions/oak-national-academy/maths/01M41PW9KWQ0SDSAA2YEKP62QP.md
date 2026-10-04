@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "6 − 4 = ?"
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62QP.png)
+
 Andeep has £65 and he buys a penguin. Which known fact should he use to calculate how much money he has left?

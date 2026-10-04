@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Sofia."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJK02.png)
+
 Who has the most money - Jun or Sofia?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C, D]
 explanation: "Double 6 is 12, 6 + 6 = 12 and Half of 12 is 6 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJXR.png)
+
 What do the ten frames show?

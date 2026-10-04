@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The order that living things depend on."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN89.png)
+
 What does a food chain show?

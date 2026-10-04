@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Subtract 5 ones from 67 cm."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62JK.png)
+
 Alex’s sunflower is 5 cm shorter than Sam’s. What strategy can Alex use to find how tall his sunflower is?

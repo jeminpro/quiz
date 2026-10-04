@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "1 whole."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FDZ.png)
+
 Six-sixths is equal to…

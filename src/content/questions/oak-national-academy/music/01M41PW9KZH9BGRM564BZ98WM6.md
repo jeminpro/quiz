@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The blank should say four."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WM6.png)
+
 ________ correct answer)

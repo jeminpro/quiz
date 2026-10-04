@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The size of the groups."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QVW.png)
+
 The image can be expressed as 3 × 4 The 3 represents:

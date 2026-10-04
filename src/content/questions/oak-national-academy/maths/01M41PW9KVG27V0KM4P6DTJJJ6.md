@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The same."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJ6.png)
+
 The same or not the same?

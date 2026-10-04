@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "60 ÷ 10 =."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62T1.png)
+
 Lucas hits the orange target (6) to solve his equation. What could the equation be?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "4 × 8 + 1 × 8 = 5 × 8 and 5 × 8 = 5 × 8 − 1 × 8 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QDD.png)
+
 Tick the equations that are represented by this part-part-whole model.

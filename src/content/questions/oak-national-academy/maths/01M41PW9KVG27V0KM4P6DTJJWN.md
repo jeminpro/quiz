@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "5 is the missing number on the number line."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJWN.png)
+
 What is the missing number on the number line?

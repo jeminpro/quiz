@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "4. That is how many equal parts has the whole set of cherries been divided into."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FD4.png)
+
 How many equal parts has the whole set of cherries been divided into?

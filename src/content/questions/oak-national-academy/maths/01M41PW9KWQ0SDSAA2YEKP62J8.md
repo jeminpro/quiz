@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "Taller and shorter and heavier and lighter are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62J8.png)
+
 What vocabulary can be used to compare Alex and Sofia?

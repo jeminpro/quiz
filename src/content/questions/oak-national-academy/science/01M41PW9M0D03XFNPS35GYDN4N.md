@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Glass jars."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN4N.png)
+
 Aisha has grouped these objects into see-through and not see-through. Which object has she put into the wrong group?

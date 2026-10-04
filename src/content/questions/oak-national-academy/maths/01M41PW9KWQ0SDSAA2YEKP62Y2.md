@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "90 cm."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62Y2.png)
+
 Use the bar model to support you to identify the calculation, and then solve the problem.

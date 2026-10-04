@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, C, E]
 explanation: "A television screen, A tabletop and The front of a classroom door are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QR4.png)
+
 Select all of the items that would have a greater area than the circular clock face.

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, B, D]
 explanation: "1 + 3 + 5 = 9, 9 = 3 + 1 + 5 and 5 + 3 + 1 = 9 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62HV.png)
+
 Which equations represent the part-part-whole model?

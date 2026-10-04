@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Each child gets 4 cupcakes with 3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QQJ.png)
+
 19 cupcakes are shared between 4 children. Choose the correct statement for the representation.

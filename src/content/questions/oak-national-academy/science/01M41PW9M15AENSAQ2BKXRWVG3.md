@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "It changes the direction of the effort."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVG3.png)
+
 How does this pulley make it easier to lift the load?

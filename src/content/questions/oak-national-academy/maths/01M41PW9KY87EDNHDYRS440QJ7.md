@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C, D]
 explanation: "A, c and d are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QJ7.png)
+
 Which of these quadrilaterals are also kites?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The bottle."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJNM.png)
+
 Which will hold more water, the cup or the bottle?

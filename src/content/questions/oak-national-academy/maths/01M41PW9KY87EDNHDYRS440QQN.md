@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The quotient is 14 with a remainder of."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QQN.png)
+
 Which of these statements is correct for this short division?

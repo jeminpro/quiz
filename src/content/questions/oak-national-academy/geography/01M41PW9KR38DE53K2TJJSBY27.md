@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "12:00 PM."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY27.png)
+
 What was the quietest time of the day?

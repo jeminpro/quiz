@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "I have five 2 p coins. How much."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62QW.png)
+
 Which problem is represented here?

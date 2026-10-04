@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KZH9BGRM564BZ98WBM.png)
+
 1 Which number can go in the squares to create two fractions equal to?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "A."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62EY.png)
+
 Which is the hour hand?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The next number is 18."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJS.png)
+
 Counting back from 19, what is the next number?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The start block is not connected."
 ---
+![Picture for the question](/questions/oak-national-academy/computing/01M41PW9KNFQR32JV927V6VPMF.png)
+
 Why won't this program run?

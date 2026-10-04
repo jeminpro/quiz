@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "25, 20, 15, 10, 5."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZG.png)
+
 Sam says that there are 25 slices of pizza, so Jacob counts backwards to check. Which of the following will he say to check he is correct?

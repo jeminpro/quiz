@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "La."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WR8.png)
+
 What pitch does this hand sign show?

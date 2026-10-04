@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "A and c are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QRE.png)
+
 Which of these rectangles has the dimensions correctly labelled?

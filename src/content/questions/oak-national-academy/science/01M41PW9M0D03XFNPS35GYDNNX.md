@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "Evaporation gets quicker as."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNNX.png)
+
 Which of these conclusions do these data support?

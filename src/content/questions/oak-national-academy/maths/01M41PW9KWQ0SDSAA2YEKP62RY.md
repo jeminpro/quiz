@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "45 minutes past 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62RY.png)
+
 What time is being shown here?

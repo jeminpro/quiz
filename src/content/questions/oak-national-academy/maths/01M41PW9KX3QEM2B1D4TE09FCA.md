@@ -24,4 +24,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FCA.png)
+
 The skipping ropes are all the same length. What part of the whole is one of the ropes?

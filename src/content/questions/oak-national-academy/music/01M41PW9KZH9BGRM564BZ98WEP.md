@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "How fast or slow the music is."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WEP.png)
+
 Tempo is...

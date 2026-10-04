@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "A."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QXV.png)
+
 Which letter is labelling the numerator of this fraction?

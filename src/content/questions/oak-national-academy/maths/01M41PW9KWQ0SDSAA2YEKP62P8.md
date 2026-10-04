@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "6 rectangular."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62P8.png)
+
 A cuboid has faces.

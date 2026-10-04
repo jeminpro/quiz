@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "4. That is how many two-spot tokens would we use to represent the 1 p coins shown."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZS.png)
+
 How many two-spot tokens would we use to represent the 1 p coins shown?

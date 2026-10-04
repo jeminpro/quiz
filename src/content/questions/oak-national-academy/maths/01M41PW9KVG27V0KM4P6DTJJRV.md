@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "2 and 4 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJRV.png)
+
 This shows 6 split into two parts. Tick the parts.

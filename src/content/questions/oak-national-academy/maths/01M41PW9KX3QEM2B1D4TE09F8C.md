@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "270 − 240 = ?"
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F8C.png)
+
 Which of these is the correct equation represented by this bar model?

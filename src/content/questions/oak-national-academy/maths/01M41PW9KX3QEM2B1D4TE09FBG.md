@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "The whole has been split into equal."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FBG.png)
+
 Which of the statements describe the whole and the parts of this 2D shape?

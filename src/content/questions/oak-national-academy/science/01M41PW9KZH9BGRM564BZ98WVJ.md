@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Clownfish is the name of this fish."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9KZH9BGRM564BZ98WVJ.png)
+
 What is the name of this fish?

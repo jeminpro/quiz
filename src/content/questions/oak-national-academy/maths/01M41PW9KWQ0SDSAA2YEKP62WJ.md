@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "7."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62WJ.png)
+
 What addend is missing from this bar model?

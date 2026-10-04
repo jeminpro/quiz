@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "This is a radiating pattern."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJR5.png)
+
 True or false? This is a radiating pattern.

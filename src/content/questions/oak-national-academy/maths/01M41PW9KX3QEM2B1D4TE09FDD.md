@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C, D]
 explanation: "2 one-fifths and two-fifths are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FDD.png)
+
 What fraction is of the shape is shaded?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Hit or strike them together."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WDW.png)
+
 How do you make a sound with the claves?

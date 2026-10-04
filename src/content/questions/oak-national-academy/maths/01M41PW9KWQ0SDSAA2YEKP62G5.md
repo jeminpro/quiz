@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C, E]
 explanation: "There are 4 groups of ten and 6 more and There are 46 ones are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62G5.png)
+
 Which of the following are true?

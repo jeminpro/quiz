@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "10 p."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJK0M.png)
+
 All the coins in Alex’s piggy bank have a value of 10 p or less. Alex swaps the 5 p coin in this set for a different coin. The set now has a greater value. What coin did he swap the 5 p with?

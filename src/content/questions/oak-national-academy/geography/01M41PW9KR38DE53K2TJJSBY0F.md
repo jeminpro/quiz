@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, E]
 explanation: "The blank should say The temperature is highest in July and and It rains every month."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY0F.png)
+
 ________ correct answers

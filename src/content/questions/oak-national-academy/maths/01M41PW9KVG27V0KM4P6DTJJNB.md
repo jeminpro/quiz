@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "7. That is how many cubes are in the whole."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJNB.png)
+
 How many cubes are in the whole?

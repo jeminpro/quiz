@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "2 dogs share 10 biscuits."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62NN.png)
+
 Which problem matches the picture?

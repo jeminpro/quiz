@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Ones."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62SJ.png)
+
 Lucas says that he can work out whether these larger numbers are divisible by 10 really quickly. Which digit has he looked at to do this?

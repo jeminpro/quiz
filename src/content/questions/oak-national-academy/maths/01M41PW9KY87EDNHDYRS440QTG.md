@@ -24,4 +24,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The astronaut toy and the golf ball."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QTG.png)
+
 The image shows an astronaut toy and a golf ball on a balance scale. Which of these statements are correct?

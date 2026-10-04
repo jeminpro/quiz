@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "47."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FAV.png)
+
 Calculate the difference.

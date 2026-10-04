@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Torrential."
 ---
+![Picture for the question](/questions/oak-national-academy/english/01M41RZM7H9XA91BXEN6YJVHGX.png)
+
 Which word best fits this illustration?

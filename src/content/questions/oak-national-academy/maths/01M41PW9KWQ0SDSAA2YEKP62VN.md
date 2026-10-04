@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The blank should say heavier than."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62VN.png)
+
 Compare the masses of the eraser and the pencil. The eraser is __________ the pencil.

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "7."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJHS.png)
+
 Count the pens. How many pens are there altogether?

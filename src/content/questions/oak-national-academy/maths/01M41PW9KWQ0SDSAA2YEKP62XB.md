@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, D]
 explanation: "170 - 70 = 100 and 170 - 100 = 70 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62XB.png)
+
 Use this bar model. Which subtraction calculations are correct?

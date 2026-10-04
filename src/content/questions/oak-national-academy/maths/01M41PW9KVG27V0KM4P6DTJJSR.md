@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "C."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJSR.png)
+
 Where would 8 go on this number line? Pick the letter that shows its place.

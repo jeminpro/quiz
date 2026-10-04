@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "10 litres."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62TH.png)
+
 If there were 20 litres of water in a bucket, and half of it was poured out. How much water would still be in the bucket?

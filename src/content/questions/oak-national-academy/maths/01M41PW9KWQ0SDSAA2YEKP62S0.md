@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, B]
 explanation: "It is half past and It is 30 minutes past are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62S0.png)
+
 What does it mean when the hour hand is pointing exactly halfway between two hour numbers?

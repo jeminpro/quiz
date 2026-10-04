@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "One-sixth is missing from the counting label."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FEB.png)
+
 What is missing from the counting label?

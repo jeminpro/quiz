@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Yes."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FFP.png)
+
 Sofia says if she connects the vertices shown here she will have a quadrilateral with a pair of perpendicular sides. Do you agree?

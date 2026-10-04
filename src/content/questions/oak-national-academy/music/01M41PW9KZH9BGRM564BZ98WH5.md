@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The way the music is organised."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WH5.png)
+
 Structure is...

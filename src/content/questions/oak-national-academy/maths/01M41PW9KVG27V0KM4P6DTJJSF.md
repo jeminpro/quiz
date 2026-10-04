@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C, D]
 explanation: "6 can be partitioned into 5 and 1 and 6 is the whole. 5 is a part and 1 is a are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJSF.png)
+
 Which stem sentence matches the part-part-whole model in the picture?

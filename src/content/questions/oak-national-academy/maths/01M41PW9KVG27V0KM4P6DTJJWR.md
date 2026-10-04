@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "8 - 1 = 7."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJWR.png)
+
 What equation is shown on the number line?

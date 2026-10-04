@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The flower is taller than the grass."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62J9.png)
+
 Which statement correctly compares the flower and the grass?

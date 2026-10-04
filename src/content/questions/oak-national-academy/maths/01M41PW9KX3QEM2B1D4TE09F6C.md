@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "320 and 40."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F6C.png)
+
 Which pair of numbers cannot be used to correctly complete the bar model?

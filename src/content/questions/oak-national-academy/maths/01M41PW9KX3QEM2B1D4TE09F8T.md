@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, D]
 explanation: "120 = 250 − 130 and 250 = 110 + 140 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F8T.png)
+
 Which equations could be represented by this bar model?

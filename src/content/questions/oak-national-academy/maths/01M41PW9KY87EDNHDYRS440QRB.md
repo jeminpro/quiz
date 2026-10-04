@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, C, D]
 explanation: "Four square metres, Four metres squared and 4m² are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QRB.png)
+
 How many different ways can this value be expressed?

@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "100 ml. That is how much more water does Jug B contain than Jug A."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F6S.png)
+
 How much more water does Jug B contain than Jug A?

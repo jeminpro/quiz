@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Transport."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY14.png)
+
 What type of land use is this?

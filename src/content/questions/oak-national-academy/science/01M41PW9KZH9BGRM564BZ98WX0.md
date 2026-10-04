@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "These tulips have yellow fiowers and."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9KZH9BGRM564BZ98WX0.png)
+
 Look closely at the tulips. Which of these sentences is true?

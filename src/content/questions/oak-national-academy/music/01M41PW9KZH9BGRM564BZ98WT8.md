@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "So so mi so so do / so so so so mi do."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WT8.png)
+
 How would you sing this line?

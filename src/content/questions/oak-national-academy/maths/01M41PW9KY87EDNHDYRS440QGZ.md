@@ -28,4 +28,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QGZ.png)
+
 Convert this improper fraction into a mixed number.

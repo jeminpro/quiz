@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "A and C are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FD3.png)
+
 Which of these fractions are unit fractions?

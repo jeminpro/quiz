@@ -10,4 +10,10 @@ choices:
 correctChoiceIds: [B]
 explanation: "Picture 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPR-1.png)
+
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPR-2.png)
+
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QPR-3.png)
+
 Select the correct expanded method shown by this representation.

@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B, C, D]
 explanation: "5,150, 5,151 and 5,249 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FJN.png)
+
 Select all of the numbers that, when rounded to the nearest multiple of 100, round to 5,200

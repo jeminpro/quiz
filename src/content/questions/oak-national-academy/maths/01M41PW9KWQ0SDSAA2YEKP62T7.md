@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Sofia."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62T7.png)
+
 Who has more money, Sofia or Jacob?

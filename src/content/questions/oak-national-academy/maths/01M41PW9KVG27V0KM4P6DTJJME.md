@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "A mouse."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJME.png)
+
 Which animal is shorter - a mouse or an elephant?

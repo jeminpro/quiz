@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [G]
 explanation: "5."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FDT.png)
+
 What fraction of frogs are on the lily pad?

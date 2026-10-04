@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Three."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJS6.png)
+
 There are 8 fingers. We can say that 8 is five and more. Choose the number word that completes the sentence.

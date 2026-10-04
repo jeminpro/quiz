@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "The pup is smaller and has white fur."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN7Q.png)
+
 When we observe this seal and its pup we notice that...

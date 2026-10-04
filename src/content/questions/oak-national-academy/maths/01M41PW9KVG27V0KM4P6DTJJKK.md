@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "A number has been missed out."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJKK.png)
+
 Laura is counting backwards in tens. What mistake has been made?

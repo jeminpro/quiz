@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Press the down arrow and select from."
 ---
+![Picture for the question](/questions/oak-national-academy/computing/01M41PW9KPMDSXJ94Z2N2A8K44.png)
+
 How do you change the key that is the trigger for this event?

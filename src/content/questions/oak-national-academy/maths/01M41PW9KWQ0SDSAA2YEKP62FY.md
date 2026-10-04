@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, D]
 explanation: "30 + 40 = and 90 − 20 = are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62FY.png)
+
 Aisha shows an answer on a place value chart. Which equation could she have been answering?

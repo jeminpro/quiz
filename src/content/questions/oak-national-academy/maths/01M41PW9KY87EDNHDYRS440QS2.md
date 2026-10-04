@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "30 cm × 3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QS2.png)
+
 Which expression represents the 30 cm tall cat and the dog three times the height?

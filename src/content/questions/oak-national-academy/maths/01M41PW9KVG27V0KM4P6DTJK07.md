@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No. It is not true that eight 2 p coins would be needed to buy the drink."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJK07.png)
+
 True or false: eight 2 p coins would be needed to buy the drink?

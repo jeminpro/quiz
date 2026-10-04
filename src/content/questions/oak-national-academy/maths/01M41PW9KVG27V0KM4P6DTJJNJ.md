@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The jug."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJNJ.png)
+
 Which will hold more water, the jug or the cup?

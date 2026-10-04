@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "I bought jam donuts."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WGG.png)
+
 Which of the following word rhythms best fits this stick notation?

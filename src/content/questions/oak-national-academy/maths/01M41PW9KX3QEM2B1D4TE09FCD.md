@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No. It is not true that the quantity of water in each container can’t be the same because the water is in different shaped containers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FCD.png)
+
 True or false? The quantity of water in each container can’t be the same because the water is in different shaped containers.

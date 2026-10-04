@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "4 × 5."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62KS.png)
+
 Here is a bar model. What multiplication expression does it represent?

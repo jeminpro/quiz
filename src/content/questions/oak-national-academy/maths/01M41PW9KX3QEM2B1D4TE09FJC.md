@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "3,062."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FJC.png)
+
 What number is being represented here with counters in a place value chart?

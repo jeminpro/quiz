@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "4 × 5. That is how many fingers are there in each group? Select the expression which matches the images.."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62MZ.png)
+
 How many fingers are there in each group? Select the expression which matches the images.

@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [A, B, F]
 explanation: "It has 5 sides and 5 vertices, It has one pair of perpendicular sides and It has no pairs of parallel sides are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FFQ.png)
+
 Sofia completes a shape to make a pentagon. Tick the correct statements.

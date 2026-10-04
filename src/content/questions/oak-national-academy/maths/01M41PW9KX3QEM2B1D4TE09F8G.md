@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Counting back to find the difference."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F8G.png)
+
 Which strategy is being shown in this number line? Partitioning or counting on / back to find difference

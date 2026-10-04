@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "20 is the missing part in this bar model."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62G0.png)
+
 What is the missing part in this bar model?

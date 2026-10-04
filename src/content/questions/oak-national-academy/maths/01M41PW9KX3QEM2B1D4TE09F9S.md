@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "In the tens only."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F9S.png)
+
 Where will regrouping be needed in this column addition?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "10 = 6 + 4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJWM.png)
+
 Which number fact to 10 will help to find the missing part in this part part whole model?

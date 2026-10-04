@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C, D, E]
 explanation: "Negative, Below zero and Less than zero are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QNZ.png)
+
 Select all of the options which describe the temperature in Edinburgh.

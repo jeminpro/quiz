@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJQH.png)
+
 Jacob has 4 conkers in his pocket. He gives one to Izzy. How many conkers does he have left in his pocket?

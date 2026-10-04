@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "8."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJHT.png)
+
 Count the leaves. How many leaves are in the group?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, B, D]
 explanation: "It is a pentagon, It has two pairs of parallel sides and It has 3 pairs of perpendicular sides are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FG0.png)
+
 Which statements about this polygon are true?

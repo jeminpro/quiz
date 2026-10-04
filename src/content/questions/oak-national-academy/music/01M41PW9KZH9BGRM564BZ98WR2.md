@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The blank should say low."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WR2.png)
+
 Touching our toes shows a __________ pitch.

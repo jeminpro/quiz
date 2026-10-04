@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "Zero point sixteen."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QM9.png)
+
 Which description of the image is incorrect?

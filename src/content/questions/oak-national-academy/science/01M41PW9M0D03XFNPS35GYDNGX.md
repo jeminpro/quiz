@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Pond."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNGX.png)
+
 This plant needs lots of water and can survive in cool and warm temperatures. Which habitat would best meet its requirements?

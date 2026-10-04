@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "7 × 8 − 2 × 8 = 5 × 8 and 5 × 8 + 2 × 8 = 7 × 8 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QDH.png)
+
 Tick the equations, showing the distributive law, that are represented by this stacked number line.

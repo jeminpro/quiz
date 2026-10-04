@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Increase."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJVB.png)
+
 Is this story showing an increase or a decrease from the first amount?

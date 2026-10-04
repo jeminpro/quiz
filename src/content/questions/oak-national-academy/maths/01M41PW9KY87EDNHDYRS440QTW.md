@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C, D, E]
 explanation: "6 × (5 × 2), There are 6 groups of 5 × 2 and 10 × 6 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QTW.png)
+
 Tick all the statements or expressions that are true about the representation.

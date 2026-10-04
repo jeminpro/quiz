@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "11."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJK0Q.png)
+
 Sam used the strategy of counting leaves in fives. She has two groups of 5 and one more leaf. How many leaves altogether?

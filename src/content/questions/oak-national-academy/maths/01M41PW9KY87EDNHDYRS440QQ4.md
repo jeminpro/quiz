@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "1500 and 1800."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QQ4.png)
+
 Estimate the numbers that the answer will be between for the value of the expression 547 × 3

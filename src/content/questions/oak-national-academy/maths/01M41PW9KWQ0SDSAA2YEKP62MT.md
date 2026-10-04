@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "The missing number is 8."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62MT.png)
+
 In this puzzle, the numbers are multiplied as shown in the middle. What is the missing number?

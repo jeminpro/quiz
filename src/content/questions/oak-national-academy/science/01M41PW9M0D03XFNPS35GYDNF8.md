@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [B, E]
 explanation: "Fruit and vegetables and carbohydrates are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNF8.png)
+
 Which two groups should we eat the most food from?

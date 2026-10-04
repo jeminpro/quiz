@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "54 + 32 = 44 + 42 and 54 + 32 = 53 + 33 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62QD.png)
+
 One of the Base 10 blocks has been moved over from one addend to the other. Which of the following could show the new equation? Tick two.

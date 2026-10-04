@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "4 and 5 are consecutive numbers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJWS.png)
+
 True or false. 4 and 5 are consecutive numbers.

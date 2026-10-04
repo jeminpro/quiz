@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [B, H]
 explanation: "1 and 240 ÷ 4 = are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QS7.png)
+
 Which two equations can you write from this bar model to calculate the length of the blue bar?

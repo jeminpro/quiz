@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "The missing number is 7."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62W3.png)
+
 The missing numbers both have the same value. What is that value?

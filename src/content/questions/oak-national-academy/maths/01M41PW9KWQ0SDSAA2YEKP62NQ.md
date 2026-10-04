@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62NQ.png)
+
 Jun uses skip counting to share 20 nuts between 5 mice. Use his count to help you work out how many nuts each mouse gets.

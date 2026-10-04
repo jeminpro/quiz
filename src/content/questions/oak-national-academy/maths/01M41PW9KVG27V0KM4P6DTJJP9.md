@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "A piece of a whole. The whole is not all."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJP9.png)
+
 What does a 'part' mean?

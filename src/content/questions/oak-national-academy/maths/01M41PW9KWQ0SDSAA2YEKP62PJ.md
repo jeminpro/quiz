@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The cost will be in the forties."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62PJ.png)
+
 Andeep estimates the cost of the items shown. Which of the following is most likely to be accurate?

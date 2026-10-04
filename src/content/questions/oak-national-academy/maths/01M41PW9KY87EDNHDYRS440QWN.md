@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "1 is the value of each part."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QWN.png)
+
 What is the value of each part?

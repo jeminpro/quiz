@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "− × ÷."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QQG.png)
+
 Look at Izzy’s question. Select the operations in the order you would calculate.

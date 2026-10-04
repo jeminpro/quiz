@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "It is equal to ten ones and It is the same as 10 one-pennies are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62FA.png)
+
 Which of these describes this coin?

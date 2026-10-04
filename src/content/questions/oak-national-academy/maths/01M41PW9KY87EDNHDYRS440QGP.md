@@ -34,4 +34,6 @@ choices:
 correctChoiceIds: [L]
 explanation: "2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QGP.png)
+
 17 Use the part-part-whole model to express as a mixed number.

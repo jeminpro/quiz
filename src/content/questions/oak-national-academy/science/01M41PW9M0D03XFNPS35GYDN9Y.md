@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Fruit and vegetables."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN9Y.png)
+
 What type of food is missing from this food triangle?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "8 is the next number if we count on using our hands."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJJH.png)
+
 What is the next number if we count on using our hands?

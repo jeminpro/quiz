@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "5. That is how many one-spot tokens would I need to represent these 1 p coins."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJZN.png)
+
 How many one-spot tokens would I need to represent these 1 p coins?

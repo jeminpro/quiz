@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "A protractor."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KQ6SECG714ZDTVK3VN.png)
+
 When you click on a rotate handle in Tinkercad, what appears to help you rotate accurately?

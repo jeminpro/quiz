@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, D]
 explanation: "3 x 12 and 5 x 6 and 5 x 9 and 3 x 7 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QRN.png)
+
 Which pair of multiplications will help calculate the area of this compound rectilinear shape?

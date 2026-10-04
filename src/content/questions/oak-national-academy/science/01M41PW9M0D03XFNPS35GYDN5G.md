@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "To support a person sitting on it."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN5G.png)
+
 Objects are made from different materials depending on their use. Why is this chair made from metal?

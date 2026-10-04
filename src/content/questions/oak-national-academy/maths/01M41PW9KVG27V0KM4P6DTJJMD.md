@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "A giraffe."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJMD.png)
+
 Which animal is taller - a giraffe or a snail?

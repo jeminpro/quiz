@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "3. That is how many groups of bricks can you see."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJKM.png)
+
 How many groups of bricks can you see?

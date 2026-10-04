@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Keswick."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY8N.png)
+
 Which of these towns is in the north-east of the Lake District?

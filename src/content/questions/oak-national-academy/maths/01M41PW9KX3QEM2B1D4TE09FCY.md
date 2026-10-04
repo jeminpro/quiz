@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "1 and 1 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FCY.png)
+
 Which of these unit fractions could go in the empty box?

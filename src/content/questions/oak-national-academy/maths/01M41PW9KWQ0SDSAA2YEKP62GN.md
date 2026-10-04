@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "53 = 50 + 3 and 53 = 3 + 50 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62GN.png)
+
 Which of the following equations are represented in this part-part-whole model?

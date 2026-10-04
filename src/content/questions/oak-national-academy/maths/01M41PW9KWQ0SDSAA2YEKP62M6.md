@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "2, 6 times."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62M6.png)
+
 6 groups of 2 is the same as saying…

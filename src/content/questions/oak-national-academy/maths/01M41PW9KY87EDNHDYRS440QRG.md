@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "10 × 8 and 6 × 8 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QRG.png)
+
 Which times tables facts are needed to calculate the area of the shape?

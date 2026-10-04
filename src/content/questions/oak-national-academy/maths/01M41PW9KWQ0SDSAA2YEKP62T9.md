@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "6. That is how many fives will be equal to 3 tens."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62T9.png)
+
 How many fives will be equal to 3 tens?

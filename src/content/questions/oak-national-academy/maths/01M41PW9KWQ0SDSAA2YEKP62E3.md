@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Unicorn."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62E3.png)
+
 Jun follows the directions. Which toy does he get to? Turn left. Go forwards 1 square. Turn Right. Go forwards 2 squares.

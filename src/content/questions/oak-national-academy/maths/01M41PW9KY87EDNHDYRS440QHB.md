@@ -30,4 +30,6 @@ choices:
 correctChoiceIds: [G]
 explanation: "3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QHB.png)
+
 In a sequence decreasing by one and one-sixth, what would come next?

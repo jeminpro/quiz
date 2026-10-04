@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [A, E]
 explanation: "Go forwards 3 squares. Turn right. Go and Turn right. Go forwards 1 square. Turn are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62E4.png)
+
 Which directions will get Izzy to the slide?

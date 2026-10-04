@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "1. That is how many cubes are in each part."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJN8.png)
+
 How many cubes are in each part?

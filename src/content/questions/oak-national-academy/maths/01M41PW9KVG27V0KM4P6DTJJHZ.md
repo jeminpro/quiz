@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "7. That is how many fingers are showing."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJHZ.png)
+
 How many fingers are showing?

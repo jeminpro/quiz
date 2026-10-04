@@ -26,4 +26,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "The plastic cup was the most suitable."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVF5.png)
+
 Which of these statements show the conclusion from an investigation?

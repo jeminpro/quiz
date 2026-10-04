@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Desert."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNGW.png)
+
 This plant needs very little water and hot temperatures. Which habitat would best meet its requirements?

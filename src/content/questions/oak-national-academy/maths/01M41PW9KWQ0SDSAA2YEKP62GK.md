@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "9 is the missing part in the part-part-whole model."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62GK.png)
+
 What is the missing part in the part-part-whole model?

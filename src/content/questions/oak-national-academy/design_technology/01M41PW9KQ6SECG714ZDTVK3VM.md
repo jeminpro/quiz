@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "It would take me to the dashboard."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KQ6SECG714ZDTVK3VM.png)
+
 What would happen if you clicked this icon?

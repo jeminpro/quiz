@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "7 is greater than 5 and 7 is less than 10 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJSP.png)
+
 Which sentences are correct?

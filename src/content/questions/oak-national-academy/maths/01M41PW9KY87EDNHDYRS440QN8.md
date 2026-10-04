@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "300 cm."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QN8.png)
+
 If one green bar represents one metre, how many centimetres are shown in the picture.

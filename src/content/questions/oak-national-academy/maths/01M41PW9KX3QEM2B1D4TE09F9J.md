@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "31 is the missing addend in the column addition."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09F9J.png)
+
 What is the missing addend in the column addition?

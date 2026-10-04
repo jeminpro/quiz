@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, B, C]
 explanation: "1, 2 and 4 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QVE.png)
+
 Tick the common factors of 8 and 28

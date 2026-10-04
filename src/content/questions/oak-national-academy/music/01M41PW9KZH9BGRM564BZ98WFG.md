@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Dynamics."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WFG.png)
+
 When we change from soft singing to strong singing, we are changing our...

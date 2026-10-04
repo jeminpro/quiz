@@ -30,4 +30,6 @@ choices:
 correctChoiceIds: [J]
 explanation: "1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FBZ.png)
+
 A strip of paper has been folded into equal parts. What fraction is each equal part?

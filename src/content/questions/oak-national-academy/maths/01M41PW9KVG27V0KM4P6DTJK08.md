@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJK08.png)
+
 Jun does not have enough money to buy the cake which costs 18p. How many more coins does he need?

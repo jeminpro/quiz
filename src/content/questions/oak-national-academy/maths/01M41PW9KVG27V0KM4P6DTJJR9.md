@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: ", one large triangle is the same size as two medium triangles."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJR9.png)
+
 True or false, one large triangle is the same size as two medium triangles.

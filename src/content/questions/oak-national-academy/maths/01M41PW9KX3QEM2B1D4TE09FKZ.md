@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "The blank should say 5 × 6 − 6 and 3 × 6 + 6."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FKZ.png)
+
 ________ correct answers

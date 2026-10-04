@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "3 × 4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62KR.png)
+
 What multiplication expression matches this grouping of counters?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "The blank should say 60."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QQ9.png)
+
 6 hundreds can be regrouped for ___ tens.

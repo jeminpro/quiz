@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Strong."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KPMDSXJ94Z2N2A8KBR.png)
+
 Triangle structures are used because they are...

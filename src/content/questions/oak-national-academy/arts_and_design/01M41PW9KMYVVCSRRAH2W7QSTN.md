@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Glue spreaders is what we call these tools."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KMYVVCSRRAH2W7QSTN.png)
+
 What are these tools called?

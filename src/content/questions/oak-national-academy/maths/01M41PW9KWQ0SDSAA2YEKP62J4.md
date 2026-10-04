@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "7 + 3 + 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62J4.png)
+
 7 + 5 = 12 How has Laura shown bridging through 10?

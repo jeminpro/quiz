@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "The blank should say numerator."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QVX.png)
+
 The name for the number on the top of a fraction is the ____________.

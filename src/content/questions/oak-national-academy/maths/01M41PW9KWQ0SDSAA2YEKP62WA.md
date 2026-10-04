@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "3 is the missing addend."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62WA.png)
+
 What is the missing addend?

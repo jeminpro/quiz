@@ -30,4 +30,6 @@ choices:
 correctChoiceIds: [J]
 explanation: "1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QH5.png)
+
 3 Use the number line to calculate 6 − =

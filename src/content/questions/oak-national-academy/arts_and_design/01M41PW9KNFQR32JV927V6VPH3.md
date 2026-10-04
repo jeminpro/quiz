@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, D]
 explanation: "The story or meaning behind the and How well the objects fit in the box are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KNFQR32JV927V6VPH3.png)
+
 What should an artist consider when choosing the objects for their art box?

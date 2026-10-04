@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "It is too dry and hot."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY0M.png)
+
 Why do very few plants and animals live in the hot desert biome?

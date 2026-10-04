@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QX5.png)
+
 This heart is one-quarter of the whole. How many parts make up the whole?

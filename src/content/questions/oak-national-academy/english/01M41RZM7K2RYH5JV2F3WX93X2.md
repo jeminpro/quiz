@@ -20,4 +20,6 @@ choices:
 correctChoiceIds: [A, G]
 explanation: "The majority of the Perseverance and the Perseverance rover is able to use are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/english/01M41RZM7K2RYH5JV2F3WX93X2.png)
+
 Which of the following is true about the Mars Perseverance rover?

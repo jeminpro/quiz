@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, C]
 explanation: "6 × 4 = 24 and 24 ÷ 4 = 6 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QKG.png)
+
 Which equations could this number line represent?

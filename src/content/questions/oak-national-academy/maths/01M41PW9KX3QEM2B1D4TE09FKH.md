@@ -20,4 +20,6 @@ choices:
 correctChoiceIds: [D, F]
 explanation: "You can work out the perimeter of the and You can work out the perimeter of the are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FKH.png)
+
 Which of these statements is true?

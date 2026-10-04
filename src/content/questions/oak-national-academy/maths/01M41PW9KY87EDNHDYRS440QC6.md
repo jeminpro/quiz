@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "42 and 56."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QC6.png)
+
 Select the previous and next multiples of 7 for the number 49

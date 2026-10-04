@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Keep their leaves all year long."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9KZH9BGRM564BZ98WXB.png)
+
 Evergreen trees...

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Roots."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9KZH9BGRM564BZ98WX5.png)
+
 Lucas draws a picture of a tree. Which part of the tree has he forgotten?

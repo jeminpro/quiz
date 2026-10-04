@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Bus."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KQ6SECG714ZDTVK3TP.png)
+
 Which type of trafic was the least common in this trafic survey?

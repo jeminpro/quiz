@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [E]
 explanation: "Clean it after you use it so it’s ready."
 ---
+![Picture for the question](/questions/oak-national-academy/arts_and_design/01M41PW9KMYVVCSRRAH2W7QSTH.png)
+
 Which is the best way to leave a paintbrush after using it?

@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "How much food we should eat from."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDNF7.png)
+
 What does the Eatwell plate show us?

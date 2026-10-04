@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "6 cm."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJYW.png)
+
 Which is the best estimate for the length of this playdough shape?

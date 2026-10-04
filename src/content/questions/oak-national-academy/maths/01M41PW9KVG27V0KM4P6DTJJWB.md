@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A, B, D]
 explanation: "6 + 3 = 9, 3 + 6 = 9 and 9 - 3 = 6 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJWB.png)
+
 Tick all the equations that this part part whole model is showing.

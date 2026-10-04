@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Lucas and Alex have the same amount of money."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62RS.png)
+
 True or false. Lucas and Alex have the same amount of money.

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Double 2 is 4, add 1 is 5."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62H7.png)
+
 Which sentence describes the representations.

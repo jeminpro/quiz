@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "5 + 3."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJWA.png)
+
 What equation is the representation showing?

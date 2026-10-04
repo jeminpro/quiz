@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "4."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJWH.png)
+
 There are 10 counters altogether. Some are in the hand. How many counters are in the hand?

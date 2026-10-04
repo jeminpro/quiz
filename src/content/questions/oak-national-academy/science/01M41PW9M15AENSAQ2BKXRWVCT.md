@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "No. It is not true that this food chain means that one cabbage is food for one greenfly, which is food for one ladybird."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVCT.png)
+
 True or false? This food chain means that one cabbage is food for one greenfly, which is food for one ladybird.

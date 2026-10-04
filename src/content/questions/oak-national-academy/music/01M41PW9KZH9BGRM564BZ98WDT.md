@@ -16,4 +16,6 @@ choices:
 correctChoiceIds: [A, E]
 explanation: "Singing at the correct time and doing actions in time to the music are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/music/01M41PW9KZH9BGRM564BZ98WDT.png)
+
 We can show we have a good sense of the pulse by...

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "Liverpool."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY89.png)
+
 Think back to the story of Alan in the lesson - this is one of the cities where he lived - in which city is this famous building?

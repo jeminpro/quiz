@@ -24,4 +24,6 @@ choices:
 correctChoiceIds: [D, I]
 explanation: "2 and 5.4 kg are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QXT.png)
+
 What mass is the arrow pointing to on this scale?

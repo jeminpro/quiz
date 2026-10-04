@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Penguin."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9KZH9BGRM564BZ98WVN.png)
+
 Lucas has sorted some animals by their structure, into those with feathers and those without feathers. Can you spot which animal is in the wrong group?

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "Ben Nevis."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY0X.png)
+
 Which feature is not a human feature?

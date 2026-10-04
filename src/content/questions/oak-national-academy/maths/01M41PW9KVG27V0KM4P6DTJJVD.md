@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "5 - 3 = 2."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJVD.png)
+
 Which equation matches this subtraction story?

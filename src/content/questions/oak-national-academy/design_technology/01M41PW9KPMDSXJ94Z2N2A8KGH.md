@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "They interlock."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KPMDSXJ94Z2N2A8KGH.png)
+
 How do the teeth of a zip join?

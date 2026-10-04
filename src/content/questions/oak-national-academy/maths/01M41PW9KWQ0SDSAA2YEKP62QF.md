@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "28 + 25 = ?"
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KWQ0SDSAA2YEKP62QF.png)
+
 Which equation is represented by this number line?

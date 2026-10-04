@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Large triangle."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJR7.png)
+
 Which tangram piece is labelled?

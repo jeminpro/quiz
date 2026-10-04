@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "A photo taken from above is an aerial photograph."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KQ6SECG714ZDTVK3ZD.png)
+
 What is an aerial photograph?

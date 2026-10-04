@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "Splattered."
 ---
+![Picture for the question](/questions/oak-national-academy/english/01M41RZM7H9XA91BXEN6YJVHGY.png)
+
 Which word best fits this illustration?

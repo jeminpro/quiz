@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "9 and 5."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJX4.png)
+
 What are the odd numbers before and after 7?

@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [C, E]
 explanation: "Shape B no longer has perpendicular and Shape B now has a pair of parallel are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FFM.png)
+
 Andeep moves one vertex to change shape A to shape B. What has changed?

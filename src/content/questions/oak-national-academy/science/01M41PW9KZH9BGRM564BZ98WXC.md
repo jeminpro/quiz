@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Lose their leaves in autumn each year."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9KZH9BGRM564BZ98WXC.png)
+
 Deciduous trees...

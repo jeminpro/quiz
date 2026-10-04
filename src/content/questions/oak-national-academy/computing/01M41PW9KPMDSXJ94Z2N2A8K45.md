@@ -22,4 +22,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "This code will make the sprite point."
 ---
+![Picture for the question](/questions/oak-national-academy/computing/01M41PW9KPMDSXJ94Z2N2A8K45.png)
+
 What will this program do?

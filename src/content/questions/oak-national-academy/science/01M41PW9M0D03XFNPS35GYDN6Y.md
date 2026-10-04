@@ -18,4 +18,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "Water it - sometimes plants can be."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN6Y.png)
+
 Sofia spots this unhealthy plant and thinks it will die soon. What should she do?

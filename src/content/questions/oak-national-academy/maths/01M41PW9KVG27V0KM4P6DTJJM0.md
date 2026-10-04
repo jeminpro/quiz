@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "50."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJM0.png)
+
 Lucas is counting forwards and taps this number on his Gattegno chart. What number will he tap next?

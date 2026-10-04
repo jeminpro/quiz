@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "This animal is dead."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M0D03XFNPS35GYDN8P.png)
+
 These bones are from an animal that is no longer alive. How would we describe this animal?

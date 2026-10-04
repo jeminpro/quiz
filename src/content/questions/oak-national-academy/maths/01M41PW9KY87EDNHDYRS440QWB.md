@@ -30,4 +30,6 @@ choices:
 correctChoiceIds: [G]
 explanation: "8."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QWB.png)
+
 Tick the correct product.

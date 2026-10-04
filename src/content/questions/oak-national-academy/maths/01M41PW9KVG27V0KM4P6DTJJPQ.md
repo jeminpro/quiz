@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "2. That is how many more fingers does Jun need to show."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJPQ.png)
+
 How many more fingers does Jun need to show?

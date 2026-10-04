@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "Frog."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVCB.png)
+
 Which living thing in this food chain is a predator and prey?

@@ -10,4 +10,6 @@ choices:
 correctChoiceIds: [B]
 explanation: "<."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJXA.png)
+
 Which symbol goes in between the equations to make this correct?

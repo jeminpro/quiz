@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "100."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QSM.png)
+
 Use the Gattegno chart to complete the sentence. 0.001 is times smaller than 0.1

@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [B, C]
 explanation: "6 and 7 are the right answers."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KVG27V0KM4P6DTJJRS.png)
+
 Which two numbers are in the wrong sets?

@@ -12,4 +12,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "C."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KY87EDNHDYRS440QQ6.png)
+
 Andeep is solving 95 ÷ 5 Which way to partition 95 is most helpful in dividing by 5?

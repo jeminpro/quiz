@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [A]
 explanation: "Northern hemisphere."
 ---
+![Picture for the question](/questions/oak-national-academy/geography/01M41PW9KR38DE53K2TJJSBY9H.png)
+
 Where is average energy use per person higher?

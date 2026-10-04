@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "Balloon."
 ---
+![Picture for the question](/questions/oak-national-academy/design_technology/01M41PW9KPMDSXJ94Z2N2A8KH8.png)
+
 Which part of this simple pneumatic system is the output?

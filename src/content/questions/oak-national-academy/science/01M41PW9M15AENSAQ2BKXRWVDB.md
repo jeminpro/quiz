@@ -14,4 +14,6 @@ choices:
 correctChoiceIds: [C]
 explanation: "A liquid changes to a gas."
 ---
+![Picture for the question](/questions/oak-national-academy/science/01M41PW9M15AENSAQ2BKXRWVDB.png)
+
 Water is evaporating from the clothes on the washing line. Evaporation is when …

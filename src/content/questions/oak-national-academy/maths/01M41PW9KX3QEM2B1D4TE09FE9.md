@@ -24,4 +24,6 @@ choices:
 correctChoiceIds: [D]
 explanation: "1."
 ---
+![Picture for the question](/questions/oak-national-academy/maths/01M41PW9KX3QEM2B1D4TE09FE9.png)
+
 1 1 Which fraction would appear on a number line between and?
