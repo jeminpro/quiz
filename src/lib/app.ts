@@ -355,10 +355,10 @@ function renderQuizSetup(subject: string, sourceId: string): void {
       <div class="setup-section setup-fields">
         <fieldset class="feedback-fieldset"><legend>When to see answers</legend>
           <div class="feedback-choices">
-            <label class="feedback-choice"><input type="radio" name="feedback" value="end" checked />
-              <span><strong>At the end</strong><small>Answers stay hidden until you submit the practice.</small></span></label>
-            <label class="feedback-choice"><input type="radio" name="feedback" value="each" />
+            <label class="feedback-choice"><input type="radio" name="feedback" value="each" checked />
               <span><strong>After each question</strong><small>Each answer is marked right or wrong when you check it, then locked.</small></span></label>
+            <label class="feedback-choice"><input type="radio" name="feedback" value="end" />
+              <span><strong>At the end</strong><small>Answers stay hidden until you submit the practice.</small></span></label>
           </div></fieldset>
       </div>
       <div class="setup-footer"><div id="pool-count" class="pool-count" aria-live="polite"></div>
@@ -412,7 +412,7 @@ function renderQuizSetup(subject: string, sourceId: string): void {
     topics: [...form.querySelectorAll<HTMLInputElement>('input[name="topic"]:checked')].map((input) => input.value),
     source: (form.elements.namedItem('source') as HTMLSelectElement).value as Attempt['source'],
     count: (form.elements.namedItem('count') as HTMLSelectElement).value,
-    feedback: (new FormData(form).get('feedback') === 'each' ? 'each' : 'end') as AnswerFeedback,
+    feedback: (new FormData(form).get('feedback') === 'end' ? 'end' : 'each') as AnswerFeedback,
   });
   const updateCount = () => {
     const selected = selection();
