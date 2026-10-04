@@ -4,7 +4,13 @@ import { z } from 'astro/zod';
 import { ULID_PATTERN } from '../scripts/ulid.mjs';
 
 const questions = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/questions' }),
+  loader: glob({
+    pattern: '**/*.md',
+    base: './src/content/questions',
+    // The default id is a lowercased slug. On Windows that slug matches the
+    // content cache as a second copy of the same file and the loader warns.
+    generateId: ({ entry }) => entry.replaceAll('\\', '/').replace(/\.md$/i, ''),
+  }),
   schema: z.object({
     id: z.string().regex(ULID_PATTERN, 'Invalid ULID'),
     subject: z.string().min(1),
