@@ -1,0 +1,15 @@
+---
+id: 01M41PW9KS756K0NXKCCN8SRCR
+subject: History
+topics: ["Significant explorers - John Cabot and Brunel"]
+choices:
+  - id: A
+    text: "wood"
+  - id: B
+    text: "plastic"
+  - id: C
+    text: "iron"
+correctChoiceIds: [A]
+explanation: "Wood."
+---
+What was the hull of the SS Great Western made from?

@@ -11,6 +11,7 @@
     "import:art": "node scripts/import-art-questions.mjs",
     "import:music": "node scripts/import-music-questions.mjs",
     "import:pe": "node scripts/import-pe-questions.mjs",
+    "import:oak": "node scripts/import-oak-quizzes.mjs",
     "questions:ids": "node scripts/assign-question-ids.mjs"
   },
   "dependencies": {

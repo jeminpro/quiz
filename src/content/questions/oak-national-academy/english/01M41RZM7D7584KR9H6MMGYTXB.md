@@ -1,0 +1,15 @@
+---
+id: 01M41RZM7D7584KR9H6MMGYTXB
+subject: English
+topics: ["'Jack and the Beanstalk' reading and writing"]
+choices:
+  - id: A
+    text: "at the end of every sentence"
+  - id: B
+    text: "to ask the reader for an answer"
+  - id: C
+    text: "to express strong emotion such as shock or surprise"
+correctChoiceIds: [C]
+explanation: "To express strong emotion such as shock or surprise."
+---
+When is an exclamation mark used?

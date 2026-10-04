@@ -1,0 +1,21 @@
+---
+id: 01M41PW9KZH9BGRM564BZ98WDN
+subject: Maths
+topics: ["Angles compare, name, estimate and measure angles"]
+choices:
+  - id: A
+    text: "Tick 1 correct answer"
+  - id: B
+    text: "20°"
+  - id: C
+    text: "25°"
+  - id: D
+    text: "45°"
+  - id: E
+    text: "75°"
+  - id: F
+    text: "90°"
+correctChoiceIds: [D]
+explanation: "45°."
+---
+This is a triangle. Which of these is a good estimate for the angle of the circled vertex?

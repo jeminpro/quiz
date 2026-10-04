@@ -1,0 +1,19 @@
+---
+id: 01M41RZM7JV3E3QHT8Q28F6A3P
+subject: English
+topics: ["The Aye-Aye non-chronological report"]
+choices:
+  - id: A
+    text: "appropriate vocabulary choices"
+  - id: B
+    text: "missing words"
+  - id: C
+    text: "sentences that make sense"
+  - id: D
+    text: "correct use of apostrophes"
+  - id: E
+    text: "how the writing flows when we read it back"
+correctChoiceIds: [B, C, E]
+explanation: "Missing words, sentences that make sense and how the writing flows when we read it back are the right answers."
+---
+When editing sentence structure, which of these do we check for?

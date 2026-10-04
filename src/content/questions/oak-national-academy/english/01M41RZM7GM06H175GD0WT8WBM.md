@@ -1,0 +1,17 @@
+---
+id: 01M41RZM7GM06H175GD0WT8WBM
+subject: English
+topics: ["The Stone Age non-chronological report"]
+choices:
+  - id: A
+    text: "No new information about the subject is given in a conclusion."
+  - id: B
+    text: "It includes a diagram."
+  - id: C
+    text: "It repeats a specific fact from one of the sections in the report."
+  - id: D
+    text: "It contains a summary sentence."
+correctChoiceIds: [A, D]
+explanation: "No new information about the subject is given in a conclusion and It contains a summary sentence are the right answers."
+---
+Which of these are true of a conclusion?

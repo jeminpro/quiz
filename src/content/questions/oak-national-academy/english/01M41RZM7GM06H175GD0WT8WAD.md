@@ -1,0 +1,17 @@
+---
+id: 01M41RZM7GM06H175GD0WT8WAD
+subject: English
+topics: ["The Stone Age non-chronological report"]
+choices:
+  - id: A
+    text: "to give the reader brief, general information about the subject"
+  - id: B
+    text: "to set the scene for the reader"
+  - id: C
+    text: "to inform the reader of the outline of the report"
+  - id: D
+    text: "to describe a character for the reader"
+correctChoiceIds: [A, C]
+explanation: "To give the reader brief, general information about the subject and to inform the reader of the outline of the report are the right answers."
+---
+What are the purposes of the introduction of a non-chronological report?

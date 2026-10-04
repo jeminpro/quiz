@@ -1,0 +1,17 @@
+---
+id: 01M41RZM7GM06H175GD0WT8WEQ
+subject: English
+topics: ["Anglerfish non-chronological report"]
+choices:
+  - id: A
+    text: "the way diagrams are arranged in a report"
+  - id: B
+    text: "the way punctuation is used to show a feeling"
+  - id: C
+    text: "the way words are used in a sentence to make the meaning clear"
+  - id: D
+    text: "the handwriting in a piece of text"
+correctChoiceIds: [C]
+explanation: "The way words are used in a sentence to make the meaning clear."
+---
+What is a linguistic feature?
