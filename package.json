@@ -9,6 +9,7 @@
     "check": "node scripts/astro.mjs check",
     "test": "node --test tests/*.test.mjs",
     "import:art": "node scripts/import-art-questions.mjs",
+    "generate:art-design": "node scripts/generate-art-and-design-questions.mjs",
     "import:music": "node scripts/import-music-questions.mjs",
     "import:pe": "node scripts/import-pe-questions.mjs",
     "import:oak": "node scripts/import-oak-quizzes.mjs",
