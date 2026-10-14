@@ -308,14 +308,18 @@ async function renderHome(): Promise<void> {
       const subjectAttempts = attempts.filter((attempt) => attempt.subject === subject &&
         (attempt.sourceId === sourceId || (!attempt.sourceId && subject === 'Physical Education' && sourceId === 'chatgpt')));
       const latest = subjectAttempts[0];
-      return `<a class="subject-card" href="${path('/setup/', { subject, sourceId })}">
-        <strong>${escapeHtml(subject)}</strong>
-        <span class="subject-card-details">
-          <span>${count} question${count === 1 ? '' : 's'}</span>
-          <span>${subjectAttempts.length} practice${subjectAttempts.length === 1 ? '' : 's'}</span>
-          <span>${latest ? new Date(latest.completedAt).toLocaleDateString('en-GB') : 'Not started'}</span>
-        </span>
-        <span class="subject-card-arrow" aria-hidden="true">→</span></a>`;
+      return `<article class="subject-card">
+        <a class="subject-card-main" href="${path('/setup/', { subject, sourceId })}">
+          <strong>${escapeHtml(subject)}</strong>
+          <span class="subject-card-details">
+            <span>${count} question${count === 1 ? '' : 's'}</span>
+            <span>${subjectAttempts.length} practice${subjectAttempts.length === 1 ? '' : 's'}</span>
+            <span>${latest ? new Date(latest.completedAt).toLocaleDateString('en-GB') : 'Not started'}</span>
+          </span>
+          <span class="subject-card-arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="subject-card-review" href="${path('/review/', { subject, sourceId })}" aria-label="Review ${escapeHtml(subject)} questions">Review</a>
+      </article>`;
     }).join('')}</div></section>`).join('')}` : '<div class="card empty">No subjects are available yet.</div>'}</section>`;
   wireRetry();
   const filter = app.querySelector<HTMLSelectElement>('#source-filter');
@@ -362,7 +366,10 @@ function renderQuizSetup(subject: string, sourceId: string): void {
           </div></fieldset>
       </div>
       <div class="setup-footer"><div id="pool-count" class="pool-count" aria-live="polite"></div>
-        <button type="submit" class="primary">Start</button></div>
+        <div class="setup-footer-actions">
+          <a class="button secondary" href="${path('/review/', { subject, sourceId })}">Review all questions</a>
+          <button type="submit" class="primary">Start</button>
+        </div></div>
     </form>`;
   wireRetry();
   const form = app.querySelector<HTMLFormElement>('#test-setup')!;
@@ -649,6 +656,59 @@ async function renderResults(): Promise<void> {
   wireBookmarks();
 }
 
+function questionCountLabel(shown: number, total: number): string {
+  if (shown === total) return `${total} question${total === 1 ? '' : 's'}`;
+  return `${shown} of ${total} question${total === 1 ? '' : 's'}`;
+}
+
+function bankReviewCard(question: Question, number: number): string {
+  const state = progress.find((item) => item.questionId === question.id);
+  return `<article class="card review-card" data-topics="${escapeHtml(JSON.stringify(question.topics))}">
+    <div class="review-header"><span>Question ${number} · ${question.topics.map(escapeHtml).join(', ')}</span>
+      <button type="button" class="bookmark" data-id="${escapeHtml(question.id)}" aria-label="${state?.bookmarked ? 'Remove bookmark' : 'Bookmark question'}">${state?.bookmarked ? '★ Saved' : '☆ Bookmark'}</button></div>
+    <div class="review-stem prose">${markdown(question.stem)}</div>
+    <ul class="answer-list">${question.choices.map((choice) => `<li class="${question.correctChoiceIds.includes(choice.id) ? 'answer-correct' : ''}">
+      <strong>${escapeHtml(choice.id)}.</strong> ${escapeHtml(choice.text)}
+      ${question.correctChoiceIds.includes(choice.id) ? '<small>Correct answer</small>' : ''}</li>`).join('')}</ul>
+    ${question.explanation.trim() ? `<div class="explanation"><strong>Explanation</strong><div class="prose">${markdown(question.explanation)}</div></div>` : ''}</article>`;
+}
+
+function renderReview(): void {
+  const params = new URLSearchParams(location.search);
+  const subject = params.get('subject');
+  const sourceId = params.get('sourceId');
+  if (!subject || !sourceId || !questions.some((question) => question.subject === subject && question.sourceId === sourceId)) {
+    window.location.replace(path('/'));
+    return;
+  }
+  document.title = 'Review questions · Quiz';
+  const bank = questions.filter((question) => question.subject === subject && question.sourceId === sourceId);
+  const topics = [...new Set(bank.flatMap((question) => question.topics))].sort((a, b) => a.localeCompare(b));
+  app.innerHTML = `${pendingBanner()}<a class="back-link" href="${path('/setup/', { subject, sourceId })}">← Back</a>
+    <div class="page-heading"><div><div class="eyebrow">QUESTION REVIEW</div><h1>${escapeHtml(subject)}</h1>
+      <p>${escapeHtml(contentSources[sourceId])} · <span id="review-count" aria-live="polite">${questionCountLabel(bank.length, bank.length)}</span></p></div>
+      <label class="review-filter">Topic<select id="topic-filter">
+        <option value="">All topics</option>${topics.map((topic) => `<option value="${escapeHtml(topic)}">${escapeHtml(topic)}</option>`).join('')}
+      </select></label></div>
+    <div class="review-list">${bank.map((question, index) => bankReviewCard(question, index + 1)).join('')}</div>`;
+  wireRetry();
+  wireBookmarks();
+  const filter = app.querySelector<HTMLSelectElement>('#topic-filter');
+  const count = app.querySelector<HTMLElement>('#review-count');
+  const cards = [...app.querySelectorAll<HTMLElement>('.review-card')];
+  filter?.addEventListener('change', () => {
+    const topic = filter.value;
+    let shown = 0;
+    for (const card of cards) {
+      const cardTopics = JSON.parse(card.dataset.topics || '[]') as string[];
+      const match = !topic || cardTopics.includes(topic);
+      card.hidden = !match;
+      if (match) shown++;
+    }
+    if (count) count.textContent = questionCountLabel(shown, bank.length);
+  });
+}
+
 function reviewCard(question: Question, number: number, selectedIds: string[], correct: boolean): string {
   const state = progress.find((item) => item.questionId === question.id);
   return `<article class="card review-card"><div class="review-header"><span class="result-pill ${correct ? 'right' : 'wrong'}">${correct ? 'Correct' : selectedIds.length ? 'Incorrect' : 'Unanswered'}</span>
@@ -755,6 +815,7 @@ async function renderPage(): Promise<void> {
     }
     return renderQuizSetup(subject, sourceId);
   }
+  if (route() === '/review') return renderReview();
   if (route() === '/test') {
     if (active) return renderActiveQuestion();
     window.location.replace(path('/'));
