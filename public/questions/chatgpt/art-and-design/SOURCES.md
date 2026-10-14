@@ -1,6 +1,6 @@
 # Comparing Artworks image sources
 
-All images are public-domain files downloaded from Wikimedia Commons at web-friendly preview sizes on 14 October 2026.
+The original comparison images are public-domain files downloaded from Wikimedia Commons at web-friendly preview sizes on 14 October 2026. Later topic-specific sections also include freely licensed CC0, CC BY, and CC BY-SA images; each entry records its licence and source page.
 
 - `monet-haystacks-summer.jpg` - Claude Monet, *Haystacks, End of Summer*: https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Haystacks,_end_of_Summer_-_Google_Art_Project.jpg
 - `monet-haystacks-snow.jpg` - Claude Monet, *Haystacks, Snow Effect*: https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Haystacks,_Snow_Effect_-_NG_2283_-_National_Galleries_of_Scotland.jpg
@@ -39,3 +39,23 @@ All images are public-domain files downloaded from Wikimedia Commons at web-frie
 - `watercolour-landscape.jpg` - William Trost Richards, *Landscape* (public domain): https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Landscape_-_William_Trost_Richards.jpg
 - `watercolour-onderdonk.png` - Robert Onderdonk, landscape watercolour (public domain): https://commons.wikimedia.org/wiki/File:Robert_Onderdonk_landscape_watercolor_on_paper.png
 - `watercolour-haymaking.jpg` - Henri Duhem, *Haymaking* (public domain): https://commons.wikimedia.org/wiki/File:Haymaking_-_Impressionist_Watercolor,_Figures_in_Landscape_by_Henri_Duhem_c1920.jpg
+
+## Applying Art Knowledge to New Situations
+
+- `applying-204-bird-illustration.jpg` - William Swainson bird illustration (Public domain): https://commons.wikimedia.org/wiki/File:-Bird%20illustration-%20(48752723812).jpg
+- `applying-205-rainy-night.jpg` - Rainy street at night with wet reflections (CC BY 2.0): https://commons.wikimedia.org/wiki/File:Rainy%20night%20in%20San%20Francisco%20(52768468996).jpg
+- `applying-206-readable-poster.jpg` - Federal Theatre Project poster with bold visual hierarchy (Public domain): https://commons.wikimedia.org/wiki/File:Federal%20Theatre%20Project%20presents%20%22Created%20equal%22%20by%20John%20Hunter%20Booth%20LCCN98516893.jpg
+- `applying-207-walking-sculpture.jpg` - Arto Chakmachyan, Walking Man sculpture (CC BY-SA 4.0): https://commons.wikimedia.org/wiki/File:Walking%20Man%2C%20Arto%20Chakmachyan%2C%20Yerevan%2002.jpg
+- `applying-208-forest-depth.jpg` - Forest path with overlapping trees and visible depth (CC BY-SA 4.0): https://commons.wikimedia.org/wiki/File:D%C3%BClmen%2C%20B%C3%B6rnste%2C%20Waldweg%20--%202015%20--%204649.jpg
+- `applying-209-repeat-pattern.png` - Ernest A. Batchelder repeating design (Public domain): https://commons.wikimedia.org/wiki/File:Abstract%20repeating%20pattern%2047%20by%20Ernest%20A%20Batchelder.png
+- `applying-210-weathered.jpg` - Weathered, rusty metal texture (Public domain): https://commons.wikimedia.org/wiki/File:Rust%20on%20metal.jpg
+- `applying-210-polished.jpg` - Polished metal with sharp highlights and reflections (CC BY 3.0): https://commons.wikimedia.org/wiki/File:Shiny%20Metal%20(99999729).jpeg
+- `applying-211-frightening-character.jpg` - Philipp Grot Johann illustration of frightening characters (Public domain): https://commons.wikimedia.org/wiki/File:Brother%20Lustig%20and%20the%20devils.jpg
+- `applying-212-modern-package.jpg` - White product box with a restrained layout and clear forms (CC0): https://commons.wikimedia.org/wiki/File:White-Box-of-Chocolates.jpg
+- `applying-213-morning.jpg` - Claude Monet, Rouen Cathedral in Morning Light (Public domain): https://commons.wikimedia.org/wiki/File:Claude%20Monet%20-%20The%20Portal%20of%20Rouen%20Cathedral%20in%20Morning%20Light%20(1894)%20-%20Getty%20Center%202001.33.jpg
+- `applying-213-sunset.jpg` - Claude Monet, Rouen Cathedral at Sunset (Public domain): https://commons.wikimedia.org/wiki/File:Claude%20Monet%20-%20Rouen%20Cathedral%2C%20Facade%20(Sunset).JPG
+- `applying-214-history-display.jpg` - Historical museum display with objects and period interpretation (CC BY-SA 4.0): https://commons.wikimedia.org/wiki/File:Display%2C%20Todd%20County%20Historical%20Society%20Museum%20interior-01.jpg
+- `applying-215-cat-silhouette.png` - Clear and recognisable cat silhouette (CC0): https://commons.wikimedia.org/wiki/File:Black%20Cat.svg
+- `applying-216-windsock.jpg` - Fabric windsock curving in the wind (CC0): https://commons.wikimedia.org/wiki/File:Windsock%20blowing%20in%20the%20breeze%20(Unsplash).jpg
+- `applying-217-seamless-tile.png` - Seamless geometric tile pattern (CC0): https://commons.wikimedia.org/wiki/File:Geometric%20Pattern.svg
+- `applying-218-patterned-glass.jpg` - Patterned transparent glass showing distorted background colours (CC BY-SA 4.0): https://commons.wikimedia.org/wiki/File:Ornamentglas%20B%20-%20Ansicht%201.jpg

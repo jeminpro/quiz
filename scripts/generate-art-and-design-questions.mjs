@@ -327,6 +327,24 @@ const expectedTopicCounts = new Map([
 ]);
 const expectedTotal = [...expectedTopicCounts.values()].reduce((sum, count) => sum + count, 0);
 
+const applyingKnowledgeVisuals = new Map([
+  [204, '![Detailed watercolour study showing a small bird\'s markings](/questions/chatgpt/art-and-design/applying-204-bird-illustration.jpg)'],
+  [205, '![Rainy city street at night with lights reflected on wet surfaces](/questions/chatgpt/art-and-design/applying-205-rainy-night.jpg)'],
+  [206, '![Poster using large lettering and a strong central focal point](/questions/chatgpt/art-and-design/applying-206-readable-poster.jpg)'],
+  [207, '![Walking sculpture with a forward-leaning body and striding legs](/questions/chatgpt/art-and-design/applying-207-walking-sculpture.jpg)'],
+  [208, '![Forest path using overlapping trees and diminishing scale to create depth](/questions/chatgpt/art-and-design/applying-208-forest-depth.jpg)'],
+  [209, '![Repeated motif arranged with consistent spacing across a square design](/questions/chatgpt/art-and-design/applying-209-repeat-pattern.png)'],
+  [210, '| Weathered surface | Polished surface |\n| --- | --- |\n| ![Rust, irregular texture and muted colour on weathered metal](/questions/chatgpt/art-and-design/applying-210-weathered.jpg) | ![Smooth polished metal with sharp highlights and reflections](/questions/chatgpt/art-and-design/applying-210-polished.jpg) |'],
+  [211, '![Storybook illustration using expressive figures, dark forms and dramatic composition](/questions/chatgpt/art-and-design/applying-211-frightening-character.jpg)'],
+  [212, '![Simple bottle packaging using restrained colour and clear geometric forms](/questions/chatgpt/art-and-design/applying-212-modern-package.jpg)'],
+  [213, '| Morning light | Sunset light |\n| --- | --- |\n| ![Rouen Cathedral painted in cool morning light](/questions/chatgpt/art-and-design/applying-213-morning.jpg) | ![The same cathedral painted with warm sunset light](/questions/chatgpt/art-and-design/applying-213-sunset.jpg) |'],
+  [214, '![Historical museum display combining period objects, images and labels](/questions/chatgpt/art-and-design/applying-214-history-display.jpg)'],
+  [215, '![A clear cat silhouette recognisable without internal detail](/questions/chatgpt/art-and-design/applying-215-cat-silhouette.png)'],
+  [216, '![A fabric windsock forming flowing curves as it blows in the wind](/questions/chatgpt/art-and-design/applying-216-windsock.jpg)'],
+  [217, '![A geometric pattern whose shapes meet continuously at every tile edge](/questions/chatgpt/art-and-design/applying-217-seamless-tile.png)'],
+  [218, '![Patterned glass allowing background colours and light to remain visible](/questions/chatgpt/art-and-design/applying-218-patterned-glass.jpg)'],
+]);
+
 await mkdir(outputDir, { recursive: true });
 const existingFiles = await readdir(outputDir);
 const existingIds = new Map();
@@ -354,7 +372,8 @@ for (const [topicNumber, expectedCount] of expectedTopicCounts) {
     const id = existingIds.get(filename) ?? nextId();
     const answer = answerSection.items[questionIndex];
     const prompt = questionSection.items[questionIndex];
-    const visual = await createQuestionVisual({
+    const onlineVisual = applyingKnowledgeVisuals.get(outputIndex);
+    const visual = onlineVisual ? null : await createQuestionVisual({
       topicNumber,
       questionIndex,
       prompt,
@@ -379,7 +398,7 @@ for (const [topicNumber, expectedCount] of expectedTopicCounts) {
       '---',
       'Study the visual references, then answer the question.',
       '',
-      `![${visual.alt}](/questions/chatgpt/art-and-design/${visual.file})`,
+      onlineVisual ?? `![${visual.alt}](/questions/chatgpt/art-and-design/${visual.file})`,
       '',
       prompt,
       '',
