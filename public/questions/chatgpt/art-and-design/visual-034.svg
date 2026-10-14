@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img">
+  <title>Visual evidence for an Art and Design question</title>
+  <desc>An artist changes a predominantly blue painting to use reds and oranges. What change in atmosphere might this create?</desc>
+  <defs></defs>
+  <rect width="1200" height="700" rx="28" fill="#f7f3ea"/>
+  <text x="600" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#27231f">Study the four visual examples</text>
+  <g transform="translate(42 78)">
+    <rect width="536" height="270" rx="18" fill="#fffdf8" stroke="#413b34" stroke-width="3"/>
+    <circle cx="30" cy="30" r="19" fill="#222"/><text x="30" y="37" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">A</text>
+    
+    <rect x="70" y="42" width="396" height="176" rx="14" fill="#263b59"/>
+    <circle cx="268" cy="130" r="68" fill="#b7d7f0"/>
+    <rect x="92" y="72" width="74" height="116" rx="8" fill="#5d88b3"/>
+    <path d="M360 72l76 116H284z" fill="#eaf6ff"/>
+  </g>
+<g transform="translate(622 78)">
+    <rect width="536" height="270" rx="18" fill="#fffdf8" stroke="#413b34" stroke-width="3"/>
+    <circle cx="30" cy="30" r="19" fill="#222"/><text x="30" y="37" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">B</text>
+    
+    <rect x="70" y="42" width="396" height="176" rx="14" fill="#222222"/>
+    <circle cx="268" cy="130" r="68" fill="#f50057"/>
+    <rect x="92" y="72" width="74" height="116" rx="8" fill="#00c2ff"/>
+    <path d="M360 72l76 116H284z" fill="#ffe600"/>
+  </g>
+<g transform="translate(42 386)">
+    <rect width="536" height="270" rx="18" fill="#fffdf8" stroke="#413b34" stroke-width="3"/>
+    <circle cx="30" cy="30" r="19" fill="#222"/><text x="30" y="37" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">C</text>
+    
+    <rect x="70" y="42" width="396" height="176" rx="14" fill="#f4efe5"/>
+    <circle cx="268" cy="130" r="68" fill="#8aa37b"/>
+    <rect x="92" y="72" width="74" height="116" rx="8" fill="#d9c7a2"/>
+    <path d="M360 72l76 116H284z" fill="#6b7d55"/>
+  </g>
+<g transform="translate(622 386)">
+    <rect width="536" height="270" rx="18" fill="#fffdf8" stroke="#413b34" stroke-width="3"/>
+    <circle cx="30" cy="30" r="19" fill="#222"/><text x="30" y="37" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">D</text>
+    
+    <rect x="70" y="42" width="396" height="176" rx="14" fill="#fff1c1"/>
+    <circle cx="268" cy="130" r="68" fill="#ef6b3b"/>
+    <rect x="92" y="72" width="74" height="116" rx="8" fill="#f4b942"/>
+    <path d="M360 72l76 116H284z" fill="#7f1d1d"/>
+  </g>
+</svg>

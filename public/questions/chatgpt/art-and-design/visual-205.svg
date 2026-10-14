@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img">
+  <title>Visual evidence for an Art and Design question</title>
+  <desc>An artist is painting a rainy street at night. Which visual choices would best communicate wet surfaces and reflections?</desc>
+  <defs></defs>
+  <rect width="1200" height="700" rx="28" fill="#f7f3ea"/>
+  <text x="600" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#27231f">Study the four visual examples</text>
+  <g transform="translate(42 78)">
+    <rect width="536" height="270" rx="18" fill="#ede7dc" stroke="#413b34" stroke-width="3"/>
+    <circle cx="30" cy="30" r="19" fill="#222"/><text x="30" y="37" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">A</text>
+    <image href="portrait-red-feather.jpg" x="16" y="14" width="504" height="242" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+<g transform="translate(622 78)">
+    <rect width="536" height="270" rx="18" fill="#ede7dc" stroke="#413b34" stroke-width="3"/>
+    <circle cx="30" cy="30" r="19" fill="#222"/><text x="30" y="37" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">B</text>
+    <image href="portrait-elizabeth-i.jpg" x="16" y="14" width="504" height="242" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+<g transform="translate(42 386)">
+    <rect width="536" height="270" rx="18" fill="#ede7dc" stroke="#413b34" stroke-width="3"/>
+    <circle cx="30" cy="30" r="19" fill="#222"/><text x="30" y="37" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">C</text>
+    <image href="toulouse-ballet-dancers.jpg" x="16" y="14" width="504" height="242" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+<g transform="translate(622 386)">
+    <rect width="536" height="270" rx="18" fill="#ede7dc" stroke="#413b34" stroke-width="3"/>
+    <circle cx="30" cy="30" r="19" fill="#222"/><text x="30" y="37" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">D</text>
+    <image href="portrait-georg-gisze.jpg" x="16" y="14" width="504" height="242" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+</svg>

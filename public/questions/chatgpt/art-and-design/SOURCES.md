@@ -21,3 +21,21 @@ All images are public-domain files downloaded from Wikimedia Commons at web-frie
 - `toulouse-moulin-rouge-poster.jpg` - Henri de Toulouse-Lautrec, *Moulin Rouge: La Goulue*: https://commons.wikimedia.org/wiki/File:Toulouse-Lautrec_-_Moulin_Rouge,_La_Goulue,_1954.1193.jpg
 - `rodin-thinker.jpg` - Auguste Rodin, *The Thinker*: https://commons.wikimedia.org/wiki/File:The_Thinker,_Rodin.jpg
 - `recycling-symbol.png` - Universal recycling symbol: https://commons.wikimedia.org/wiki/File:RecyclingSymbolGreen.png
+
+## Additional question-level references
+
+- `portrait-red-feather.jpg` - Tranquillo Cremona, *Portrait of a Lady with a Red Feather* (public domain): https://commons.wikimedia.org/wiki/File:Portrait_of_a_lady_with_a_red_feather_-_Tranquillo_Cremona.jpg
+- `portrait-elizabeth-i.jpg` - Marcus Gheeraerts the Younger, portrait of Elizabeth I (public domain): https://commons.wikimedia.org/wiki/File:Elizabeth_I_portrait,_Marcus_Gheeraerts_the_Younger_c.1595.jpg
+- `portrait-georg-gisze.jpg` - Hans Holbein the Younger, *Georg Gisze* (public domain): https://commons.wikimedia.org/wiki/File:Hans_Holbein_der_J%C3%BCngere_-_Der_Kaufmann_Georg_Gisze_-_Google_Art_Project.jpg
+- `abstract-primary.jpg` - Fons Heijnsbroek, abstract painting no. 5.015 (CC0): https://commons.wikimedia.org/wiki/File:%27no_title,_nr._5.015_-_a_small_abstract_painting_in_primary_colors,_painted_in_acrylic_paint_and_geometric_forms_by_artist_Fons_Heijnsbroek_in_1991_-_free_image_of_art_in_high_resolution.tif
+- `abstract-contrasting.jpg` - Fons Heijnsbroek, abstract painting no. 5.088 (CC0): https://commons.wikimedia.org/wiki/File:Abstract_modern_painting_art_in_contrasting_color_shapes_on_canvas_with_oil_paint_-_title,_%27no._5.088%27_-_painted_in_1999_by_artist_Fons_Heijnsbroek_-_free_download_art_image_in_high_resolution.jpg
+- `abstract-red-blue.jpg` - Fons Heijnsbroek, abstract painting no. 5.091 (CC0): https://commons.wikimedia.org/wiki/File:Abstract_modern_painting_art_in_strong_contrasting_color_shapes_in_reds,_blue_and_black_-_on_canvas_and_oil_paint_-_title,_%27no._5.091%27_-_painted_in_1999_by_Dutch_artist_Fons_Heijnsbroek_-_free_download_art_image_in_high_resolution.jpg
+- `winter-blue-house.jpg` - Charles Rosen, *The Blue House (Village in Winter)* (public domain): https://commons.wikimedia.org/wiki/File:Charles_Rosen_-_The_blue_House_(Village_in_Winter).jpg
+- `winter-woman-blue.jpg` - Albert Marquet, *Woman in Blue, La Frette, Winter* (public domain): https://commons.wikimedia.org/wiki/File:Woman_in_Blue,_La_Frette,_Winter_Albert_Marquet_(1940).jpg
+- `winter-kuindzhi.jpg` - Arkhip Kuindzhi, *Winter* (public domain): https://commons.wikimedia.org/wiki/File:Kuindzhi_Winter_1890_1895.jpg
+- `chiaroscuro-madonna.jpg` - chiaroscuro study of a Madonna (public domain): https://commons.wikimedia.org/wiki/File:Chiaroscuro_light-and-shade_image_of_a_Madonna.jpg
+- `charcoal-figure.jpg` - John H. Vanderpoel, charcoal figure study (public domain): https://commons.wikimedia.org/wiki/File:Charcoal_Drawing_of_Female_Figure,_Vanderpoel.jpg
+- `charcoal-torso.jpg` - John H. Vanderpoel, charcoal torso study (public domain): https://commons.wikimedia.org/wiki/File:Charcoal_Drawing_of_Male_Torse,_Showing_Wedge_Formation,_Vanderpoel.jpg
+- `watercolour-landscape.jpg` - William Trost Richards, *Landscape* (public domain): https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Landscape_-_William_Trost_Richards.jpg
+- `watercolour-onderdonk.png` - Robert Onderdonk, landscape watercolour (public domain): https://commons.wikimedia.org/wiki/File:Robert_Onderdonk_landscape_watercolor_on_paper.png
+- `watercolour-haymaking.jpg` - Henri Duhem, *Haymaking* (public domain): https://commons.wikimedia.org/wiki/File:Haymaking_-_Impressionist_Watercolor,_Figures_in_Landscape_by_Henri_Duhem_c1920.jpg

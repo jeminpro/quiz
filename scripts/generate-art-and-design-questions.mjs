@@ -2,10 +2,12 @@ import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { isUlid, monotonicUlidFactory } from './ulid.mjs';
+import { createQuestionVisual } from './art-question-visuals.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const sourcePath = path.join(root, 'temp', 'artsa and design questions.md');
 const outputDir = path.join(root, 'src', 'content', 'questions', 'chatgpt', 'art_and_design');
+const visualOutputDir = path.join(root, 'public', 'questions', 'chatgpt', 'art-and-design');
 const firstGeneratedFile = 13;
 
 const image = (file, alt) => ({ file, alt });
@@ -289,19 +291,6 @@ function answerChoice(value) {
   return match[1].replace(/:\s*$/, '').trim();
 }
 
-function imageGrid(images) {
-  const rows = [];
-  for (let index = 0; index < images.length; index += 2) {
-    const left = images[index];
-    const right = images[index + 1];
-    rows.push(`| Visual ${index + 1} | Visual ${index + 2} |`);
-    rows.push('|:--:|:--:|');
-    rows.push(`| ![${left.alt}](/questions/chatgpt/art-and-design/${left.file}) | ![${right.alt}](/questions/chatgpt/art-and-design/${right.file}) |`);
-    rows.push('');
-  }
-  return rows.join('\n').trim();
-}
-
 function orderedChoices(correct, distractors, topicNumber, questionIndex) {
   const start = (questionIndex * 3 + topicNumber) % distractors.length;
   const wrong = [0, 1, 2].map((offset) => distractors[(start + offset) % distractors.length]);
@@ -312,6 +301,18 @@ function orderedChoices(correct, distractors, topicNumber, questionIndex) {
     choices: values.map((text, index) => ({ id: String.fromCharCode(65 + index), text })),
     correctChoiceId: String.fromCharCode(65 + correctIndex),
   };
+}
+
+async function writeFileWithRetry(filePath, content) {
+  for (let attempt = 1; attempt <= 8; attempt++) {
+    try {
+      await writeFile(filePath, content, 'utf8');
+      return;
+    } catch (error) {
+      if (attempt === 8 || !['EBUSY', 'EPERM', 'UNKNOWN'].includes(error.code)) throw error;
+      await new Promise((resolve) => setTimeout(resolve, attempt * 75));
+    }
+  }
 }
 
 const source = await readFile(sourcePath, 'utf8');
@@ -352,6 +353,14 @@ for (const [topicNumber, expectedCount] of expectedTopicCounts) {
     const filename = `${String(outputIndex).padStart(3, '0')}.md`;
     const id = existingIds.get(filename) ?? nextId();
     const answer = answerSection.items[questionIndex];
+    const prompt = questionSection.items[questionIndex];
+    const visual = await createQuestionVisual({
+      topicNumber,
+      questionIndex,
+      prompt,
+      outputNumber: outputIndex,
+      outputDir: visualOutputDir,
+    });
     const { choices, correctChoiceId } = orderedChoices(
       answerChoice(answer), config.distractors, topicNumber, questionIndex,
     );
@@ -370,14 +379,14 @@ for (const [topicNumber, expectedCount] of expectedTopicCounts) {
       '---',
       'Study the visual references, then answer the question.',
       '',
-      imageGrid(config.images),
+      `![${visual.alt}](/questions/chatgpt/art-and-design/${visual.file})`,
       '',
-      questionSection.items[questionIndex],
+      prompt,
       '',
       'Choose the answer that is best supported by the visual evidence and art or design principles.',
       '',
     ].join('\n');
-    await writeFile(path.join(outputDir, filename), content, 'utf8');
+    await writeFileWithRetry(path.join(outputDir, filename), content);
     outputIndex++;
     generated++;
   }

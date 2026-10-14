@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img">
+  <title>Visual evidence for an Art and Design question</title>
+  <desc>A shadow is drawn directly beneath an object even though the light comes from one side. What is the main problem with the drawing?</desc>
+  <defs><radialGradient id="light0" cx="28%" cy="24%" r="68%"><stop offset="0" stop-color="#fff"/><stop offset=".2" stop-color="#ddd"/><stop offset="1" stop-color="#2d3038"/></radialGradient><radialGradient id="light1" cx="72%" cy="28%" r="68%"><stop offset="0" stop-color="#fff"/><stop offset=".2" stop-color="#ddd"/><stop offset="1" stop-color="#2d3038"/></radialGradient><radialGradient id="light2" cx="50%" cy="72%" r="68%"><stop offset="0" stop-color="#fff"/><stop offset=".2" stop-color="#ddd"/><stop offset="1" stop-color="#2d3038"/></radialGradient><radialGradient id="light3" cx="35%" cy="50%" r="68%"><stop offset="0" stop-color="#fff"/><stop offset=".2" stop-color="#ddd"/><stop offset="1" stop-color="#2d3038"/></radialGradient></defs>
+  <rect width="1200" height="700" rx="28" fill="#f7f3ea"/>
+  <text x="600" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#27231f">Study the four visual examples</text>
+  <g transform="translate(42 78)">
+    <rect width="536" height="270" rx="18" fill="#fffdf8" stroke="#413b34" stroke-width="3"/>
+    <circle cx="30" cy="30" r="19" fill="#222"/><text x="30" y="37" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">A</text>
+    
+      <path d="M82 56h92M82 56l30-18M82 56l28 22" stroke="#e3a21a" stroke-width="8" stroke-linecap="round"/>
+      <ellipse cx="292" cy="212" rx="75" ry="18" fill="#17202a" opacity=".35"/>
+      <circle cx="252" cy="132" r="86" fill="url(#light0)" stroke="#30343b" stroke-width="3"/>
+  </g>
+<g transform="translate(622 78)">
+    <rect width="536" height="270" rx="18" fill="#fffdf8" stroke="#413b34" stroke-width="3"/>
+    <circle cx="30" cy="30" r="19" fill="#222"/><text x="30" y="37" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">B</text>
+    
+      <path d="M82 56h92M82 56l30-18M82 56l28 22" stroke="#e3a21a" stroke-width="8" stroke-linecap="round"/>
+      <ellipse cx="170" cy="212" rx="47.5" ry="18" fill="#17202a" opacity=".35"/>
+      <circle cx="252" cy="132" r="86" fill="url(#light1)" stroke="#30343b" stroke-width="3"/>
+  </g>
+<g transform="translate(42 386)">
+    <rect width="536" height="270" rx="18" fill="#fffdf8" stroke="#413b34" stroke-width="3"/>
+    <circle cx="30" cy="30" r="19" fill="#222"/><text x="30" y="37" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">C</text>
+    
+      <path d="M82 56h92M82 56l30-18M82 56l28 22" stroke="#e3a21a" stroke-width="8" stroke-linecap="round"/>
+      <ellipse cx="270" cy="212" rx="90" ry="18" fill="#17202a" opacity=".35"/>
+      <circle cx="252" cy="132" r="86" fill="url(#light2)" stroke="#30343b" stroke-width="3"/>
+  </g>
+<g transform="translate(622 386)">
+    <rect width="536" height="270" rx="18" fill="#fffdf8" stroke="#413b34" stroke-width="3"/>
+    <circle cx="30" cy="30" r="19" fill="#222"/><text x="30" y="37" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">D</text>
+    
+      <path d="M82 56h92M82 56l30-18M82 56l28 22" stroke="#e3a21a" stroke-width="8" stroke-linecap="round"/>
+      <ellipse cx="230" cy="212" rx="60" ry="18" fill="#17202a" opacity=".35"/>
+      <circle cx="252" cy="132" r="86" fill="url(#light3)" stroke="#30343b" stroke-width="3"/>
+  </g>
+</svg>

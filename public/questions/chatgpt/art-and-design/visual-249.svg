@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img">
+  <title>Visual evidence for an Art and Design question</title>
+  <desc>A designer is creating a repeating pattern inspired by leaves. Which approach would preserve a natural appearance while still creating a consistent design?</desc>
+  <defs></defs>
+  <rect width="1200" height="700" rx="28" fill="#f7f3ea"/>
+  <text x="600" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#27231f">Study the four visual examples</text>
+  <g transform="translate(42 78)">
+    <rect width="536" height="270" rx="18" fill="#fffdf8" stroke="#413b34" stroke-width="3"/>
+    <circle cx="30" cy="30" r="19" fill="#222"/><text x="30" y="37" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">A</text>
+    
+      <rect x="70" y="30" width="396" height="210" rx="10" fill="#f5f1e8" stroke="#655f58"/>
+      <rect x="92" y="50" width="245" height="34" rx="5" fill="#2e6b52"/>
+      <circle cx="180" cy="150" r="48" fill="#2e6b52" opacity="1"/>
+      <rect x="250" y="116" width="170" height="14" rx="7" fill="#544f49"/>
+      <rect x="250" y="145" width="136" height="10" rx="5" fill="#8b837a"/>
+      <rect x="250" y="171" width="154" height="10" rx="5" fill="#8b837a"/>
+      <rect x="250" y="204" width="96" height="18" rx="5" fill="#2e6b52"/>
+  </g>
+<g transform="translate(622 78)">
+    <rect width="536" height="270" rx="18" fill="#fffdf8" stroke="#413b34" stroke-width="3"/>
+    <circle cx="30" cy="30" r="19" fill="#222"/><text x="30" y="37" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">B</text>
+    
+      <rect x="70" y="30" width="396" height="210" rx="10" fill="#f5f1e8" stroke="#655f58"/>
+      <rect x="92" y="50" width="310" height="34" rx="5" fill="#17324d"/>
+      <circle cx="180" cy="150" r="48" fill="#17324d" opacity="1"/>
+      <rect x="250" y="116" width="170" height="14" rx="7" fill="#544f49"/>
+      <rect x="250" y="145" width="136" height="10" rx="5" fill="#8b837a"/>
+      <rect x="250" y="171" width="154" height="10" rx="5" fill="#8b837a"/>
+      <rect x="250" y="204" width="96" height="18" rx="5" fill="#17324d"/>
+  </g>
+<g transform="translate(42 386)">
+    <rect width="536" height="270" rx="18" fill="#fffdf8" stroke="#413b34" stroke-width="3"/>
+    <circle cx="30" cy="30" r="19" fill="#222"/><text x="30" y="37" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">C</text>
+    
+      <rect x="70" y="30" width="396" height="210" rx="10" fill="#bdb8af" stroke="#655f58"/>
+      <rect x="92" y="50" width="180" height="34" rx="5" fill="#9c978f"/>
+      <circle cx="180" cy="150" r="48" fill="#9c978f" opacity=".45"/>
+      <rect x="250" y="116" width="170" height="14" rx="7" fill="#544f49"/>
+      <rect x="250" y="145" width="136" height="10" rx="5" fill="#8b837a"/>
+      <rect x="250" y="171" width="154" height="10" rx="5" fill="#8b837a"/>
+      <rect x="250" y="204" width="96" height="18" rx="5" fill="#9c978f"/>
+  </g>
+<g transform="translate(622 386)">
+    <rect width="536" height="270" rx="18" fill="#fffdf8" stroke="#413b34" stroke-width="3"/>
+    <circle cx="30" cy="30" r="19" fill="#222"/><text x="30" y="37" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="white">D</text>
+    
+      <rect x="70" y="30" width="396" height="210" rx="10" fill="#f5f1e8" stroke="#655f58"/>
+      <rect x="92" y="50" width="390" height="34" rx="5" fill="#ae1827"/>
+      <circle cx="180" cy="150" r="48" fill="#ae1827" opacity="1"/>
+      <rect x="250" y="116" width="170" height="14" rx="7" fill="#544f49"/>
+      <rect x="250" y="145" width="136" height="10" rx="5" fill="#8b837a"/>
+      <rect x="250" y="171" width="154" height="10" rx="5" fill="#8b837a"/>
+      <rect x="250" y="204" width="96" height="18" rx="5" fill="#ae1827"/>
+  </g>
+</svg>
