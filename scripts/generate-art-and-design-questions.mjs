@@ -327,7 +327,27 @@ const expectedTopicCounts = new Map([
 ]);
 const expectedTotal = [...expectedTopicCounts.values()].reduce((sum, count) => sum + count, 0);
 
-const applyingKnowledgeVisuals = new Map([
+const questionOnlineVisuals = new Map([
+  [109, '![Clear recycling words and recognisable recycling symbols printed on cardboard packaging](/questions/chatgpt/art-and-design/purpose-109-recycle-message.jpg)'],
+  [110, '![Mystery story cover using shadowy figures and suspenseful imagery](/questions/chatgpt/art-and-design/purpose-110-mystery-cover.jpg)'],
+  [111, '![Fragile bottle protected inside a box by thick cushioning material](/questions/chatgpt/art-and-design/purpose-111-fragile-packaging.jpg)'],
+  [112, '![Simple distinctive logo with a clear silhouette and very limited detail](/questions/chatgpt/art-and-design/purpose-112-small-logo.png)'],
+  [113, '![High-contrast danger sign combining a clear warning word and warning symbol](/questions/chatgpt/art-and-design/purpose-113-danger-warning.jpg)'],
+  [114, '![Paper and cardboard packaging using sustainable materials and natural colours](/questions/chatgpt/art-and-design/purpose-114-eco-packaging.jpg)'],
+  [115, '![Book cover showing a spacecraft travelling among stars and planets](/questions/chatgpt/art-and-design/purpose-115-space-cover.jpg)'],
+  [116, '![Child-friendly reading poster with a large picture-book illustration and clear reading message](/questions/chatgpt/art-and-design/purpose-116-reading-poster.jpg)'],
+  [117, '![Illuminated exit sign using large lettering, a simple message and strong contrast](/questions/chatgpt/art-and-design/purpose-117-exit-sign.jpg)'],
+  [118, '![Colourful crayon box using approachable artwork suitable for young children](/questions/chatgpt/art-and-design/purpose-118-child-packaging.jpg)'],
+  [119, '![Recruitment advertisement with one strong focal figure and a concise readable message](/questions/chatgpt/art-and-design/purpose-119-clear-recruitment-poster.jpg)'],
+  [120, '![Recognisable logo reduced to simple high-contrast black shapes on white](/questions/chatgpt/art-and-design/purpose-120-black-white-logo.jpg)'],
+  [121, '![Rugged hard case using thick walls, sturdy latches and reinforced proportions](/questions/chatgpt/art-and-design/purpose-121-durable-case.jpg)'],
+  [122, '![Historical exhibition poster using period illustration, typography and colours](/questions/chatgpt/art-and-design/purpose-122-historical-poster.jpg)'],
+  [123, '![Calm uncluttered library reading nook with comfortable seating and gentle natural colours](/questions/chatgpt/art-and-design/purpose-123-reading-corner.jpg)'],
+  [124, '![Simple bold recycling symbol with clear shapes and strong contrast](/questions/chatgpt/art-and-design/purpose-124-bold-recycling.png)'],
+  [125, '![Art exhibition poster combining an attractive image, strong heading and event details](/questions/chatgpt/art-and-design/purpose-125-art-exhibition.jpg)'],
+  [126, '![Carefully wrapped gift packages finished with coordinated paper, twine and natural decoration](/questions/chatgpt/art-and-design/purpose-126-gift-package.jpg)'],
+  [127, '![Exhibition poster whose event date is difficult to find among many competing text styles](/questions/chatgpt/art-and-design/purpose-127-prominent-date.jpg)'],
+  [128, '![Attractive exhibition poster with information organised into a clear visual hierarchy](/questions/chatgpt/art-and-design/purpose-128-clear-hierarchy.jpg)'],
   [204, '![Detailed watercolour study showing a small bird\'s markings](/questions/chatgpt/art-and-design/applying-204-bird-illustration.jpg)'],
   [205, '![Rainy city street at night with lights reflected on wet surfaces](/questions/chatgpt/art-and-design/applying-205-rainy-night.jpg)'],
   [206, '![Poster using large lettering and a strong central focal point](/questions/chatgpt/art-and-design/applying-206-readable-poster.jpg)'],
@@ -372,7 +392,7 @@ for (const [topicNumber, expectedCount] of expectedTopicCounts) {
     const id = existingIds.get(filename) ?? nextId();
     const answer = answerSection.items[questionIndex];
     const prompt = questionSection.items[questionIndex];
-    const onlineVisual = applyingKnowledgeVisuals.get(outputIndex);
+    const onlineVisual = questionOnlineVisuals.get(outputIndex);
     const visual = onlineVisual ? null : await createQuestionVisual({
       topicNumber,
       questionIndex,

@@ -59,3 +59,26 @@ The original comparison images are public-domain files downloaded from Wikimedia
 - `applying-216-windsock.jpg` - Fabric windsock curving in the wind (CC0): https://commons.wikimedia.org/wiki/File:Windsock%20blowing%20in%20the%20breeze%20(Unsplash).jpg
 - `applying-217-seamless-tile.png` - Seamless geometric tile pattern (CC0): https://commons.wikimedia.org/wiki/File:Geometric%20Pattern.svg
 - `applying-218-patterned-glass.jpg` - Patterned transparent glass showing distorted background colours (CC BY-SA 4.0): https://commons.wikimedia.org/wiki/File:Ornamentglas%20B%20-%20Ansicht%201.jpg
+
+## Art, Design and Purpose
+
+- `purpose-109-recycle-message.jpg` - Recycling message and recognisable recycling symbols printed on cardboard (CC BY 2.0): https://commons.wikimedia.org/wiki/File:Recyclable%20Cardboard%20Packaging.jpg
+- `purpose-110-mystery-cover.jpg` - Mystery story cover with suspenseful imagery (Public domain): https://commons.wikimedia.org/wiki/File:The%20Mystery%20at%20Lilac%20Inn%20(1930)%20front%20cover%2C%201940A-33%20printing.jpg
+- `purpose-111-fragile-packaging.jpg` - Bottle protected inside a box with wood-wool cushioning (CC BY 2.0): https://commons.wikimedia.org/wiki/File:Packaging%20fragile%20items%20for%20delivery.jpg
+- `purpose-112-small-logo.png` - Simple distinctive logo designed to remain clear at small sizes (Public domain text logo): https://commons.wikimedia.org/wiki/File:Telegram%202019%20simple%20logo.svg
+- `purpose-113-danger-warning.jpg` - High-contrast danger sign with a clear warning word and symbol (Public domain): https://commons.wikimedia.org/wiki/File:Danger%20sign.jpg
+- `purpose-114-eco-packaging.jpg` - Paper and cardboard takeaway packaging with natural material cues (CC BY 2.0): https://commons.wikimedia.org/wiki/File:Eco-friendly%20cardboard%20packaging%20for%20takeaways.jpg
+- `purpose-115-space-cover.jpg` - Book cover showing a spacecraft travelling through space (Public domain): https://commons.wikimedia.org/wiki/File:A%20Honeymoon%20in%20Space%20cover.jpg
+- `purpose-116-reading-poster.jpg` - Child-friendly poster promoting reading through a picture-book scene (Public domain): https://commons.wikimedia.org/wiki/File:Little%20Miss%20Muffet%201940%20poster.jpg
+- `purpose-117-exit-sign.jpg` - Illuminated exit sign with large lettering and strong contrast (Public domain): https://commons.wikimedia.org/wiki/File:Glowing%20exit%20sign.jpg
+- `purpose-118-child-packaging.jpg` - Colourful crayon packaging made for children (Public domain): https://commons.wikimedia.org/wiki/File:Cryrite%20box%20of%20crayons.jpg
+- `purpose-119-clear-recruitment-poster.jpg` - Recruitment advertisement with one focal figure and a concise readable message (Public domain): https://commons.wikimedia.org/wiki/File:I%20want%20you%20for%20U.S.%20Army%203b48465u%20original.jpg
+- `purpose-120-black-white-logo.jpg` - Recognisable black logo on a plain white background (Public domain text logo): https://commons.wikimedia.org/wiki/File:PS%20Black%20Logo.jpg
+- `purpose-121-durable-case.jpg` - Rugged hard case with sturdy proportions and protective construction (CC BY-SA 2.0): https://commons.wikimedia.org/wiki/File:Orange%20Hard%20Pelican%20Case%20(46363334931).jpg
+- `purpose-122-historical-poster.jpg` - Peter Behrens historical exhibition poster from 1906 (Public domain): https://commons.wikimedia.org/wiki/File:Ausstellungsplakat%20zur%20Jahrhundertausstellung%20(Peter%20Behrens)-WUS03261.jpg
+- `purpose-123-reading-corner.jpg` - Quiet library reading nook with comfortable seating (CC BY 2.0): https://commons.wikimedia.org/wiki/File:Reading%20nook%20(42177191191).jpg
+- `purpose-124-bold-recycling.png` - Simple bold recycling symbol with clear shapes and strong contrast (Public domain): https://commons.wikimedia.org/wiki/File:Recycle001.svg
+- `purpose-125-art-exhibition.jpg` - Art exhibition poster with an image, heading and event information (Public domain): https://commons.wikimedia.org/wiki/File:William%20sommer%20exhibit%20poster.jpg
+- `purpose-126-gift-package.jpg` - Carefully wrapped gift parcels finished with twine and greenery (CC0): https://commons.wikimedia.org/wiki/File:Holiday%20Paper%20Gift%20Wrapping%20(Unsplash).jpg
+- `purpose-127-prominent-date.jpg` - Exhibition poster that makes its date part of the visible event information (Public domain): https://commons.wikimedia.org/wiki/File:OBMOKhU%20exhibition%20poster%20May%201920.jpg
+- `purpose-128-clear-hierarchy.jpg` - Attractive exhibition poster organised with a clear information hierarchy (CC0): https://commons.wikimedia.org/wiki/File:Exhibition%20Poster2024.jpg
