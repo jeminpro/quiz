@@ -323,6 +323,10 @@ input::placeholder { color: #798b80; }
 .bookmark:hover { background: var(--soft); }
 .bookmark:active { transform: scale(.94); }
 .review-stem { color: var(--ink); font-size: 1.05rem; font-weight: 600; }
+.review-card .prose img,
+.review-card .prose td img {
+  width: auto; max-width: 100%; height: auto; max-height: 180px; aspect-ratio: auto; margin-inline: auto;
+}
 .answer-list { display: grid; gap: 6px; padding: 0; margin: 19px 0; list-style: none; }
 .answer-list li { padding: 10px 13px; border-radius: 8px; background: #f6f8f5; transition: background .16s var(--ease); }
 .answer-list li.answer-correct { background: var(--success-soft); }

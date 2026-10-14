@@ -11,6 +11,8 @@
     "import:art": "node scripts/import-art-questions.mjs",
     "generate:art-design": "node scripts/generate-art-and-design-questions.mjs",
     "fetch:art-design-assets": "node scripts/fetch-art-and-design-assets.mjs",
+    "fetch:colour-visual-effects-assets": "node scripts/fetch-colour-visual-effects-assets.mjs",
+    "fetch:comparing-designs-assets": "node scripts/fetch-comparing-designs-assets.mjs",
     "fetch:art-design-purpose-assets": "node scripts/fetch-art-design-purpose-assets.mjs",
     "fetch:applying-art-knowledge-assets": "node scripts/fetch-applying-art-knowledge-assets.mjs",
     "import:music": "node scripts/import-music-questions.mjs",

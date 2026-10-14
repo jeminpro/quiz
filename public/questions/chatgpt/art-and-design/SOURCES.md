@@ -82,3 +82,40 @@ The original comparison images are public-domain files downloaded from Wikimedia
 - `purpose-126-gift-package.jpg` - Carefully wrapped gift parcels finished with twine and greenery (CC0): https://commons.wikimedia.org/wiki/File:Holiday%20Paper%20Gift%20Wrapping%20(Unsplash).jpg
 - `purpose-127-prominent-date.jpg` - Exhibition poster that makes its date part of the visible event information (Public domain): https://commons.wikimedia.org/wiki/File:OBMOKhU%20exhibition%20poster%20May%201920.jpg
 - `purpose-128-clear-hierarchy.jpg` - Attractive exhibition poster organised with a clear information hierarchy (CC0): https://commons.wikimedia.org/wiki/File:Exhibition%20Poster2024.jpg
+
+## Colour and Visual Effects
+
+- `colour-025-warm-still-life.jpg` - Pierre Bonnard still life dominated by warm yellows, oranges and reds (Artwork public domain; photograph CC BY-SA 4.0): https://commons.wikimedia.org/wiki/File:Pierre%20Bonnard%20-%20Nature%20morte%20jaune%20et%20rouge.jpg
+- `colour-026-cool-winter.jpg` - Winter village dominated by cool blues, blue-greys and muted whites (Public domain): https://commons.wikimedia.org/wiki/File:Charles%20Rosen%20-%20The%20blue%20House%20(Village%20in%20Winter).jpg
+- `colour-027-saturation-comparison.jpg` - The same photograph shown at different saturation levels (CC BY-SA 3.0): https://commons.wikimedia.org/wiki/File:Saturation%20comparison.jpg
+- `colour-028-complementary-object-grid.png` - Small coloured ellipses set against their contrasting complementary backgrounds (CC BY-SA 4.0): https://commons.wikimedia.org/wiki/File:RGB%20scheme%20contrast%20of%20complementary%20colors.svg
+- `colour-029-dramatic-sunset.jpg` - Dramatic sunset combining saturated red, orange and purple clouds (CC BY 4.0): https://commons.wikimedia.org/wiki/File:Red%20and%20Purple%20Sunset.jpg
+- `colour-030-strong-contrast.jpg` - Distinct areas of red, yellow and blue divided by black and white (Public domain): https://commons.wikimedia.org/wiki/File:Piet%20Mondrian%20-%20Composition%20with%20Blue%2C%20Red%2C%20Yellow%2C%20and%20Black%20-%2065.5%20-%20Minneapolis%20Institute%20of%20Arts.jpg
+- `colour-031-limited-palette.jpg` - Whistler painting unified by a limited grey-and-gold palette (Public domain): https://commons.wikimedia.org/wiki/File:Whistler%20Gray%20and%20Gold.jpg
+- `colour-032-readable-poster.png` - Poster using high-contrast white lettering on a plain red background (Public domain): https://commons.wikimedia.org/wiki/File:Keep%20Calm%20and%20Carry%20On%20Poster.svg
+- `colour-033-cheerful-colour.jpg` - Bright rainbow-like colour arranged in a lively painting (Public domain): https://commons.wikimedia.org/wiki/File:Robert%20Delaunay%20-%20Symphonie%20color%C3%A9e%20-%201917%20-%20Mus%C3%A9e%20d'art%20moderne%20de%20la%20Ville%20de%20Paris.jpg
+- `colour-034-warm-cool-wheel.png` - Colour wheel divided into cool blues and greens and warm reds and oranges (CC BY-SA 4.0): https://commons.wikimedia.org/wiki/File:Warm%20and%20cool%20colors.png
+- `colour-035-complementary-colours.jpg` - Orange flower made prominent by its complementary blue surroundings (CC BY-SA 2.0): https://commons.wikimedia.org/wiki/File:Orange%20and%20Blue%20Complement%20Each%20Other%20-Explored%20April%202%2C%202017%20-%20Flickr%20-%20Anne%20Worner.jpg
+- `colour-036-earth-palette.jpg` - Calm natural landscape built from muted greens, browns and earth tones (CC0): https://commons.wikimedia.org/wiki/File:Asher%20Brown%20Durand%2C%20Pastoral%20Landscape%2C%201861%2C%20NGA%2072881.jpg
+- `colour-037-subject-separation.jpg` - Pale magnolia flowers clearly separated from dark blue velvet (Public domain): https://commons.wikimedia.org/wiki/File:Martin%20Johnson%20Heade%20-%20Magnolias%20-%2047.1157%20-%20Museum%20of%20Fine%20Arts.jpg
+- `colour-038-balanced-bright-colour.jpg` - Bright colours balanced through repeated arcs distributed around the composition (Public domain): https://commons.wikimedia.org/wiki/File:Robert%20Delaunay%20-%20Simultaneous%20Contrasts-Sun%20and%20Moon%20-%201912.jpg
+- `colour-039-red-focal-point.jpg` - A saturated red umbrella forming a focal point in a subdued street scene (CC BY 2.0): https://commons.wikimedia.org/wiki/File:Red%20Umbrella.jpg
+
+## Comparing Designs and Making Judgements
+
+- `judgement-177-school-badge.png` - Simple historic school emblem built from a small number of bold, distinctive shapes (Public domain): https://commons.wikimedia.org/wiki/File:Emblem%20of%20Wuling%20School%20(1927).svg
+- `judgement-178-story-event.jpg` - Beatrix Potter illustration clearly showing Peter Rabbit meeting Mr McGregor (Public domain): https://commons.wikimedia.org/wiki/File:Beatrix%20potter%20peter%20rabbit%20and%20mr%20mcgregor013935).jpg
+- `judgement-179-child-book-cover.jpg` - Children’s book cover with an approachable animal character and simple title treatment (Public domain): https://commons.wikimedia.org/wiki/File:Peter%20Rabbit%20first%20edition%201902a.jpg
+- `judgement-180-product-ad.png` - Advertisement using scale, placement and contrast to emphasise its product (Public domain): https://commons.wikimedia.org/wiki/File:1926%20Coca-Cola%20Refresh%20yourself%20advertisement.png
+- `judgement-181-stackable-chairs.jpg` - Compact polypropylene chairs designed to stack and use space efficiently (CC0): https://commons.wikimedia.org/wiki/File:Plastic%20stacking%20chairs%20designed%20by%20Robin%20Day.jpg
+- `judgement-182-formal-pattern.jpg` - Finished coordinated wallpaper pattern designed for the formal setting of St James’s Palace (Public domain): https://commons.wikimedia.org/wiki/File:Morris%20St%20James%201880.jpg
+- `judgement-183-information-poster.jpg` - Exhibition poster arranging its heading, image and event details with open space (Public domain): https://commons.wikimedia.org/wiki/File:William%20sommer%20exhibit%20poster.jpg
+- `judgement-184-moving-animal-sculpture.jpg` - Animal sculpture using a rearing pose, lifted legs and directional forms to suggest movement (CC0): https://commons.wikimedia.org/wiki/File:Rearing%20horse%20MET%20126016.jpg
+- `judgement-185-child-illustration.png` - Clear children’s illustration with recognisable characters and relevant action (Public domain): https://commons.wikimedia.org/wiki/File:Peter-rabbit.PNG
+- `judgement-186-poster-hierarchy.jpg` - Event poster with a distinct heading, main image and supporting details (CC0): https://commons.wikimedia.org/wiki/File:Exhibition%20Poster2024.jpg
+- `judgement-187-small-icon.png` - Simple recognisable silhouette that remains legible at small sizes (Public domain text logo): https://commons.wikimedia.org/wiki/File:Telegram%202019%20simple%20logo.svg
+- `judgement-188-morning.jpg` - Monet’s Rouen Cathedral in morning light (Public domain): https://commons.wikimedia.org/wiki/File:Claude%20Monet%20-%20The%20Portal%20of%20Rouen%20Cathedral%20in%20Morning%20Light%20(1894)%20-%20Getty%20Center%202001.33.jpg
+- `judgement-188-sunset.jpg` - Monet’s Rouen Cathedral at sunset (Public domain): https://commons.wikimedia.org/wiki/File:Claude%20Monet%20-%20Rouen%20Cathedral%2C%20Facade%20(Sunset).JPG
+- `judgement-189-functional-chair.jpg` - Moulded plywood chair combining a coherent form with practical seating (CC0): https://commons.wikimedia.org/wiki/File:LCW%20(Lounge%20Chair%20Wood)%20Chair%20by%20Charles%20and%20Ray%20Eames%2C%20Honolulu%20Museum%20of%20Art%204410.1.JPG
+- `judgement-190-mood-expressions.jpg` - Character studies showing clearly different moods through changed facial expression and head position (Public domain): https://commons.wikimedia.org/wiki/File:Facial%20expressions%20-%20The%20Cartoonist's%20Art.jpg
+- `judgement-191-road-symbol.png` - Road sign using a simple pedestrian silhouette for rapid recognition (Public domain): https://commons.wikimedia.org/wiki/File:Pedestrian-crosswalk-sign.svg
