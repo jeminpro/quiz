@@ -300,7 +300,7 @@ async function renderHome(): Promise<void> {
   app.innerHTML = `${pendingBanner()}<section class="home-subjects" aria-labelledby="subjects-title">
     <div class="page-heading"><div><h1 id="subjects-title">Choose a subject</h1></div></div>
     ${groups.length ? `<div class="source-filter">
-      <select id="source-filter" aria-label="Filter by source"><option value="all">All sources</option>${groups.map(({ sourceId }) =>
+      <select id="source-filter" aria-label="Filter by category"><option value="all">All categories</option>${groups.map(({ sourceId }) =>
         `<option value="${escapeHtml(sourceId)}">${escapeHtml(contentSources[sourceId])}</option>`).join('')}</select></div>
       ${groups.map(({ sourceId, subjects }) => `<section class="source-group" data-source-id="${escapeHtml(sourceId)}" aria-labelledby="source-${escapeHtml(sourceId)}">
         <h2 id="source-${escapeHtml(sourceId)}">${escapeHtml(contentSources[sourceId])}</h2>
@@ -333,7 +333,7 @@ function renderQuizSetup(subject: string, sourceId: string): void {
     <form id="test-setup" class="card setup-card">
       <div class="setup-header"><h1>Set up your test</h1>
         <p class="setup-context"><span>Subject: <strong>${escapeHtml(subject)}</strong></span>
-          <span>Source: <strong>${escapeHtml(contentSources[sourceId])}</strong></span></p></div>
+          <span>Category: <strong>${escapeHtml(contentSources[sourceId])}</strong></span></p></div>
       <div class="setup-section setup-fields">
         <fieldset><legend>Topics</legend><div id="topic-select" class="topic-select">
           <button type="button" id="topic-trigger" class="topic-trigger" aria-expanded="false" aria-controls="topic-menu" aria-describedby="topic-hint">
