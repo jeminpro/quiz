@@ -328,6 +328,23 @@ const expectedTopicCounts = new Map([
 const expectedTotal = [...expectedTopicCounts.values()].reduce((sum, count) => sum + count, 0);
 
 const questionOnlineVisuals = new Map([
+  [73, '![A brightly lit face and pearl forming a clear focal point against a dark background](/questions/chatgpt/art-and-design/composition-073-focal-point.jpg)'],
+  [74, '![An off-centre seated figure balanced by a framed picture and curtain](/questions/chatgpt/art-and-design/composition-074-effective-placement.jpg)'],
+  [75, '![Identical circles perceived differently when placed close together or spread apart](/questions/chatgpt/art-and-design/composition-075-proximity.png)'],
+  [76, '![A narrowing avenue, overlapping trees and smaller distant forms creating strong depth](/questions/chatgpt/art-and-design/composition-076-depth.jpg)'],
+  [77, '![A small bird made noticeable by its placement and the open space around it](/questions/chatgpt/art-and-design/composition-077-bird-negative-space.jpg)'],
+  [78, '![Circles of different sizes and colours distributed across an abstract composition](/questions/chatgpt/art-and-design/composition-078-balanced-circles.jpg)'],
+  [79, '![An interior made spacious by visible tiled floor and receding wall lines](/questions/chatgpt/art-and-design/composition-079-room-perspective.jpg)'],
+  [80, '![A landscape separating rocky foreground, wooded middle ground and distant mountains](/questions/chatgpt/art-and-design/composition-080-landscape-layers.png)'],
+  [81, '![A densely populated scene with many competing figures and activities](/questions/chatgpt/art-and-design/composition-081-crowded-scene.jpg)'],
+  [82, '![A brightly lit face standing out clearly from a nearly black background](/questions/chatgpt/art-and-design/composition-073-focal-point.jpg)'],
+  [83, '![An event poster with a distinct heading, main image and supporting details](/questions/chatgpt/art-and-design/judgement-186-poster-hierarchy.jpg)'],
+  [85, '![A small bird and branch emphasised by a large area of open space](/questions/chatgpt/art-and-design/composition-077-bird-negative-space.jpg)'],
+  [86, '![Perspective, overlap and decreasing scale making landscape features appear at different distances](/questions/chatgpt/art-and-design/composition-076-depth.jpg)'],
+  [87, '![Successive horse positions creating a clear visual movement from left to right](/questions/chatgpt/art-and-design/composition-087-directional-movement.jpg)'],
+  [88, '![A straight avenue and repeated trees directing attention toward the distant background](/questions/chatgpt/art-and-design/composition-076-depth.jpg)'],
+  [89, '![A figure group arranged in a broad, stable triangular composition](/questions/chatgpt/art-and-design/composition-089-stable-triangle.jpg)'],
+  [90, '![An advertisement using scale, placement and contrast to make its product prominent](/questions/chatgpt/art-and-design/judgement-180-product-ad.png)'],
   [25, '![A still life dominated by warm yellows, oranges and reds](/questions/chatgpt/art-and-design/colour-025-warm-still-life.jpg)'],
   [26, '![A winter village dominated by cool blues, blue-greys and muted whites](/questions/chatgpt/art-and-design/colour-026-cool-winter.jpg)'],
   [27, '![The same scene shown in highly saturated, moderately saturated and muted colour](/questions/chatgpt/art-and-design/colour-027-saturation-comparison.jpg)'],
@@ -393,7 +410,21 @@ const questionOnlineVisuals = new Map([
   [216, '![A fabric windsock forming flowing curves as it blows in the wind](/questions/chatgpt/art-and-design/applying-216-windsock.jpg)'],
   [217, '![A geometric pattern whose shapes meet continuously at every tile edge](/questions/chatgpt/art-and-design/applying-217-seamless-tile.png)'],
   [218, '![Patterned glass allowing background colours and light to remain visible](/questions/chatgpt/art-and-design/applying-218-patterned-glass.jpg)'],
+  [234, '| Morning painting | Sunset painting |\n| --- | --- |\n| ![Rouen Cathedral in morning light, painted with loose layered brushstrokes](/questions/chatgpt/art-and-design/judgement-188-morning.jpg) | ![The same cathedral at sunset, painted with closely related loose layered brushstrokes](/questions/chatgpt/art-and-design/judgement-188-sunset.jpg) |'],
+  [235, '![A calm landscape using gentle muted colours, soft atmospheric edges and a balanced arrangement](/questions/chatgpt/art-and-design/colour-036-earth-palette.jpg)'],
+  [236, '![An exhibition poster with readable text and information organised into a clear visual hierarchy](/questions/chatgpt/art-and-design/purpose-128-clear-hierarchy.jpg)'],
+  [237, '![A horse sculpture using a rearing pose, lifted legs and directional forms to suggest movement](/questions/chatgpt/art-and-design/judgement-184-moving-animal-sculpture.jpg)'],
+  [238, '![A carefully observed bird study using accurate proportions and detailed markings](/questions/chatgpt/art-and-design/applying-204-bird-illustration.jpg)'],
+  [239, '![A child-friendly logo using colourful outdoor imagery and clear, approachable lettering](/questions/chatgpt/art-and-design/evidence-239-child-logo.png)'],
+  [240, '![A storm painting using intense contrast, dramatic light and sweeping diagonal movement](/questions/chatgpt/art-and-design/evidence-240-dramatic-painting.png)'],
+  [241, '![A landscape using overlap, a narrowing avenue and decreasing scale to create depth](/questions/chatgpt/art-and-design/composition-076-depth.jpg)'],
+  [242, '| Poster A | Poster B |\n| --- | --- |\n| ![An exhibition poster with open space, a large central image and clearly grouped information](/questions/chatgpt/art-and-design/judgement-183-information-poster.jpg) | ![An exhibition poster with a prominent heading, main image and supporting event details](/questions/chatgpt/art-and-design/judgement-186-poster-hierarchy.jpg) |'],
+  [243, '| Morning mood | Sunset mood |\n| --- | --- |\n| ![Rouen Cathedral in cool pale morning light](/questions/chatgpt/art-and-design/judgement-188-morning.jpg) | ![The same cathedral in warmer, darker sunset light](/questions/chatgpt/art-and-design/judgement-188-sunset.jpg) |'],
+  [244, '![A close view showing raised paint ridges, brush marks and areas of visible canvas texture](/questions/chatgpt/art-and-design/evidence-244-impasto.jpg)'],
+  [245, '![A decorative pattern with corresponding forms mirrored across its vertical centre line](/questions/chatgpt/art-and-design/evidence-245-symmetrical-pattern.jpg)'],
 ]);
+
+const questionsWithoutVisuals = new Set([84]);
 
 await mkdir(outputDir, { recursive: true });
 const existingFiles = await readdir(outputDir);
@@ -423,7 +454,8 @@ for (const [topicNumber, expectedCount] of expectedTopicCounts) {
     const answer = answerSection.items[questionIndex];
     const prompt = questionSection.items[questionIndex];
     const onlineVisual = questionOnlineVisuals.get(outputIndex);
-    const visual = onlineVisual ? null : await createQuestionVisual({
+    const omitVisual = questionsWithoutVisuals.has(outputIndex);
+    const visual = onlineVisual || omitVisual ? null : await createQuestionVisual({
       topicNumber,
       questionIndex,
       prompt,
@@ -433,6 +465,21 @@ for (const [topicNumber, expectedCount] of expectedTopicCounts) {
     const { choices, correctChoiceId } = orderedChoices(
       answerChoice(answer), config.distractors, topicNumber, questionIndex,
     );
+    const questionBody = omitVisual
+      ? [
+          prompt,
+          '',
+          'Choose the answer that best applies the composition principle described.',
+        ]
+      : [
+          'Study the visual references, then answer the question.',
+          '',
+          onlineVisual ?? `![${visual.alt}](/questions/chatgpt/art-and-design/${visual.file})`,
+          '',
+          prompt,
+          '',
+          'Choose the answer that is best supported by the visual evidence and art or design principles.',
+        ];
     const content = [
       '---',
       `id: ${id}`,
@@ -446,13 +493,7 @@ for (const [topicNumber, expectedCount] of expectedTopicCounts) {
       `correctChoiceIds: [${correctChoiceId}]`,
       `explanation: ${JSON.stringify(cleanAnswer(answer))}`,
       '---',
-      'Study the visual references, then answer the question.',
-      '',
-      onlineVisual ?? `![${visual.alt}](/questions/chatgpt/art-and-design/${visual.file})`,
-      '',
-      prompt,
-      '',
-      'Choose the answer that is best supported by the visual evidence and art or design principles.',
+      ...questionBody,
       '',
     ].join('\n');
     await writeFileWithRetry(path.join(outputDir, filename), content);

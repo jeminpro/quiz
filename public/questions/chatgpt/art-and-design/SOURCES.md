@@ -119,3 +119,24 @@ The original comparison images are public-domain files downloaded from Wikimedia
 - `judgement-189-functional-chair.jpg` - Moulded plywood chair combining a coherent form with practical seating (CC0): https://commons.wikimedia.org/wiki/File:LCW%20(Lounge%20Chair%20Wood)%20Chair%20by%20Charles%20and%20Ray%20Eames%2C%20Honolulu%20Museum%20of%20Art%204410.1.JPG
 - `judgement-190-mood-expressions.jpg` - Character studies showing clearly different moods through changed facial expression and head position (Public domain): https://commons.wikimedia.org/wiki/File:Facial%20expressions%20-%20The%20Cartoonist's%20Art.jpg
 - `judgement-191-road-symbol.png` - Road sign using a simple pedestrian silhouette for rapid recognition (Public domain): https://commons.wikimedia.org/wiki/File:Pedestrian-crosswalk-sign.svg
+
+## Composition and Arrangement
+
+- `composition-073-focal-point.jpg` - Portrait with one strongly lit face and pearl isolated against a dark background (Public domain): https://commons.wikimedia.org/wiki/File:Girl%20with%20a%20Pearl%20Earring.jpg
+- `composition-074-effective-placement.jpg` - Off-centre seated subject balanced by a framed picture and curtain (Public domain): https://commons.wikimedia.org/wiki/File:Whistlers%20Mother%20high%20res.jpg
+- `composition-075-proximity.png` - Two arrangements demonstrating how close spacing groups identical circles (Public domain): https://commons.wikimedia.org/wiki/File:Gestalt%20proximity.svg
+- `composition-076-depth.jpg` - Landscape using a narrowing avenue, overlap and decreasing scale to create depth (Public domain): https://commons.wikimedia.org/wiki/File:Hobbema%20Het%20laantje%20van%20Middelharnis.jpg
+- `composition-077-bird-negative-space.jpg` - Small bird made noticeable by its placement on a branch and the surrounding open space (CC0): https://commons.wikimedia.org/wiki/File:Ando%20Hiroshige%20-%20Small%20Bird%20(Swallow%20%3F)%20on%20Cherry%20Branch%20-%201920.162%20-%20Cleveland%20Museum%20of%20Art.tif
+- `composition-078-balanced-circles.jpg` - Abstract arrangement distributing circles of different sizes and colours across the frame (Public domain): https://commons.wikimedia.org/wiki/File:Vassily%20Kandinsky%2C%201926%20-%20Several%20Circles%2C%20Gugg%200910%2025.jpg
+- `composition-079-room-perspective.jpg` - Interior whose tiled floor and receding wall lines make the room appear spacious (Public domain): https://commons.wikimedia.org/wiki/File:Vermeer's%20The%20Music%20Lesson.jpg
+- `composition-080-landscape-layers.png` - Landscape with a rocky foreground, trees in the middle ground and mountains in the background (Public domain): https://commons.wikimedia.org/wiki/File:Termas%20de%20Chill%C3%A1n%20(Onofre%20Jarpa).png
+- `composition-081-crowded-scene.jpg` - Densely populated scene containing many competing figures and activities (Public domain): https://commons.wikimedia.org/wiki/File:Pieter%20Bruegel%20the%20Elder%20-%20Children%E2%80%99s%20Games%201017.jpg
+- `composition-087-directional-movement.jpg` - Sequential horse positions creating a clear left-to-right visual flow (Public domain): https://commons.wikimedia.org/wiki/File:Muybridge%20horse%20gallop.jpg
+- `composition-089-stable-triangle.jpg` - Figure group arranged in a stable triangular composition (Public domain): https://commons.wikimedia.org/wiki/File:Virgin%20of%20the%20Rocks.jpg
+
+## Evidence-Based Reasoning
+
+- `evidence-239-child-logo.png` - Colourful child-focused logo combining simple outdoor imagery with clear, approachable lettering (Public domain): https://commons.wikimedia.org/wiki/File:Every%20Kid%20in%20a%20Park%20logo.png
+- `evidence-240-dramatic-painting.png` - Turner seascape using intense light-dark contrast, storm lighting and sweeping diagonal movement (CC0): https://commons.wikimedia.org/wiki/File:J.M.W.%20Turner%20Slave%20Ship%20(%20Slavers%20Throwing%20Overboard%20the%20Dead%20and%20Dying%2C%20Typhoon%20Coming%20On).%201840.png
+- `evidence-244-impasto.jpg` - Close view of raised paint ridges, brush marks and visible canvas texture (CC BY-SA 4.0): https://commons.wikimedia.org/wiki/File:Impasto%20detail.jpg
+- `evidence-245-symmetrical-pattern.jpg` - Decorative pattern whose corresponding forms mirror one another across a vertical axis (CC0): https://commons.wikimedia.org/wiki/File:Blackwork%20Print%20with%20a%20Symmetric%20Grotesque%20Pattern%20MET%20DP827190.jpg
