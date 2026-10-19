@@ -486,7 +486,7 @@ function renderQuizSetup(subject: string, sourceId: string): void {
   updateTopics();
 }
 
-function renderActiveQuestion(): void {
+function renderActiveQuestion(scroll: 'top' | 'bottom' = 'top'): void {
   if (!active) return;
   document.title = 'Test · Quiz';
   const question = active.questions[active.index];
@@ -532,7 +532,7 @@ function renderActiveQuestion(): void {
     <div class="test-actions"><button type="button" class="secondary" id="previous" ${active.index === 0 ? 'disabled' : ''}>← Previous</button>
       ${reviewAvailable ? '<button type="button" class="text-button" id="return-to-review">Back to review</button>' : ''}
       ${primary}</div>`;
-  focusQuizView(revealed ? app.querySelector<HTMLElement>('#answer-verdict') : null);
+  focusQuizView(revealed ? app.querySelector<HTMLElement>('#answer-verdict') : null, scroll);
   if (!revealed) {
     for (const input of app.querySelectorAll<HTMLInputElement>('input[name="answer"]')) {
       input.addEventListener('change', () => {
@@ -551,7 +551,7 @@ function renderActiveQuestion(): void {
     if (!chosen.length) return;
     active.answers[question.id] = chosen;
     active.checked[question.id] = true;
-    renderActiveQuestion();
+    renderActiveQuestion('bottom');
   });
   app.querySelector('#next')?.addEventListener('click', async () => {
     if (!active) return;
@@ -560,10 +560,21 @@ function renderActiveQuestion(): void {
   });
 }
 
-function focusQuizView(focus?: HTMLElement | null): void {
-  window.scrollTo({ top: 0, behavior: 'auto' });
+function scrollQuizToBottom(): void {
+  const scroll = () => window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'instant' });
+  scroll();
+  for (const image of app.querySelectorAll('img')) {
+    if (image.complete) continue;
+    image.addEventListener('load', scroll, { once: true });
+    image.addEventListener('error', scroll, { once: true });
+  }
+}
+
+function focusQuizView(focus?: HTMLElement | null, scroll: 'top' | 'bottom' = 'top'): void {
   const heading = focus ?? app.querySelector<HTMLElement>('h1, h2');
   if (heading) { heading.tabIndex = -1; heading.focus({ preventScroll: true }); }
+  if (scroll === 'bottom') scrollQuizToBottom();
+  else window.scrollTo({ top: 0, behavior: 'auto' });
 }
 
 function renderQuizReview(): void {

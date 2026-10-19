@@ -251,9 +251,14 @@ input::placeholder { color: #798b80; }
 .progress-track span, .report-track span { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--accent-light), var(--accent)); transition: width .35s var(--ease); }
 .question-card { max-width: 840px; padding: clamp(26px, 5vw, 44px); margin: 0 auto; }
 .question-meta { margin-bottom: 19px; color: #5f7b66; font-size: .76rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
-.question-stem { color: var(--ink); font: 600 clamp(1.3rem, 2.7vw, 1.75rem) Outfit; line-height: 1.45; }
+.question-stem { color: var(--ink); font: 600 1.125rem/1.5 Outfit; }
 .question-stem p { color: var(--ink); }
 .prose img { max-width: 100%; height: auto; border-radius: 11px; }
+.question-stem.prose img,
+.question-stem.prose td img {
+  display: block; width: auto; max-width: 100%; height: auto; max-height: 360px;
+  aspect-ratio: auto; margin-inline: auto; object-fit: contain;
+}
 .prose table { width: 100%; margin: 18px 0; border-spacing: 10px 6px; table-layout: fixed; }
 .prose th { color: var(--muted); font-size: .76rem; letter-spacing: .04em; text-align: center; text-transform: uppercase; }
 .prose td { padding: 0; vertical-align: top; }
