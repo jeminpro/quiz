@@ -616,7 +616,7 @@ function renderQuizReview(): void {
       renderActiveQuestion();
     });
   }
-  app.querySelector('#back-to-question')?.addEventListener('click', renderActiveQuestion);
+  app.querySelector('#back-to-question')?.addEventListener('click', () => renderActiveQuestion());
   app.querySelector<HTMLButtonElement>('#submit-test')?.addEventListener('click', (event) => {
     (event.currentTarget as HTMLButtonElement).disabled = true;
     void submitActiveTest();
