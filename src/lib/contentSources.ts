@@ -1,6 +1,7 @@
 import type { Question } from './types';
 
 export const contentSources: Record<string, string> = {
+  bbcbitesize: 'BBC Bitesize',
   chatgpt: 'ChatGPT',
   'oak-national-academy': 'Oak National Academy',
 };

@@ -68,6 +68,7 @@ test('subjects are grouped under every source that provides them', () => {
 });
 
 test('question paths require a registered source and subject folder', () => {
+  assert.equal(sourceIdFromEntryId('bbcbitesize/science/001'), 'bbcbitesize');
   assert.equal(sourceIdFromEntryId('chatgpt/pe/001'), 'chatgpt');
   assert.equal(sourceIdFromEntryId('oak-national-academy/maths/001'), 'oak-national-academy');
   assert.throws(() => sourceIdFromEntryId('pe/001'), /known source\/subject folder/);

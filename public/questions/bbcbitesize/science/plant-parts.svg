@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img">
+  <title>Flowering plant parts</title>
+  <desc>A flowering plant with root, stem, leaf and flower labelled</desc>
+  <rect width="900" height="420" rx="20" fill="#f4f7fb"/>
+  
+  <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2a37">Parts of a flowering plant</text>
+  <ellipse cx="450" cy="110" rx="36" ry="28" fill="#f9a8d4" stroke="#9d174d" stroke-width="2"/>
+  <circle cx="450" cy="110" r="10" fill="#fde047"/>
+  <line x1="450" y1="138" x2="450" y2="300" stroke="#166534" stroke-width="10"/>
+  <ellipse cx="390" cy="210" rx="45" ry="18" fill="#86efac" stroke="#166534" stroke-width="2"/>
+  <ellipse cx="510" cy="240" rx="45" ry="18" fill="#86efac" stroke="#166534" stroke-width="2"/>
+  <path d="M 450 300 Q 410 340 390 370 M 450 300 Q 490 340 510 370 M 450 300 Q 450 350 450 380" fill="none" stroke="#92400e" stroke-width="5"/>
+  <text x="560" y="115" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">flower</text>
+  <line x1="490" y1="110" x2="550" y2="110" stroke="#64748b" stroke-width="2"/>
+  <text x="560" y="245" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">leaf</text>
+  <line x1="555" y1="240" x2="550" y2="240" stroke="#64748b" stroke-width="2"/>
+  <text x="300" y="270" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">stem</text>
+  <line x1="430" y1="260" x2="350" y2="265" stroke="#64748b" stroke-width="2"/>
+  <text x="300" y="380" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">roots</text>
+  <line x1="420" y1="360" x2="350" y2="375" stroke="#64748b" stroke-width="2"/>
+
+</svg>

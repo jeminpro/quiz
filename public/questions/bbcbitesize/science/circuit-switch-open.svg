@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img">
+  <title>Open switch circuit</title>
+  <desc>A series circuit with an open switch</desc>
+  <rect width="900" height="420" rx="20" fill="#f4f7fb"/>
+  
+  <text x="450" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2a37">Circuit with an open switch</text>
+  <rect x="160" y="160" width="70" height="100" rx="8" fill="#fff" stroke="#334155" stroke-width="3"/>
+  <line x1="180" y1="160" x2="180" y2="145" stroke="#334155" stroke-width="4"/>
+  <line x1="210" y1="160" x2="210" y2="150" stroke="#334155" stroke-width="6"/>
+  <text x="195" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">battery</text>
+  <circle cx="450" cy="210" r="34" fill="#fff7cc" stroke="#334155" stroke-width="3"/>
+  <path d="M 438 202 L 450 224 L 462 202" fill="none" stroke="#334155" stroke-width="3"/>
+  <text x="450" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">bulb</text>
+  <line x1="80" y1="210" x2="160" y2="210" stroke="#334155" stroke-width="4"/>
+  <line x1="230" y1="210" x2="416" y2="210" stroke="#334155" stroke-width="4"/>
+  <line x1="484" y1="210" x2="650" y2="210" stroke="#334155" stroke-width="4"/>
+  <line x1="650" y1="210" x2="690" y2="170" stroke="#334155" stroke-width="4"/>
+       <circle cx="650" cy="210" r="5" fill="#334155"/>
+       <circle cx="710" cy="210" r="5" fill="#334155"/>
+       <line x1="710" y1="210" x2="820" y2="210" stroke="#334155" stroke-width="4"/>
+       <text x="680" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">open switch</text>
+  <line x1="820" y1="210" x2="820" y2="320" stroke="#334155" stroke-width="4"/>
+  <line x1="820" y1="320" x2="80" y2="320" stroke="#334155" stroke-width="4"/>
+  <line x1="80" y1="320" x2="80" y2="210" stroke="#334155" stroke-width="4"/>
+
+</svg>
