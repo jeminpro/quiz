@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="420" viewBox="0 0 920 420" role="img">
+  <title>A relief print</title>
+  <desc>The printing plate has a raised backwards R. The cut-away part is lower. The print shows a forwards R, which is a mirror of the plate.</desc>
+  <rect width="920" height="420" rx="18" fill="#f4f7fb"/>
+  <text x="460" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">A relief print</text>
+  
+    <rect x="70" y="90" width="300" height="220" rx="8" fill="#e7d3b1" stroke="#1f2937" stroke-width="3"/>
+    <text x="220" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">Printing plate</text>
+    <g transform="translate(220 230) scale(-1 1)">
+      <text text-anchor="middle" font-family="Georgia, serif" font-size="150" font-weight="700" fill="#6b4f2a">R</text>
+    </g>
+    <text x="220" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">Raised letter, written backwards</text>
+    <rect x="520" y="90" width="300" height="220" rx="8" fill="#fff" stroke="#1f2937" stroke-width="3"/>
+    <text x="670" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">Print</text>
+    <text x="670" y="230" text-anchor="middle" font-family="Georgia, serif" font-size="150" font-weight="700" fill="#1f2937">R</text>
+    <text x="670" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">The letter has flipped the right way</text>
+</svg>

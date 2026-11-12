@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="460" viewBox="0 0 860 460" role="img">
+  <title>A landscape drawing</title>
+  <desc>A large dark tree stands at the bottom. A smaller house sits in the middle. Pale hills are higher up, under a pale sky.</desc>
+  <rect width="860" height="460" rx="18" fill="#f4f7fb"/>
+  <text x="430" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">A landscape drawing</text>
+  
+    <rect x="70" y="70" width="720" height="330" fill="#d9ecf8" stroke="#1f2937" stroke-width="3"/>
+    <path d="M 70 190 C 180 150 260 170 360 160 C 480 148 560 180 790 150 L 790 400 L 70 400 Z" fill="#d5e2ea"/>
+    <path d="M 250 250 L 330 210 L 410 250 L 390 250 L 390 300 L 270 300 L 270 250 Z" fill="#f4efe4" stroke="#1f2937" stroke-width="3"/>
+    <rect x="318" y="262" width="24" height="28" fill="#8fb8d6" stroke="#1f2937"/>
+    <path d="M 70 400 L 790 400 L 790 330 C 640 300 520 340 400 360 C 250 384 150 350 70 370 Z" fill="#2f6b3a"/>
+    <rect x="150" y="250" width="28" height="150" fill="#6b4f2a"/>
+    <circle cx="164" cy="230" r="70" fill="#1f6b3a" stroke="#143d22" stroke-width="3"/>
+    <text x="430" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">Nearer things are larger and lower. Further things are smaller and paler.</text>
+</svg>

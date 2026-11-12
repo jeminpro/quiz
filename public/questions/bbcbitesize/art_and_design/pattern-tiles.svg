@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="360" viewBox="0 0 920 360" role="img">
+  <title>A repeating tile pattern</title>
+  <desc>Tiles 1, 2 and 4 each show the same leaf. Tile 3 shows a star.</desc>
+  <rect width="920" height="360" rx="18" fill="#f4f7fb"/>
+  <text x="460" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">A repeating tile pattern</text>
+  
+    <rect x="30" y="90" width="180" height="180" fill="#fff" stroke="#1f2937" stroke-width="3"/>
+    <text x="120" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">Tile 1</text>
+    <rect x="250" y="90" width="180" height="180" fill="#fff" stroke="#1f2937" stroke-width="3"/>
+    <text x="340" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">Tile 2</text>
+    <rect x="470" y="90" width="180" height="180" fill="#fff" stroke="#1f2937" stroke-width="3"/>
+    <text x="560" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">Tile 3</text>
+    <rect x="690" y="90" width="180" height="180" fill="#fff" stroke="#1f2937" stroke-width="3"/>
+    <text x="780" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">Tile 4</text>
+    <g transform="translate(30 108)">
+      <path d="M 70 20 C 110 50 110 110 70 140 C 30 110 30 50 70 20 Z" fill="#2f9a57" stroke="#1f2937" stroke-width="3"/>
+      <path d="M 70 36 L 70 124" fill="none" stroke="#1f2937" stroke-width="3"/>
+    </g><g transform="translate(250 108)">
+      <path d="M 70 20 C 110 50 110 110 70 140 C 30 110 30 50 70 20 Z" fill="#2f9a57" stroke="#1f2937" stroke-width="3"/>
+      <path d="M 70 36 L 70 124" fill="none" stroke="#1f2937" stroke-width="3"/>
+    </g><g transform="translate(690 108)">
+      <path d="M 70 20 C 110 50 110 110 70 140 C 30 110 30 50 70 20 Z" fill="#2f9a57" stroke="#1f2937" stroke-width="3"/>
+      <path d="M 70 36 L 70 124" fill="none" stroke="#1f2937" stroke-width="3"/>
+    </g><g transform="translate(470 125)">
+      <polygon points="70,10 84,48 124,48 92,72 104,112 70,88 36,112 48,72 16,48 56,48" fill="#e6a317" stroke="#1f2937" stroke-width="3"/>
+    </g>
+</svg>

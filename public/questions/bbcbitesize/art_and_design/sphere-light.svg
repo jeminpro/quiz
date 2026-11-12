@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="420" viewBox="0 0 860 420" role="img">
+  <title>A ball and a light</title>
+  <desc>An arrow shows the light coming from the left. The left of the ball is bright, the right is dark, and the shadow on the ground falls to the right.</desc>
+  <rect width="860" height="420" rx="18" fill="#f4f7fb"/>
+  <text x="430" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">A ball and a light</text>
+  
+    <line x1="90" y1="180" x2="230" y2="180" stroke="#e6a317" stroke-width="8"/>
+    <polygon points="230,180 200,164 200,196" fill="#e6a317"/>
+    <text x="120" y="150" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">Light</text>
+    <ellipse cx="390" cy="300" rx="150" ry="28" fill="#cbd5e1"/>
+    <ellipse cx="470" cy="308" rx="90" ry="18" fill="#64748b"/>
+    <circle cx="390" cy="190" r="90" fill="#94a3b8" stroke="#1f2937" stroke-width="3"/>
+    <path d="M 390 100 A 90 90 0 0 1 390 280 A 70 90 0 0 0 390 100 Z" fill="#475569"/>
+    <circle cx="350" cy="160" r="22" fill="#f8fafc"/>
+    <text x="430" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">The bright patch is on the side the light comes from.</text>
+</svg>
