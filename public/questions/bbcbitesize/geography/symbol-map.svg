@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" role="img">
+  <title>A map that uses a key</title>
+  <desc>North is at the top. The map has symbols, not names.</desc>
+  <rect width="760" height="460" rx="18" fill="#f4f7fb"/>
+  <text x="380" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">A map that uses a key</text>
+  <text x="380" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#475569">North is at the top. The map has symbols, not names.</text>
+  
+  <polygon points="680,78 668,108 692,108" fill="#1d4e89"/>
+  <text x="680" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1d4e89">N</text>
+  <rect x="36" y="90" width="250" height="210" rx="12" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <text x="161" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Key</text>
+  <rect x="58" y="138" width="28" height="18" fill="#111827"/>
+  <text x="98" y="153" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">School</text>
+  <circle cx="72" cy="184" r="12" fill="#16a34a"/>
+  <text x="98" y="190" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">Park</text>
+  <line x1="52" y1="222" x2="92" y2="222" stroke="#dc2626" stroke-width="6"/>
+  <text x="98" y="228" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">Main road</text>
+  <path d="M52 258 Q64 248 76 258 T100 258" fill="none" stroke="#0284c7" stroke-width="4"/>
+  <text x="112" y="264" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">River</text>
+  <line x1="330" y1="280" x2="700" y2="280" stroke="#dc2626" stroke-width="8"/>
+  <rect x="430" y="262" width="40" height="36" fill="#111827"/>
+  <circle cx="450" cy="180" r="18" fill="#16a34a"/>
+  <path d="M330 390 Q400 370 470 390 T610 390 T700 390" fill="none" stroke="#0284c7" stroke-width="6"/>
+  
+</svg>

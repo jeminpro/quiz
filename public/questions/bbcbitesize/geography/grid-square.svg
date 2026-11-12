@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="560" viewBox="0 0 640 560" role="img">
+  <title>Part of a map grid</title>
+  <desc>Eastings run along the bottom. Northings run up the side.</desc>
+  <rect width="640" height="560" rx="18" fill="#f4f7fb"/>
+  <text x="320" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">Part of a map grid</text>
+  <text x="320" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#475569">Eastings run along the bottom. Northings run up the side.</text>
+  
+  <line x1="170" y1="150" x2="170" y2="480" stroke="#93c5fd" stroke-width="3"/><line x1="290" y1="150" x2="290" y2="480" stroke="#93c5fd" stroke-width="3"/><line x1="410" y1="150" x2="410" y2="480" stroke="#93c5fd" stroke-width="3"/><line x1="530" y1="150" x2="530" y2="480" stroke="#93c5fd" stroke-width="3"/>
+  <line x1="170" y1="480" x2="530" y2="480" stroke="#93c5fd" stroke-width="3"/><line x1="170" y1="370" x2="530" y2="370" stroke="#93c5fd" stroke-width="3"/><line x1="170" y1="260" x2="530" y2="260" stroke="#93c5fd" stroke-width="3"/><line x1="170" y1="150" x2="530" y2="150" stroke="#93c5fd" stroke-width="3"/>
+  <text x="170" y="514" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1d4e89">31</text><text x="290" y="514" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1d4e89">32</text><text x="410" y="514" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1d4e89">33</text><text x="530" y="514" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1d4e89">34</text>
+  <text x="148" y="486" text-anchor="end" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1d4e89">10</text><text x="148" y="376" text-anchor="end" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1d4e89">11</text><text x="148" y="266" text-anchor="end" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1d4e89">12</text><text x="148" y="156" text-anchor="end" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1d4e89">13</text>
+  <text x="350" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#7c2d12">Church</text>
+  <text x="470" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#14532d">Wood</text>
+  
+</svg>

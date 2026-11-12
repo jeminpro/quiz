@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="400" viewBox="0 0 760 400" role="img">
+  <title>A river from the hills to the sea</title>
+  <desc>Labels mark parts of the river.</desc>
+  <rect width="760" height="400" rx="18" fill="#f4f7fb"/>
+  <text x="380" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">A river from the hills to the sea</text>
+  <text x="380" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#475569">Labels mark parts of the river.</text>
+  
+  <path d="M40 250 C140 250 160 180 230 210 C300 240 300 300 390 280 C470 262 500 220 620 240" fill="none" stroke="#0284c7" stroke-width="8" stroke-linecap="round"/>
+  <path d="M230 80 C240 140 250 170 236 206" fill="none" stroke="#0284c7" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="630,240 608,230 608,250" fill="#0284c7"/>
+  <rect x="640" y="150" width="90" height="180" rx="8" fill="#bae6fd" stroke="#0369a1"/>
+  <text x="685" y="246" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#0c4a6e">Sea</text>
+  <text x="70" y="220" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1e3a8a">Source</text>
+  <text x="168" y="78" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1e3a8a">Tributary</text>
+  <text x="560" y="200" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1e3a8a">Mouth</text>
+  <text x="360" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">The arrow shows the way the water flows.</text>
+  
+</svg>

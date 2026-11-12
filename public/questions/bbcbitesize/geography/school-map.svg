@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500" role="img">
+  <title>A map of the area around school</title>
+  <desc>North is at the top.</desc>
+  <rect width="760" height="500" rx="18" fill="#f4f7fb"/>
+  <text x="380" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">A map of the area around school</text>
+  <text x="380" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#475569">North is at the top.</text>
+  
+  <polygon points="680,78 668,108 692,108" fill="#1d4e89"/>
+  <text x="680" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1d4e89">N</text>
+  <rect x="300" y="118" width="150" height="70" rx="10" fill="#fdba74" stroke="#9a3412" stroke-width="3"/>
+  <text x="375" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#7c2d12">Shop</text>
+  <rect x="90" y="250" width="150" height="70" rx="10" fill="#d6d3d1" stroke="#44403c" stroke-width="3"/>
+  <text x="165" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#292524">Church</text>
+  <rect x="300" y="250" width="150" height="70" rx="10" fill="#c4b5fd" stroke="#5b21b6" stroke-width="3"/>
+  <text x="375" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#4c1d95">School</text>
+  <rect x="510" y="250" width="150" height="70" rx="10" fill="#86efac" stroke="#166534" stroke-width="3"/>
+  <text x="585" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#14532d">Park</text>
+  <rect x="70" y="400" width="620" height="54" rx="12" fill="#7dd3fc" stroke="#0369a1" stroke-width="3"/>
+  <text x="380" y="434" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0c4a6e">River</text>
+  
+</svg>

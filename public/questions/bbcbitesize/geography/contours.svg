@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img">
+  <title>Contour lines on two hills</title>
+  <desc>Each line joins places of the same height.</desc>
+  <rect width="720" height="420" rx="18" fill="#f4f7fb"/>
+  <text x="360" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">Contour lines on two hills</text>
+  <text x="360" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#475569">Each line joins places of the same height.</text>
+  
+  <text x="180" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">Hill A</text>
+  <text x="520" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">Hill B</text>
+  <ellipse cx="180" cy="230" rx="130" ry="81" fill="none" stroke="#1d4e89" stroke-width="3"/><ellipse cx="180" cy="230" rx="86" ry="53" fill="none" stroke="#1d4e89" stroke-width="3"/><ellipse cx="180" cy="230" rx="42" ry="26" fill="none" stroke="#1d4e89" stroke-width="3"/>
+  <ellipse cx="520" cy="230" rx="78" ry="48" fill="none" stroke="#1d4e89" stroke-width="3"/><ellipse cx="520" cy="230" rx="64" ry="40" fill="none" stroke="#1d4e89" stroke-width="3"/><ellipse cx="520" cy="230" rx="50" ry="31" fill="none" stroke="#1d4e89" stroke-width="3"/><ellipse cx="520" cy="230" rx="36" ry="22" fill="none" stroke="#1d4e89" stroke-width="3"/><ellipse cx="520" cy="230" rx="22" ry="14" fill="none" stroke="#1d4e89" stroke-width="3"/>
+  
+</svg>

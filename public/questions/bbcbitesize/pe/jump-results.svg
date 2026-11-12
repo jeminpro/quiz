@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img">
+  <title>Noah's standing long jump results</title>
+  <desc>Monday 1.10 metres, Wednesday 1.20 metres, Friday 1.35 metres. Same start line. Measured to the heels.</desc>
+  <rect width="760" height="420" rx="18" fill="#f4f7fb"/>
+  <text x="380" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">Noah's standing long jumps</text>
+  <text x="380" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#475569">Same start line each day. Distance measured to the heels.</text>
+  <rect x="120" y="96" width="520" height="48" fill="#1d4e89"/>
+  <text x="200" y="127" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Day</text>
+  <text x="500" y="127" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Distance</text>
+  
+  <rect x="120" y="144" width="520" height="52" fill="#ffffff"/>
+  <text x="200" y="177" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#1f2937">Monday</text>
+  <text x="500" y="177" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1e3a8a">1.10 m</text>
+  
+  <rect x="120" y="196" width="520" height="52" fill="#e0f2fe"/>
+  <text x="200" y="229" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#1f2937">Wednesday</text>
+  <text x="500" y="229" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1e3a8a">1.20 m</text>
+  
+  <rect x="120" y="248" width="520" height="52" fill="#ffffff"/>
+  <text x="200" y="281" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#1f2937">Friday</text>
+  <text x="500" y="281" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1e3a8a">1.35 m</text>
+  <rect x="120" y="96" width="520" height="204" fill="none" stroke="#94a3b8" stroke-width="2"/>
+</svg>
