@@ -28,6 +28,7 @@ export interface Attempt {
   topics: string[];
   source: 'all' | 'new' | 'still-missed' | 'ever-missed';
   feedback?: AnswerFeedback;
+  questionLimit?: number | 'all';
   startedAt: number;
   completedAt: number;
   durationMs: number;

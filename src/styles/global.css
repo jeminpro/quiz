@@ -204,6 +204,7 @@ input::placeholder { color: #798b80; }
 .setup-fields h2 { margin-bottom: 19px; }
 .setup-context { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-bottom: 0; }
 .setup-context strong { color: var(--ink); }
+.setup-coverage { margin: 14px 0 0; color: var(--accent-dark); font-size: .9rem; font-weight: 700; }
 .setup-fields label, .setup-fields legend { display: block; margin-bottom: 8px; font-size: .87rem; font-weight: 800; }
 .setup-fields .feedback-fieldset > legend { margin-bottom: 19px; font-family: Outfit, system-ui, sans-serif; font-size: 1.35rem; font-weight: 700; letter-spacing: -.025em; line-height: 1.16; }
 .feedback-choices { display: grid; gap: 10px; }
@@ -309,6 +310,7 @@ input::placeholder { color: #798b80; }
 .score-ring span { display: grid; place-items: center; width: 116px; height: 116px; border-radius: 50%; color: var(--accent-dark); background: #eaf4e9; font: 800 2rem Outfit; }
 .result-copy h2 { margin-bottom: 7px; font-size: clamp(1.6rem, 3vw, 2.2rem); }
 .result-copy p { margin-bottom: 17px; }
+.practice-again-status { margin: 0 0 12px; color: var(--warning); font-size: .9rem; font-weight: 600; }
 .result-actions { display: flex; flex-wrap: wrap; gap: 9px; }
 .tabs { display: flex; gap: 24px; overflow-x: auto; margin-bottom: 20px; border-bottom: 1px solid var(--line); }
 .tabs a { padding: 12px 2px; border-bottom: 3px solid transparent; color: var(--muted); font-weight: 800; white-space: nowrap; transition: color .16s var(--ease), border-color .16s var(--ease); }

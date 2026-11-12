@@ -6,7 +6,7 @@ import {
   listProfiles, listProgress, observeUser, renameProfile, saveAttempt, signIn, signOutUser,
   toggleBookmark,
 } from './firebase';
-import { eligibleQuestions, formatDuration, gradeItems, isCorrect, selectQuestions } from './quiz';
+import { bankCoverage, eligibleQuestions, formatDuration, gradeItems, isCorrect, selectQuestions } from './quiz';
 import { contentSources, groupSubjectsBySource } from './contentSources';
 import type { AnswerFeedback, Attempt, PendingAttempt, Profile, Progress, Question } from './types';
 
@@ -27,6 +27,7 @@ let active: {
   topics: string[];
   source: Attempt['source'];
   feedback: AnswerFeedback;
+  questionLimit: number | 'all';
   startedAt: number;
   answers: Record<string, string[]>;
   checked: Record<string, true>;
@@ -331,13 +332,44 @@ async function renderHome(): Promise<void> {
   filter?.dispatchEvent(new Event('change'));
 }
 
+function startQuizSession(setup: {
+  subject: string;
+  sourceId: string;
+  topics: string[];
+  source: Attempt['source'];
+  count: number | 'all';
+  feedback: AnswerFeedback;
+}): boolean {
+  const pool = eligibleQuestions(questions, progress, setup.subject, setup.sourceId, setup.topics, setup.source);
+  if (!pool.length) return false;
+  active = {
+    questions: selectQuestions(pool, setup.count),
+    subject: setup.subject,
+    sourceId: setup.sourceId,
+    topics: setup.topics,
+    source: setup.source,
+    feedback: setup.feedback,
+    questionLimit: setup.count,
+    startedAt: Date.now(),
+    answers: {},
+    checked: {},
+    index: 0,
+  };
+  reviewAvailable = false;
+  window.history.pushState(null, '', path('/test/'));
+  renderActiveQuestion();
+  return true;
+}
+
 function renderQuizSetup(subject: string, sourceId: string): void {
   document.title = 'Set up your test · Quiz';
+  const coverage = bankCoverage(questions, progress, subject, sourceId);
   app.innerHTML = `${pendingBanner()}<a class="back-link" href="${path('/')}">← Back</a>
     <form id="test-setup" class="card setup-card">
       <div class="setup-header"><h1>Set up your test</h1>
         <p class="setup-context"><span>Subject: <strong>${escapeHtml(subject)}</strong></span>
-          <span>Category: <strong>${escapeHtml(contentSources[sourceId])}</strong></span></p></div>
+          <span>Category: <strong>${escapeHtml(contentSources[sourceId])}</strong></span></p>
+        <p class="setup-coverage" aria-live="polite">${coverage.taken} taken · ${coverage.incorrect} incorrect · ${coverage.total} total</p></div>
       <div class="setup-section setup-fields">
         <fieldset><legend>Topics</legend><div id="topic-select" class="topic-select">
           <button type="button" id="topic-trigger" class="topic-trigger" aria-expanded="false" aria-controls="topic-menu" aria-describedby="topic-hint">
@@ -472,16 +504,14 @@ function renderQuizSetup(subject: string, sourceId: string): void {
   form.addEventListener('submit', (event) => {
     event.preventDefault();
     const selected = selection();
-    const pool = eligibleQuestions(questions, progress, subject, sourceId, selected.topics, selected.source);
-    if (!pool.length) return;
-    active = {
-      questions: selectQuestions(pool, selected.count === 'all' ? 'all' : Number(selected.count)),
-      subject, sourceId, topics: selected.topics, source: selected.source, feedback: selected.feedback,
-      startedAt: Date.now(), answers: {}, checked: {}, index: 0,
-    };
-    reviewAvailable = false;
-    window.history.pushState(null, '', path('/test/'));
-    renderActiveQuestion();
+    startQuizSession({
+      subject,
+      sourceId,
+      topics: selected.topics,
+      source: selected.source,
+      count: selected.count === 'all' ? 'all' : Number(selected.count),
+      feedback: selected.feedback,
+    });
   });
   updateTopics();
 }
@@ -629,7 +659,7 @@ async function submitActiveTest(): Promise<void> {
   const completedAt = Date.now();
   const attempt: Attempt = {
     id: crypto.randomUUID(), profileId: profile.id, subject: active.subject, sourceId: active.sourceId, topics: active.topics,
-    source: active.source, feedback: active.feedback, startedAt: active.startedAt, completedAt,
+    source: active.source, feedback: active.feedback, questionLimit: active.questionLimit, startedAt: active.startedAt, completedAt,
     durationMs: completedAt - active.startedAt, total: items.length,
     correct: items.filter((item) => item.correct).length, status: 'saving',
   };
@@ -653,18 +683,41 @@ async function renderResults(): Promise<void> {
   await refreshProgress();
   const view = new URLSearchParams(location.search).get('view') === 'wrong' ? 'wrong' : 'all';
   const shown = view === 'wrong' ? items.filter((item) => !item.correct) : items;
+  const sourceId = attempt.sourceId
+    ?? (attempt.subject === 'Physical Education' ? 'chatgpt' : undefined);
+  const setupHref = sourceId ? path('/setup/', { subject: attempt.subject, sourceId }) : path('/');
   app.innerHTML = `<div class="page-heading"><div><div class="eyebrow">PRACTICE RESULT</div><h1>${escapeHtml(attempt.subject)}</h1>
     <p>${attemptSourceName(attempt) ? `${escapeHtml(attemptSourceName(attempt))} · ` : ''}${new Date(attempt.completedAt).toLocaleDateString()} · ${formatDuration(attempt.durationMs)}</p></div>
     <a class="button secondary" href="${path('/history/')}">All history</a></div>
     <div class="result-hero"><div class="score-ring" style="--score:${Math.round(attempt.correct / attempt.total * 100)}%" aria-hidden="true"><span>${Math.round(attempt.correct / attempt.total * 100)}%</span></div>
       <div class="result-copy"><div class="eyebrow">PRACTICE COMPLETE</div><h2>${attempt.correct} of ${attempt.total} correct</h2>
-      <p>Review your answers, then choose a subject from the home page when you are ready to practise again.</p>
-      <div class="result-actions"><a class="button primary" href="${path('/')}">Back to subjects</a></div></div></div>
+      <p>Review your answers, or practise again with the same setup.</p>
+      <p id="practice-again-status" class="practice-again-status" hidden role="status"></p>
+      <div class="result-actions">
+        <button type="button" class="primary" id="practice-again" ${sourceId && !pending ? '' : 'disabled'}>Practice again</button>
+        <a class="button secondary" href="${path('/')}">Back to subjects</a>
+      </div></div></div>
     <nav class="tabs" aria-label="Result review filters"><a class="${view === 'all' ? 'active' : ''}" ${view === 'all' ? 'aria-current="page"' : ''} href="${path('/results/', { id })}">All questions (${items.length})</a>
       <a class="${view === 'wrong' ? 'active' : ''}" ${view === 'wrong' ? 'aria-current="page"' : ''} href="${path('/results/', { id, view: 'wrong' })}">Wrong or unanswered (${items.length - attempt.correct})</a></nav>
     <div class="review-list">${shown.length ? shown.map((item) => reviewCard(item.question, item.order + 1, item.selectedChoiceIds, item.correct)).join('') :
       '<div class="empty">No incorrect answers in this practice. Nicely done!</div>'}</div>`;
   wireBookmarks();
+  app.querySelector('#practice-again')?.addEventListener('click', () => {
+    if (!sourceId || pending) return;
+    const started = startQuizSession({
+      subject: attempt.subject,
+      sourceId,
+      topics: attempt.topics,
+      source: attempt.source,
+      count: attempt.questionLimit ?? attempt.total,
+      feedback: attempt.feedback ?? 'each',
+    });
+    if (started) return;
+    const status = app.querySelector<HTMLElement>('#practice-again-status');
+    if (!status) return;
+    status.hidden = false;
+    status.innerHTML = `No questions match this setup any more. <a href="${setupHref}">Change your setup</a> and try again.`;
+  });
 }
 
 function questionCountLabel(shown: number, total: number): string {

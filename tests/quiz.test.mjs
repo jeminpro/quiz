@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { eligibleQuestions, formatDuration, gradeItems, isCorrect, selectQuestions } from '../src/lib/quiz.ts';
+import { bankCoverage, eligibleQuestions, formatDuration, gradeItems, isCorrect, selectQuestions } from '../src/lib/quiz.ts';
 import { groupSubjectsBySource, sourceIdFromEntryId } from '../src/lib/contentSources.ts';
 
 const questions = [
@@ -87,4 +87,16 @@ test('selection never duplicates questions and all includes the whole pool', () 
 
 test('elapsed time display rounds down to seconds', () => {
   assert.equal(formatDuration(61099), '1m 01s');
+});
+
+test('bank coverage counts taken and currently incorrect questions for a quiz', () => {
+  const progress = [
+    { questionId: 'one', subject: 'Maths', topics: ['Fractions'], latestCorrect: true, everWrong: true, latestAt: 1 },
+    { questionId: 'two', subject: 'Maths', topics: ['Fractions', 'Geometry'], latestCorrect: false, everWrong: true, latestAt: 2 },
+    { questionId: 'three', subject: 'Science', topics: ['Plants'], latestCorrect: false, everWrong: true, latestAt: 3 },
+    { questionId: 'missing', subject: 'Maths', topics: ['Fractions'], bookmarked: true },
+  ];
+  assert.deepEqual(bankCoverage(questions, progress, 'Maths', 'chatgpt'), { taken: 2, incorrect: 1, total: 2 });
+  assert.deepEqual(bankCoverage(questions, progress, 'Maths', 'oak-national-academy'), { taken: 0, incorrect: 0, total: 1 });
+  assert.deepEqual(bankCoverage(questions, [], 'Science', 'chatgpt'), { taken: 0, incorrect: 0, total: 1 });
 });

@@ -25,6 +25,25 @@ export function eligibleQuestions(
   });
 }
 
+export function bankCoverage(
+  questions: Question[],
+  progress: Progress[],
+  subject: string,
+  sourceId: string,
+): { taken: number; incorrect: number; total: number } {
+  const progressById = new Map(progress.map((item) => [item.questionId, item]));
+  const bank = questions.filter((question) => question.subject === subject && question.sourceId === sourceId);
+  let taken = 0;
+  let incorrect = 0;
+  for (const question of bank) {
+    const state = progressById.get(question.id);
+    if (state?.latestAt == null) continue;
+    taken++;
+    if (state.latestCorrect === false) incorrect++;
+  }
+  return { taken, incorrect, total: bank.length };
+}
+
 export function selectQuestions(pool: Question[], count: number | 'all', random = Math.random): Question[] {
   const shuffled = [...pool];
   for (let i = shuffled.length - 1; i > 0; i--) {
