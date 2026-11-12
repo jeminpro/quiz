@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="440" viewBox="0 0 860 440" role="img">
+  <title>A circuit with the switch closed</title>
+  <desc>A cell, a bulb and a closed switch are joined by wires in one loop.</desc>
+  <rect width="860" height="440" rx="18" fill="#f4f7fb"/>
+  <text x="430" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">A circuit with the switch closed</text>
+  
+    <line x1="150" y1="110" x2="690" y2="110" stroke="#1f2937" stroke-width="4"/>
+    <line x1="690" y1="110" x2="690" y2="330" stroke="#1f2937" stroke-width="4"/>
+    <line x1="690" y1="330" x2="150" y2="330" stroke="#1f2937" stroke-width="4"/>
+    <line x1="150" y1="110" x2="150" y2="330" stroke="#1f2937" stroke-width="4"/>
+    <circle cx="420" cy="110" r="28" fill="#fef3c7" stroke="#1f2937" stroke-width="3"/>
+    <line x1="400" y1="90" x2="440" y2="130" stroke="#1f2937" stroke-width="3"/>
+    <line x1="440" y1="90" x2="400" y2="130" stroke="#1f2937" stroke-width="3"/>
+    <line x1="390" y1="330" x2="390" y2="360" stroke="#1f2937" stroke-width="4"/>
+    <line x1="450" y1="318" x2="450" y2="372" stroke="#1f2937" stroke-width="8"/>
+    <text x="210" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Switch</text>
+    <text x="420" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Bulb</text>
+    <text x="420" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Cell</text>
+    <text x="430" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">The switch is closed.</text>
+</svg>

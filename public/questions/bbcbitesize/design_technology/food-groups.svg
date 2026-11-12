@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="460" viewBox="0 0 860 460" role="img">
+  <title>Shares of a healthy diet</title>
+  <desc>Five bars show food groups. Fruit and vegetables, and starchy foods, have the longest bars. Oils and spreads have the shortest.</desc>
+  <rect width="860" height="460" rx="18" fill="#f4f7fb"/>
+  <text x="430" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">Shares of a healthy diet</text>
+  
+    <text x="40" y="102" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">Fruit and vegetables</text>
+    <rect x="40" y="108" width="620" height="18" rx="4" fill="#3a74e0"/>
+<text x="40" y="160" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">Potatoes, bread, rice, pasta and other starchy foods</text>
+    <rect x="40" y="166" width="600" height="18" rx="4" fill="#3a74e0"/>
+<text x="40" y="218" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">Beans, pulses, fish, eggs, meat and other proteins</text>
+    <rect x="40" y="224" width="360" height="18" rx="4" fill="#3a74e0"/>
+<text x="40" y="276" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">Dairy and alternatives</text>
+    <rect x="40" y="282" width="320" height="18" rx="4" fill="#3a74e0"/>
+<text x="40" y="334" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">Oils and spreads</text>
+    <rect x="40" y="340" width="120" height="18" rx="4" fill="#3a74e0"/>
+    <text x="430" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">A longer bar means a larger share of what we eat.</text>
+</svg>

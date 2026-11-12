@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="440" viewBox="0 0 860 440" role="img">
+  <title>Two meshed gears</title>
+  <desc>Gear A is smaller and has a clockwise arrow. Gear B is larger. Their teeth meet.</desc>
+  <rect width="860" height="440" rx="18" fill="#f4f7fb"/>
+  <text x="430" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">Two meshed gears</text>
+  
+    <circle cx="300" cy="200" r="78" fill="#93c5fd" stroke="#1f2937" stroke-width="8" stroke-dasharray="10 8"/>
+    <circle cx="300" cy="200" r="18" fill="#1f2937"/>
+    <path d="M300 112 a70 70 0 0 1 62 48" fill="none" stroke="#1d4e89" stroke-width="4"/>
+    <polygon points="364,148 386,136 358,132" fill="#1d4e89"/>
+    <circle cx="492" cy="214" r="130" fill="#fdba74" stroke="#1f2937" stroke-width="8" stroke-dasharray="12 10"/>
+    <circle cx="492" cy="214" r="22" fill="#1f2937"/>
+    <text x="300" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">A</text>
+    <text x="492" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">B</text>
+    <text x="300" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">A turns this way</text>
+    <text x="430" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">The teeth of A and B are meshed.</text>
+</svg>

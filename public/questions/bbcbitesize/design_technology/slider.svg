@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="380" viewBox="0 0 860 380" role="img">
+  <title>A slider</title>
+  <desc>A straight strip passes through a slot in a piece of card. The slot is labelled Guide. The strip is labelled Slider.</desc>
+  <rect width="860" height="380" rx="18" fill="#f4f7fb"/>
+  <text x="430" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">A slider</text>
+  
+    <rect x="140" y="110" width="580" height="160" rx="8" fill="#e2e8f0" stroke="#1f2937" stroke-width="3"/>
+    <rect x="170" y="168" width="520" height="36" rx="4" fill="#0f172a"/>
+    <rect x="120" y="160" width="620" height="52" rx="6" fill="#f59e0b" stroke="#1f2937" stroke-width="3"/>
+    <text x="430" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Guide</text>
+    <text x="430" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Slider</text>
+    <text x="430" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">The strip can move along the slot.</text>
+</svg>

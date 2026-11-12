@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="420" viewBox="0 0 860 420" role="img">
+  <title>A lever</title>
+  <desc>A beam rests on a triangular fulcrum. The left end is labelled Effort. The right end is labelled Load.</desc>
+  <rect width="860" height="420" rx="18" fill="#f4f7fb"/>
+  <text x="430" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">A lever</text>
+  
+    <defs>
+      <marker id="down" markerWidth="10" markerHeight="10" refX="5" refY="8" orient="auto">
+        <path d="M 0 0 L 10 0 L 5 10 Z" fill="#1d4e89"/>
+      </marker>
+    </defs>
+    <polygon points="430,250 390,310 470,310" fill="#94a3b8" stroke="#1f2937" stroke-width="3"/>
+    <rect x="120" y="228" width="620" height="18" rx="4" fill="#d97706" stroke="#1f2937" stroke-width="3"/>
+    <rect x="640" y="176" width="90" height="52" fill="#f8fafc" stroke="#1f2937" stroke-width="3"/>
+    <line x1="180" y1="140" x2="180" y2="210" stroke="#1d4e89" stroke-width="4" marker-end="url(#down)"/>
+    <text x="180" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Effort</text>
+    <text x="430" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Fulcrum</text>
+    <text x="685" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Load</text>
+    <text x="430" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">The beam can turn where it is supported.</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="460" viewBox="0 0 860 460" role="img">
+  <title>A cam mechanism</title>
+  <desc>A round cam sits on a shaft. A follower rests on the cam between two slide guides.</desc>
+  <rect width="860" height="460" rx="18" fill="#f4f7fb"/>
+  <text x="430" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">A cam mechanism</text>
+  
+    <rect x="330" y="90" width="20" height="160" fill="#64748b" stroke="#1f2937" stroke-width="3"/>
+    <rect x="500" y="90" width="20" height="160" fill="#64748b" stroke="#1f2937" stroke-width="3"/>
+    <rect x="390" y="100" width="70" height="130" fill="#f59e0b" stroke="#1f2937" stroke-width="3"/>
+    <circle cx="425" cy="310" r="80" fill="#93c5fd" stroke="#1f2937" stroke-width="4"/>
+    <circle cx="470" cy="310" r="14" fill="#1f2937"/>
+    <rect x="456" y="296" width="28" height="120" fill="#d97706" stroke="#1f2937" stroke-width="3"/>
+    <path d="M560 270 a34 34 0 0 1 18 40" fill="none" stroke="#1d4e89" stroke-width="4"/>
+    <polygon points="586,304 608,314 580,322" fill="#1d4e89"/>
+    <text x="425" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Follower</text>
+    <text x="250" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Slide</text>
+    <text x="250" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Cam</text>
+    <text x="620" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Shaft</text>
+    <text x="430" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">The follower rests on the cam.</text>
+</svg>

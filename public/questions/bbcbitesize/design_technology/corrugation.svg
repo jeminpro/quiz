@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="420" viewBox="0 0 860 420" role="img">
+  <title>Two pieces of card</title>
+  <desc>A is one flat sheet. B has a zig-zag layer between two flat sheets.</desc>
+  <rect width="860" height="420" rx="18" fill="#f4f7fb"/>
+  <text x="430" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">Two pieces of card</text>
+  
+    <text x="230" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">A</text>
+    <rect x="80" y="180" width="300" height="28" fill="#e2e8f0" stroke="#1f2937" stroke-width="3"/>
+    <text x="640" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">B</text>
+    <rect x="480" y="140" width="320" height="16" fill="#e2e8f0" stroke="#1f2937" stroke-width="3"/>
+    <path d="M480 168 l20 28 l20 -28 l20 28 l20 -28 l20 28 l20 -28 l20 28 l20 -28 l20 28 l20 -28 l20 28 l20 -28 l20 28 l20 -28 l20 28" fill="none" stroke="#b45309" stroke-width="4"/>
+    <rect x="480" y="210" width="320" height="16" fill="#e2e8f0" stroke="#1f2937" stroke-width="3"/>
+    <text x="430" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">A and B are two ways of making a piece of card.</text>
+</svg>

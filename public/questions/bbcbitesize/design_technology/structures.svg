@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="440" viewBox="0 0 860 440" role="img">
+  <title>Two structures</title>
+  <desc>Picture A is a fence of posts and rails. Picture B is a hollow dome.</desc>
+  <rect width="860" height="440" rx="18" fill="#f4f7fb"/>
+  <text x="430" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">Two structures</text>
+  
+    <text x="230" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">A</text>
+    <rect x="90" y="300" width="16" height="70" fill="#92400e"/>
+    <rect x="210" y="300" width="16" height="70" fill="#92400e"/>
+    <rect x="330" y="300" width="16" height="70" fill="#92400e"/>
+    <rect x="90" y="160" width="16" height="150" fill="#b45309" stroke="#1f2937"/>
+    <rect x="210" y="160" width="16" height="150" fill="#b45309" stroke="#1f2937"/>
+    <rect x="330" y="160" width="16" height="150" fill="#b45309" stroke="#1f2937"/>
+    <rect x="90" y="180" width="256" height="12" fill="#d97706" stroke="#1f2937"/>
+    <rect x="90" y="230" width="256" height="12" fill="#d97706" stroke="#1f2937"/>
+    <text x="640" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">B</text>
+    <path d="M500 330 A140 140 0 0 1 780 330 Z" fill="#bfdbfe" stroke="#1f2937" stroke-width="4"/>
+    <path d="M530 330 A110 110 0 0 1 750 330" fill="none" stroke="#1d4e89" stroke-width="2" stroke-dasharray="6 6"/>
+    <text x="430" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">A is a fence. B is a dome.</text>
+</svg>
